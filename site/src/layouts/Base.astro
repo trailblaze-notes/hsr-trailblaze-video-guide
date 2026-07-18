@@ -1,0 +1,89 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'ゲームの進行度に合わせて、ネタバレなしで見られる公式動画だけを表示するガイド' } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href={base} class="site-logo">🎮 ネタバレ回避 公式動画ガイド</a>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>掲載動画はすべて各ゲームの公式 YouTube チャンネルのものです。</p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface-2: #232736;
+    --text: #e6e8ef;
+    --text-dim: #9aa0b0;
+    --accent: #7c9aff;
+    --danger: #ff8f8f;
+    --radius: 12px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif;
+    line-height: 1.7;
+  }
+  a {
+    color: var(--accent);
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .site-header {
+    border-bottom: 1px solid var(--surface-2);
+    padding: 0.9rem 1rem;
+  }
+  .site-logo {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .site-footer {
+    border-top: 1px solid var(--surface-2);
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .lead {
+    color: var(--text-dim);
+  }
+  .card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    padding: 0;
+    list-style: none;
+  }
+</style>

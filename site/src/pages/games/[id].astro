@@ -1,0 +1,113 @@
+---
+import Base from '../../layouts/Base.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import { loadGames, type Game } from '../../lib/schema';
+
+export function getStaticPaths() {
+  return loadGames().map((game) => ({ params: { id: game.id }, props: { game } }));
+}
+
+interface Props {
+  game: Game;
+}
+const { game } = Astro.props;
+
+// safeAfter をチェックポイントの並び順の序数（rank）へ変換し、安全な順に表示する
+const rankOf = new Map(game.checkpoints.map((c, i) => [c.id, i]));
+const videos = game.videos
+  .map((video) => ({ video, rank: rankOf.get(video.safeAfter) ?? 0 }))
+  .sort((a, b) => a.rank - b.rank);
+
+// 初期表示は最初のチェックポイント（最も安全側）。JS 無効環境でもネタバレしない
+const initialRank = 0;
+const lockedCount = videos.filter((v) => v.rank > initialRank).length;
+---
+<Base title={`${game.title} | ネタバレ回避 公式動画ガイド`}>
+  <h1>{game.title}</h1>
+  <p class="lead">
+    公式チャンネル:
+    <a href={game.officialChannel} target="_blank" rel="noopener noreferrer">{game.officialChannel}</a>
+  </p>
+
+  <div class="progress-box">
+    <label for="progress">いまの進行度</label>
+    <select id="progress" data-game-id={game.id}>
+      {game.checkpoints.map((checkpoint) => <option value={checkpoint.id}>{checkpoint.label}</option>)}
+    </select>
+    <p class="note">選んだ進行度はこのブラウザに保存され、次回も引き継がれます。</p>
+  </div>
+
+  <div class="video-list">
+    {videos.map(({ video, rank }) => <VideoCard video={video} rank={rank} hidden={rank > initialRank} />)}
+  </div>
+
+  <p id="locked-note" class="locked-note">
+    {lockedCount > 0 ? `🔒 未解禁の動画が ${lockedCount} 件あります（進行度を上げると表示されます）` : ''}
+  </p>
+</Base>
+
+<script>
+  const select = document.getElementById('progress') as HTMLSelectElement;
+  const cards = document.querySelectorAll<HTMLElement>('[data-rank]');
+  const lockedNote = document.getElementById('locked-note')!;
+  const storageKey = `progress:${select.dataset.gameId}`;
+
+  function apply() {
+    const rank = select.selectedIndex;
+    let locked = 0;
+    cards.forEach((card) => {
+      const hidden = Number(card.dataset.rank) > rank;
+      card.toggleAttribute('hidden', hidden);
+      if (hidden) locked++;
+    });
+    lockedNote.textContent =
+      locked > 0 ? `🔒 未解禁の動画が ${locked} 件あります（進行度を上げると表示されます）` : '✅ この進行度で見られる動画はすべて表示中です';
+    localStorage.setItem(storageKey, String(rank));
+  }
+
+  const saved = Number(localStorage.getItem(storageKey));
+  if (Number.isInteger(saved) && saved >= 0 && saved < select.options.length) {
+    select.selectedIndex = saved;
+  }
+  select.addEventListener('change', apply);
+  apply();
+</script>
+
+<style>
+  .progress-box {
+    background: var(--surface);
+    border: 1px solid var(--surface-2);
+    border-radius: var(--radius);
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+  }
+  .progress-box label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .progress-box select {
+    width: 100%;
+    max-width: 420px;
+    font-size: 1rem;
+    padding: 0.5rem 0.6rem;
+    border-radius: 8px;
+    border: 1px solid var(--surface-2);
+    background: var(--surface-2);
+    color: var(--text);
+  }
+  .note {
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0;
+  }
+  .video-list {
+    display: grid;
+    gap: 0.9rem;
+  }
+  .locked-note {
+    color: var(--text-dim);
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+</style>

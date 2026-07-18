@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import GameCard from '../components/GameCard.astro';
+import { loadGames } from '../lib/schema';
+
+const games = loadGames();
+---
+<Base title="ネタバレ回避 公式動画ガイド">
+  <h1>ネタバレを踏まずに、公式動画を楽しむ。</h1>
+  <p class="lead">
+    ゲームを選んで自分の進行度を設定すると、そこまでで安全に見られる公式 YouTube 動画だけが表示されます。
+    まだ先の内容を含む動画は、タイトルもサムネイルも隠れたままです。
+  </p>
+  <ul class="card-grid">
+    {games.map((game) => <GameCard game={game} />)}
+  </ul>
+</Base>

@@ -1,0 +1,20 @@
+# Claude Code ローカル設定（個人用・共有しない）
+.claude/settings.local.json
+CLAUDE.local.md
+.claude/handovers/
+.claude/projects/
+
+# 認証情報
+.env
+*.pem
+*.key
+*credential*
+id_rsa*
+
+# OS
+.DS_Store
+
+# Node / Astro
+node_modules/
+site/dist/
+site/.astro/
