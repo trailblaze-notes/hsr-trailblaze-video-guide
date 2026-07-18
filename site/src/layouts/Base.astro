@@ -33,6 +33,11 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <main>
       <slot />
     </main>
+    <!-- GoatCounter: Cookie を使わないプライバシー配慮のアクセス計測（localhost は自動的にカウント対象外） -->
+    <script
+      data-goatcounter="https://trailblazer-notes.goatcounter.com/count"
+      async
+      src="https://gc.zgo.at/count.js"></script>
     <footer class="site-footer">
       <p>
         本サイトは個人運営の<strong>非公式ファンサイト</strong>です。HoYoverse / COGNOSPHERE とは関係ありません。
