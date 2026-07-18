@@ -1,0 +1,35 @@
+{
+  "id": "4.1",
+  "name": "荒れ狂う暁の空",
+  "startDate": "2026-03-25",
+  "videos": [
+    {
+      "youtubeId": "CzI5ivqZNRo",
+      "title": "アッハ好み | 幻月遊儀 勝者特集",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-13",
+      "reason": "「愉悦」の星神アッハと幻月遊儀の世界観紹介映像。"
+    },
+    {
+      "youtubeId": "LMt1zaLUa08",
+      "title": "Ver.4.1PV「荒れ狂う暁の空」",
+      "type": "version",
+      "publishedAt": "2026-03-13",
+      "reason": "二相楽園編の物語が動き出すVer.4.1のバージョンPV。"
+    },
+    {
+      "youtubeId": "H97-304rAxs",
+      "title": "Ver.4.1「荒れ狂う暁の空」予告番組",
+      "type": "version",
+      "publishedAt": "2026-03-13",
+      "reason": "新キャラ「不死途」や開拓クエストなどVer.4.1の内容を紹介する予告番組。"
+    },
+    {
+      "youtubeId": "n6zuiPxJ15w",
+      "title": "不死途 キャラクターPV「狼が来た」",
+      "type": "character",
+      "publishedAt": "2026-03-20",
+      "reason": "Ver.4.1の重要人物「不死途」（CV:子安武人）の底知れなさを描くキャラクターPV。"
+    }
+  ]
+}

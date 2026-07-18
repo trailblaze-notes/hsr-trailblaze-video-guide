@@ -1,0 +1,58 @@
+{
+  "id": "2.3",
+  "name": "さよなら、ピノコニー",
+  "startDate": "2024-06-19",
+  "videos": [
+    {
+      "youtubeId": "DbcX-UDWjmU",
+      "title": "【崩壊：スターレイル】Ver.2.3PV「さよなら、ピノコニー」",
+      "type": "version",
+      "publishedAt": "2024-06-07",
+      "reason": "ピノコニー編の締めくくりとなるVer.2.3の内容を紹介する公式PV。"
+    },
+    {
+      "youtubeId": "jOMvG6_I4Pg",
+      "title": "『崩壊：スターレイル』Ver.2.3「さよなら、ピノコニー」予告番組",
+      "type": "version",
+      "publishedAt": "2024-06-07",
+      "reason": "Ver.2.3の新要素を公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "kzzOhisspus",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「今、同じ星空の下で」",
+      "type": "trailblaze",
+      "publishedAt": "2024-06-11",
+      "reason": "ホタルと開拓者の出会いを情感豊かに描く紀行PV。"
+    },
+    {
+      "youtubeId": "TQcc7ippnnU",
+      "title": "【崩壊：スターレイル】ショートアニメ「グラモスの余燼」",
+      "type": "music",
+      "publishedAt": "2024-06-14",
+      "reason": "ホタルの過去とグラモスの戦火を描く重厚な公式ショートアニメ。"
+    },
+    {
+      "youtubeId": "_lYN9EMQ1N4",
+      "title": "【崩壊：スターレイル】ホタル キャラクターPV「殻の中の蛍火」",
+      "type": "character",
+      "publishedAt": "2024-06-18",
+      "reason": "Ver.2.3実装のホタルの心情を描く公式PV。"
+    },
+    {
+      "youtubeId": "xvD_8cMelAw",
+      "title": "【崩壊：スターレイル】ジェイド キャラクターPV「欲望コレクション」",
+      "type": "character",
+      "publishedAt": "2024-07-09",
+      "reason": "Ver.2.3実装のストーンハートの幹部ジェイドの取引哲学を描く公式PV。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "OS-tdpka1ro",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「誓環の石心・天秤の両端」",
+      "type": "trailblaze",
+      "publishedAt": "2024-07-14",
+      "reason": "ストーンハートのジェイドとアベンチュリンの関係を描く紀行PV。",
+      "phase": "after"
+    }
+  ]
+}

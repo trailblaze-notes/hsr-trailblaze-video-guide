@@ -1,0 +1,59 @@
+{
+  "id": "3.6",
+  "name": "長き夜に再び大地へ",
+  "startDate": "2025-09-24",
+  "videos": [
+    {
+      "youtubeId": "7G2ErfYy2TI",
+      "title": "Ver.3.6PV「長き夜に再び大地へ」",
+      "type": "version",
+      "publishedAt": "2025-09-12",
+      "reason": "オンパロス編終盤に突入するVer.3.6の公式PV。"
+    },
+    {
+      "youtubeId": "cA9GcVHzwV8",
+      "title": "Ver.3.6「長き夜に再び大地へ」予告番組",
+      "type": "version",
+      "publishedAt": "2025-09-12",
+      "reason": "Ver.3.6の新要素を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "_DiNQTXmVOw",
+      "title": "千の星を巡る紀行PV「親愛なるなのかへ」",
+      "type": "trailblaze",
+      "publishedAt": "2025-09-19",
+      "reason": "三月なのかを主題にした紀行PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "bFDqlynGl64",
+      "title": "長夜月 キャラクターPV「夜がきました、目を閉じてください」",
+      "type": "character",
+      "publishedAt": "2025-09-23",
+      "reason": "Ver.3.6実装の長夜月（Evernight）の神秘を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "w6HLrCIX4Ws",
+      "title": "千の星を巡る紀行PV「オンパロス英雄記」",
+      "type": "trailblaze",
+      "publishedAt": "2025-09-24",
+      "reason": "Ver.3.6開幕日に公開されたオンパロスの英雄たちを描く紀行PV。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "n0F5_9L-KKY",
+      "title": "ショートアニメ「山河を越えて」",
+      "type": "music",
+      "publishedAt": "2025-09-24",
+      "reason": "Ver.3.6 開幕日公開のショートアニメ。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "mFnxGYaMpDE",
+      "title": "丹恒・騰荒 キャラクターPV「帰るべき場所」",
+      "type": "character",
+      "publishedAt": "2025-10-14",
+      "reason": "Ver.3.6後半実装の丹恒・騰荒（新形態）を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

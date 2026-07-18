@@ -1,0 +1,43 @@
+{
+  "id": "1.6",
+  "name": "只人と神の栄冠",
+  "startDate": "2023-12-27",
+  "videos": [
+    {
+      "youtubeId": "EOn_MGgOWYs",
+      "title": "【崩壊：スターレイル】Ver.1.6 PV：「只人と神の栄冠」",
+      "type": "version",
+      "publishedAt": "2023-12-15",
+      "reason": "Ver.1.6の新ストーリー・新キャラクター（ルアン・メェイら）を紹介する公式PV。"
+    },
+    {
+      "youtubeId": "uSt1p2BG5EM",
+      "title": "「崩壊：スターレイル」Ver.1.6「只人と神の栄冠」予告番組",
+      "type": "version",
+      "publishedAt": "2023-12-15",
+      "reason": "Ver.1.6の新要素をまとめて確認できる公式予告番組。"
+    },
+    {
+      "youtubeId": "OZjpTFdJp0E",
+      "title": "千の星を巡る紀行PV「阮咸の音 華裳に落ちて、粧いの如く梅出づる」",
+      "type": "trailblaze",
+      "publishedAt": "2023-12-22",
+      "reason": "ルアン・メェイを主題にした世界観PV。"
+    },
+    {
+      "youtubeId": "pLWr1I9D5lA",
+      "title": "【崩壊：スターレイル】ルアン・メェイ　キャラクターPV「万物に流るる命」",
+      "type": "character",
+      "publishedAt": "2023-12-26",
+      "reason": "天才クラブの生命科学者ルアン・メェイの探究心と危うさを描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "Ms5u_lXJIAA",
+      "title": "【崩壊：スターレイル】Dr.レイシオ キャラクターPV「愚の骨頂」",
+      "type": "character",
+      "publishedAt": "2023-12-29",
+      "reason": "Ver.1.6で登場したDr.レイシオの毒舌と教育者としての信念が凝縮された公式PV。",
+      "phase": "after"
+    }
+  ]
+}

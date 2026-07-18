@@ -1,0 +1,366 @@
+---
+import Base from '../../layouts/Base.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import VersionNav from '../../components/VersionNav.astro';
+import { loadVersions, groupByMajor, VIDEO_TYPES, VIDEO_TYPE_LABELS, type MajorGroup } from '../../lib/schema';
+
+export function getStaticPaths() {
+  const groups = groupByMajor(loadVersions());
+  return groups.map((group, i) => ({
+    params: { major: group.major },
+    props: { group, prev: groups[i - 1] ?? null, next: groups[i + 1] ?? null },
+  }));
+}
+
+interface Props {
+  group: MajorGroup;
+  prev: MajorGroup | null;
+  next: MajorGroup | null;
+}
+const { group, prev, next } = Astro.props;
+
+const first = group.versions[0];
+const last = group.versions[group.versions.length - 1];
+
+// マイナーバージョンごとに、視聴タイミング（before/after）× 種別でグループ化する
+const minors = group.versions.map((version) => {
+  const sectionsFor = (phase: 'before' | 'after') =>
+    VIDEO_TYPES.map((type) => ({
+      type,
+      label: VIDEO_TYPE_LABELS[type],
+      videos: version.videos
+        .filter((video) => video.type === type && video.phase === phase)
+        .sort((a, b) => a.publishedAt.localeCompare(b.publishedAt)),
+    })).filter((section) => section.videos.length > 0);
+  return {
+    version,
+    anchor: `v${version.id.replace('.', '-')}`,
+    beforeSections: sectionsFor('before'),
+    afterSections: sectionsFor('after'),
+    afterCount: version.videos.filter((video) => video.phase === 'after').length,
+  };
+});
+---
+<Base title={`Ver.${group.major}.x${group.arc ? `（${group.arc}）` : ''} | 崩壊：スターレイル 開拓クエスト 動画ガイド`}>
+  <VersionNav prev={prev} next={next} />
+
+  <h1>Ver.{group.major}.x{group.arc && <span class="arc">（{group.arc}）</span>}</h1>
+  <p class="sub">Ver.{first.id} → Ver.{last.id} ・ 全{group.versions.length}バージョン</p>
+
+  <p class="static-note">
+    各バージョンには<strong>「来る前に見る動画」</strong>と、クリア後向けの<strong>「終えた後に見る動画」</strong>を分けて載せています。
+    自分の進行度のバージョンを選んでください。先のバージョンを開くとネタバレを含む場合があります。
+  </p>
+
+  <nav class="chip-row" aria-label="マイナーバージョン選択">
+    {minors.map(({ version, anchor }) => (
+      <a class="chip" href={`#${anchor}`}>Ver.{version.id}</a>
+    ))}
+  </nav>
+
+  {
+    minors.map(({ version, anchor, beforeSections, afterSections, afterCount }) => (
+      <details class="minor" id={anchor}>
+        <summary>
+          <span class="minor-ver">Ver.{version.id}</span>
+          <span class="minor-name">「{version.name}」</span>
+          <span class="count">{version.videos.length > 0 ? `動画 ${version.videos.length} 件` : '準備中'}</span>
+        </summary>
+        <div class="minor-body">
+          <p class="period">
+            {version.startDate} 開始{version.endDate ? `（〜 ${version.endDate}）` : '（配信中）'}
+          </p>
+          {version.videos.length === 0 && (
+            <p class="empty">
+              このバージョンの動画リストは準備中です。
+              <a href="https://www.youtube.com/@Houkaistarrail_jp" target="_blank" rel="noopener noreferrer">公式チャンネルを見る ↗</a>
+            </p>
+          )}
+          {beforeSections.map((section) => (
+            <section>
+              <h3>
+                {section.label} <span class="count">{section.videos.length} 件</span>
+              </h3>
+              <div class="video-list">
+                {section.videos.map((video) => (
+                  <VideoCard video={video} />
+                ))}
+              </div>
+            </section>
+          ))}
+          {afterCount > 0 && (
+            <details class="phase-after">
+              <summary>
+                本編クリア後推奨の動画
+                <span class="count">{afterCount} 件</span>
+              </summary>
+              <div class="after-body">
+                {afterSections.map((section) => (
+                  <section>
+                    <h3>
+                      {section.label} <span class="count">{section.videos.length} 件</span>
+                    </h3>
+                    <div class="video-list">
+                      {section.videos.map((video) => (
+                        <VideoCard video={video} />
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            </details>
+          )}
+        </div>
+      </details>
+    ))
+  }
+
+  <VersionNav prev={prev} next={next} />
+</Base>
+
+<script>
+  const chips = document.querySelectorAll<HTMLAnchorElement>('.chip');
+  const panels = document.querySelectorAll<HTMLDetailsElement>('details.minor');
+
+  function activateChips() {
+    const openIds = new Set([...panels].filter((p) => p.open).map((p) => p.id));
+    chips.forEach((chip) => chip.classList.toggle('active', openIds.has(chip.hash.slice(1))));
+  }
+
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function select(id: string, scroll: boolean) {
+    panels.forEach((panel) => (panel.open = panel.id === id));
+    activateChips();
+    if (scroll) {
+      document.getElementById(id)?.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+    }
+  }
+
+  chips.forEach((chip) => {
+    chip.addEventListener('click', (event) => {
+      event.preventDefault();
+      const id = chip.hash.slice(1);
+      history.replaceState(null, '', chip.hash);
+      select(id, true);
+    });
+  });
+
+  // 手動で <details> を開閉した場合もチップのハイライトを同期する
+  panels.forEach((panel) => panel.addEventListener('toggle', activateChips));
+
+  // ハッシュ付きで開いた場合（共有 URL など）はそのバージョンを展開する
+  if (location.hash) select(location.hash.slice(1), false);
+</script>
+
+<style>
+  h1 {
+    margin-bottom: 0.1rem;
+  }
+  .arc {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-dim);
+  }
+  .sub {
+    margin: 0 0 1rem;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+  }
+  .static-note {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 0.7rem 1rem;
+    color: var(--text-dim);
+    font-size: 0.88rem;
+  }
+
+  /* 路線図: 線路の上に駅（チップ）が並ぶ */
+  .chip-row {
+    display: flex;
+    gap: 0.55rem;
+    overflow-x: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0.7rem 0;
+    background:
+      linear-gradient(var(--line), var(--line)) 0 50% / 100% 2px no-repeat,
+      var(--bg);
+  }
+  .chip {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.32rem 0.85rem 0.32rem 0.7rem;
+    color: var(--text);
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    white-space: nowrap;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .chip::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid var(--text-dim);
+    transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+  }
+  .chip:hover {
+    border-color: var(--accent);
+  }
+  .chip.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .chip.active::before {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .minor {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin: 0.7rem 0;
+  }
+  .minor summary {
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .minor summary::-webkit-details-marker {
+    display: none;
+  }
+  .minor summary::after {
+    content: '＋';
+    margin-left: auto;
+    color: var(--text-dim);
+    font-family: var(--mono);
+  }
+  .minor[open] summary::after {
+    content: '－';
+  }
+  .minor[open] summary {
+    border-bottom: 1px solid var(--line);
+  }
+  .minor summary:hover .minor-name {
+    color: var(--accent);
+  }
+  .minor-ver {
+    color: var(--accent);
+    font-family: var(--mono);
+    font-weight: 700;
+  }
+  .minor-name {
+    font-weight: 700;
+    transition: color 0.15s;
+  }
+  .count {
+    color: var(--text-dim);
+    font-weight: 400;
+    font-family: var(--mono);
+    font-size: 0.76rem;
+  }
+  .minor-body {
+    padding: 0.8rem 1rem 1rem;
+  }
+  .period {
+    margin: 0;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.78rem;
+  }
+  /* ジャンル見出し: 駅マーカー付きの区切り（レビューMDの種別セクションに対応） */
+  .minor-body h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: 1.02rem;
+    margin: 1.5rem 0 0.7rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .minor-body section:first-of-type h3 {
+    margin-top: 1rem;
+  }
+  .minor-body h3::before {
+    content: '';
+    flex: 0 0 auto;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .video-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .empty {
+    color: var(--text-dim);
+  }
+
+  /* 「終えた後に見る」入れ子タブ: クリア後向けのため初期は閉じる */
+  .phase-after {
+    margin-top: 1.6rem;
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    background: var(--bg);
+  }
+  .phase-after summary {
+    cursor: pointer;
+    padding: 0.7rem 0.9rem;
+    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .phase-after summary::-webkit-details-marker {
+    display: none;
+  }
+  .phase-after summary::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    align-self: center;
+  }
+  .phase-after[open] summary::before {
+    background: var(--accent);
+  }
+  .phase-after summary::after {
+    content: '＋';
+    margin-left: auto;
+    color: var(--text-dim);
+    font-family: var(--mono);
+  }
+  .phase-after[open] summary::after {
+    content: '－';
+  }
+  .phase-after summary:hover {
+    color: var(--accent);
+  }
+  .after-body {
+    padding: 0 0.9rem 0.9rem;
+  }
+</style>

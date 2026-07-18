@@ -1,0 +1,44 @@
+{
+  "id": "1.0",
+  "name": "正式サービス開始",
+  "startDate": "2023-04-26",
+  "videos": [
+    {
+      "youtubeId": "VNlsaq5CSLk",
+      "title": "三月なのか キャラクターPV「ハイ、チーズ！」",
+      "type": "character",
+      "publishedAt": "2022-04-21",
+      "reason": "リリース前公開。同行キャラの人柄紹介でストーリーへの言及なし"
+    },
+    {
+      "youtubeId": "gM2gcVQKxEs",
+      "title": "姫子 キャラクターPV「星を追う者」",
+      "type": "character",
+      "publishedAt": "2023-04-10",
+      "reason": "リリース前公開。星穹列車メンバーの顔見せ"
+    },
+    {
+      "youtubeId": "2eNfMIiBj-g",
+      "title": "ゼーレ キャラクターPV「穏やかな夜」",
+      "type": "character",
+      "publishedAt": "2023-04-23",
+      "reason": "リリース前公開。序盤（ヤリーロ-VI編）の主要キャラ顔見せ"
+    },
+    {
+      "youtubeId": "xE-RhT16VQM",
+      "title": "【崩壊：スターレイル】景元 キャラクターPV 「天地を枰と為す」",
+      "type": "character",
+      "publishedAt": "2023-05-17",
+      "reason": "仙舟「羅浮」の将軍・景元の智謀と器を描くキャラクターPV。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "fryhOCgYhNU",
+      "title": "【崩壊：スターレイル】セーバル キャラクターPV 「即・爆破！」",
+      "type": "character",
+      "publishedAt": "2023-05-21",
+      "reason": "ベロブルグのロック歌手セーバルの魅力を音楽とともに描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

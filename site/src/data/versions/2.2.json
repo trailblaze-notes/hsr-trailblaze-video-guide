@@ -1,0 +1,43 @@
+{
+  "id": "2.2",
+  "name": "涙は目覚めの後で",
+  "startDate": "2024-05-08",
+  "videos": [
+    {
+      "youtubeId": "rz2dG9n3Qdc",
+      "title": "【崩壊：スターレイル】Ver.2.2PV「涙は目覚めの後で」",
+      "type": "version",
+      "publishedAt": "2024-04-26",
+      "reason": "ピノコニー編クライマックスへ向かうVer.2.2の見どころを紹介する公式PV。"
+    },
+    {
+      "youtubeId": "faamSlM1aOA",
+      "title": "『崩壊：スターレイル』Ver.2.2「涙は目覚めの後で」予告番組",
+      "type": "version",
+      "publishedAt": "2024-04-26",
+      "reason": "Ver.2.2の新ストーリー・新キャラ情報を公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "ze3BepDFFWo",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「もし、翼があったら」",
+      "type": "trailblaze",
+      "publishedAt": "2024-05-03",
+      "reason": "ハルモニーの使者ロビンの歌声と願いを描く紀行PV。"
+    },
+    {
+      "youtubeId": "oxJeQc-C-_4",
+      "title": "【崩壊：スターレイル】ロビン キャラクターPV「独り揺蕩う」",
+      "type": "character",
+      "publishedAt": "2024-05-07",
+      "reason": "Ver.2.2実装のロビンの歌と信念を描く公式PV。"
+    },
+    {
+      "youtubeId": "eydcYmlQnZo",
+      "title": "【崩壊：スターレイル】ブートヒル キャラクターPV「カウボーイは忙しい」",
+      "type": "character",
+      "publishedAt": "2024-05-28",
+      "reason": "Ver.2.2実装の賞金稼ぎブートヒルの流儀を描く公式PV。",
+      "phase": "after"
+    }
+  ]
+}

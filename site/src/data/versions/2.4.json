@@ -1,0 +1,43 @@
+{
+  "id": "2.4",
+  "name": "風起雲湧、相見える鋒鋩",
+  "startDate": "2024-07-31",
+  "videos": [
+    {
+      "youtubeId": "5M6zQOnVB9I",
+      "title": "【崩壊：スターレイル】Ver.2.4PV「風起雲湧、相見える鋒鋩」",
+      "type": "version",
+      "publishedAt": "2024-07-19",
+      "reason": "舞台を仙舟「羅浮」に戻すVer.2.4の新ストーリーを紹介する公式PV。"
+    },
+    {
+      "youtubeId": "Zl3MagK3uyM",
+      "title": "『崩壊：スターレイル』Ver.2.4「風起雲湧、相見える鋒鋩」予告番組",
+      "type": "version",
+      "publishedAt": "2024-07-19",
+      "reason": "Ver.2.4の新要素を公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "Wxp4Ugs-LKI",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「火の用心、魔剣1本鍛冶の元」",
+      "type": "trailblaze",
+      "publishedAt": "2024-07-26",
+      "reason": "Ver.2.4期の仙舟キャラクターを掘り下げるコミカルな紀行PV。"
+    },
+    {
+      "youtubeId": "ZwY5gxcWuUM",
+      "title": "【崩壊：スターレイル】雲璃 キャラクターPV「偶然の出来事」",
+      "type": "character",
+      "publishedAt": "2024-07-30",
+      "reason": "Ver.2.4実装の剣士・雲璃の日常と剣技を描く公式PV。"
+    },
+    {
+      "youtubeId": "LdBkTZijWxY",
+      "title": "【崩壊：スターレイル】椒丘 キャラクターPV「昇天飯」",
+      "type": "character",
+      "publishedAt": "2024-08-20",
+      "reason": "Ver.2.4実装の料理人・椒丘の食と処世術を描く公式PV。",
+      "phase": "after"
+    }
+  ]
+}

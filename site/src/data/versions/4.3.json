@@ -1,0 +1,28 @@
+{
+  "id": "4.3",
+  "name": "生者、彼岸へ渡りて",
+  "startDate": "2026-06-01",
+  "videos": [
+    {
+      "youtubeId": "XS2s7NifsFY",
+      "title": "Ver.4.3PV「生者、彼岸へ渡りて」",
+      "type": "version",
+      "publishedAt": "2026-05-22",
+      "reason": "物語が核心へ向かうVer.4.3のバージョンPV。"
+    },
+    {
+      "youtubeId": "fExOv6o-gkU",
+      "title": "Ver.4.3「生者、彼岸へ渡りて」予告番組",
+      "type": "version",
+      "publishedAt": "2026-05-22",
+      "reason": "新キャラ「千冶・刃」などVer.4.3の内容を紹介する予告番組。"
+    },
+    {
+      "youtubeId": "qtodm5Uf-t4",
+      "title": "千冶・刃 キャラクターPV「滅度」",
+      "type": "character",
+      "publishedAt": "2026-05-29",
+      "reason": "Ver.4.3の新キャラ「千冶・刃」の生と死をめぐる物語を描くキャラクターPV。"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "3.2",
+  "name": "安眠の地の花海を歩いて",
+  "startDate": "2025-04-09",
+  "videos": [
+    {
+      "youtubeId": "_L10fx_RpW4",
+      "title": "Ver.3.2PV「安眠の地の花海を歩いて」",
+      "type": "version",
+      "publishedAt": "2025-03-28",
+      "reason": "オンパロス編第3章となるVer.3.2の公式PV。"
+    },
+    {
+      "youtubeId": "tG_fexf8CW8",
+      "title": "Ver.3.2「安眠の地の花海を歩いて」予告番組",
+      "type": "version",
+      "publishedAt": "2025-03-28",
+      "reason": "Ver.3.2の新要素を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "rYhpE1qpv3s",
+      "title": "ショートアニメ「安らかに眠る長夜」",
+      "type": "music",
+      "publishedAt": "2025-03-31",
+      "reason": "Ver.3.2期に公開されたオンパロス関連のショートアニメ。"
+    },
+    {
+      "youtubeId": "irRjMAiYFz0",
+      "title": "黄金の叙事詩PV「夜から目覚める生命」",
+      "type": "trailblaze",
+      "publishedAt": "2025-04-05",
+      "reason": "オンパロスの神話を掘り下げる「黄金の叙事詩」シリーズ第2弾。"
+    },
+    {
+      "youtubeId": "Wpg8NTpdpcI",
+      "title": "キャストリス キャラクターPV「墓碑銘」",
+      "type": "character",
+      "publishedAt": "2025-04-08",
+      "reason": "Ver.3.2実装のキャストリス（死の黄金の裔）の哀しみを描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "GvcmRUUR-yo",
+      "title": "アナイクス キャラクターPV「無辜の身」",
+      "type": "character",
+      "publishedAt": "2025-04-29",
+      "reason": "Ver.3.2後半実装の学者アナイクスの思想を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

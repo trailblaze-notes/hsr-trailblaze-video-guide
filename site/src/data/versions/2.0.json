@@ -1,0 +1,50 @@
+{
+  "id": "2.0",
+  "name": "真夜中に夢を見るなら",
+  "startDate": "2024-02-06",
+  "videos": [
+    {
+      "youtubeId": "ieUxZHy6ICo",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「永火の一夜：第33場」",
+      "type": "trailblaze",
+      "publishedAt": "2024-01-19",
+      "reason": "ピノコニー編開幕前の世界観を掘り下げる紀行PVシリーズの一本。"
+    },
+    {
+      "youtubeId": "2iRam7fnPrg",
+      "title": "『崩壊：スターレイル』Ver.2.0「真夜中に夢を見るなら」予告番組",
+      "type": "version",
+      "publishedAt": "2024-01-26",
+      "reason": "ピノコニー編の幕開けとなるVer.2.0の新ストーリー・新キャラを公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "rV-EzvxqSFw",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「旧夢の追憶」",
+      "type": "trailblaze",
+      "publishedAt": "2024-02-01",
+      "reason": "ピノコニーにまつわる過去の記憶を描く世界観紀行PV。"
+    },
+    {
+      "youtubeId": "KdbnaBhJs6Y",
+      "title": "MV「WHITE NIGHT」",
+      "type": "music",
+      "publishedAt": "2024-02-05",
+      "reason": "ピノコニー編の開幕を飾るテーマ曲「WHITE NIGHT」のアニメーションMV。"
+    },
+    {
+      "youtubeId": "8qk2IOjmrsY",
+      "title": "【崩壊：スターレイル】ブラックスワン キャラクターPV「子守唄」",
+      "type": "character",
+      "publishedAt": "2024-02-05",
+      "reason": "Ver.2.0実装の「記憶の管理人」ブラックスワンの神秘的な魅力を描く公式PV。"
+    },
+    {
+      "youtubeId": "-FrbSYzlqdU",
+      "title": "【崩壊：スターレイル】花火 キャラクターPV「独り芝居」",
+      "type": "character",
+      "publishedAt": "2024-02-28",
+      "reason": "Ver.2.0実装の花火が演じる悪戯と狂騒の一人舞台を描く公式PV。",
+      "phase": "after"
+    }
+  ]
+}

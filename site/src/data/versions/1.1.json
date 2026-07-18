@@ -1,0 +1,80 @@
+{
+  "id": "1.1",
+  "name": "銀河漫遊",
+  "startDate": "2023-06-07",
+  "videos": [
+    {
+      "youtubeId": "EIm_SZlrnRg",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV 「星空の寓話集・その一」",
+      "type": "trailblaze",
+      "publishedAt": "2023-05-03",
+      "reason": "星神（アイオーン）にまつわる寓話を語る世界観PVで、宇宙観の理解が深まる。"
+    },
+    {
+      "youtubeId": "1_WGjHPhlx8",
+      "title": "千の星を巡る紀行PV「仙舟通鑑・帝弓七天将」",
+      "type": "trailblaze",
+      "publishedAt": "2023-05-07",
+      "reason": "仙舟の歴史「帝弓七天将」を語る世界観PV。"
+    },
+    {
+      "youtubeId": "Lo2my3PdFrk",
+      "title": "ショートアニメ「飛光」",
+      "type": "music",
+      "publishedAt": "2023-05-10",
+      "reason": "姫子の過去を描く公式ショートアニメ。Ver.1.0 期間公開で本編序盤を補完する内容"
+    },
+    {
+      "youtubeId": "bdiICzEgLWw",
+      "title": "Ver.1.1「銀河漫遊」予告番組",
+      "type": "version",
+      "publishedAt": "2023-05-26",
+      "reason": "Ver.1.1 の新キャラ・イベントの公式予告。アップデート前の予習に"
+    },
+    {
+      "youtubeId": "29TB4o03q3I",
+      "title": "Ver.1.1 公式PV「銀河漫遊」",
+      "type": "version",
+      "publishedAt": "2023-05-27",
+      "reason": "Ver.1.1 の内容を紹介するバージョンPV"
+    },
+    {
+      "youtubeId": "DJXZeQ_0-dY",
+      "title": "【崩壊：スターレイル】ジェパード キャラクターPV 「ランドゥーの名の下に」",
+      "type": "character",
+      "publishedAt": "2023-06-01",
+      "reason": "ベロブルグを守るシルバーメイン筆頭ジェパードの誇りと責務を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "YISiqN0N9JA",
+      "title": "【崩壊：スターレイル】銀狼キャラクターPV「面白いじゃん」",
+      "type": "character",
+      "publishedAt": "2023-06-06",
+      "reason": "天才ハッカー銀狼の遊び心と実力を凝縮したキャラクターPV。"
+    },
+    {
+      "youtubeId": "Dng7o5WWQsw",
+      "title": "【崩壊：スターレイル】白露 キャラクターPV 「乾燥注意報」",
+      "type": "character",
+      "publishedAt": "2023-06-15",
+      "reason": "仙舟の名医・白露のコミカルで愛らしい日常を描くキャラクターPV。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "rVMPaQVOmBs",
+      "title": "羅刹 キャラクターPV「行者の誓い」",
+      "type": "character",
+      "publishedAt": "2023-06-27",
+      "reason": "Ver.1.1 期間公開のキャラPV。仙舟「羅浮」編の主要キャラ顔見せ",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "JXfUSL7mpoU",
+      "title": "【崩壊：スターレイル】彦卿 キャラクターPV 「寒刃砥礪」",
+      "type": "character",
+      "publishedAt": "2023-07-01",
+      "reason": "仙舟の若き剣士・彦卿の研鑽と剣才を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

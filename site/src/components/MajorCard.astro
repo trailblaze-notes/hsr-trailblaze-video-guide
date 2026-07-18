@@ -1,0 +1,95 @@
+---
+import type { MajorGroup } from '../lib/schema';
+
+interface Props {
+  group: MajorGroup;
+}
+const { group } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const first = group.versions[0];
+const last = group.versions[group.versions.length - 1];
+const period = last.endDate ? `${first.startDate} 〜 ${last.endDate}` : `${first.startDate} 〜 配信中`;
+const videoCount = group.versions.reduce((sum, v) => sum + v.videos.length, 0);
+---
+<li class="major-card">
+  <a href={`${base}v/${group.major}/`}>
+    <p class="eyebrow">Ver.{group.major}.x</p>
+    {group.arc && <h2>{group.arc}</h2>}
+    <p class="route" aria-label={`Ver.${first.id} から Ver.${last.id} まで`}>
+      <span class="station">{first.id}</span>
+      <span class="track" aria-hidden="true"></span>
+      <span class="station">{last.id}</span>
+    </p>
+    <p class="meta">{period}</p>
+    <p class="meta">全{group.versions.length}バージョン ・ 動画 {videoCount} 件</p>
+  </a>
+</li>
+
+<style>
+  .major-card a {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.3rem 1rem;
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s;
+    height: 100%;
+  }
+  .major-card a:hover {
+    border-color: var(--accent);
+    background: var(--surface-2);
+  }
+  .eyebrow {
+    margin: 0;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+  }
+  h2 {
+    margin: 0.15rem 0 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    text-wrap: balance;
+  }
+  .route {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin: 0.55rem 0 0.7rem;
+    font-family: var(--mono);
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .track {
+    flex: 1;
+    position: relative;
+    height: 2px;
+    background: var(--line);
+  }
+  .track::before,
+  .track::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    transform: translateY(-50%);
+  }
+  .track::before {
+    left: -2px;
+  }
+  .track::after {
+    right: -2px;
+  }
+  .meta {
+    margin: 0.1rem 0 0;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.76rem;
+  }
+</style>

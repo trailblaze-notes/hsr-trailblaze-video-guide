@@ -1,0 +1,36 @@
+{
+  "id": "1.2",
+  "name": "仙骸に果て有り",
+  "startDate": "2023-07-19",
+  "videos": [
+    {
+      "youtubeId": "MYea5ssoMgk",
+      "title": "Ver.1.2「仙骸に果て有り」予告番組",
+      "type": "version",
+      "publishedAt": "2023-07-07",
+      "reason": "Ver.1.2 の新キャラ・イベントの公式予告"
+    },
+    {
+      "youtubeId": "1lYCWgiW03Q",
+      "title": "Ver.1.2 公式PV「仙骸に果て有り」",
+      "type": "version",
+      "publishedAt": "2023-07-08",
+      "reason": "仙舟「羅浮」編の始まりを紹介するバージョンPV"
+    },
+    {
+      "youtubeId": "Qc6_F5U4-MQ",
+      "title": "【崩壊：スターレイル】刃 キャラクターPV 「死兆、来たれり」",
+      "type": "character",
+      "publishedAt": "2023-07-18",
+      "reason": "星核ハンター・刃の宿命と剣戟を描くダークなキャラクターPV。"
+    },
+    {
+      "youtubeId": "tL2NguNdfMU",
+      "title": "カフカ キャラクターPV「ドラマティック・アイロニー」",
+      "type": "character",
+      "publishedAt": "2023-08-08",
+      "reason": "Ver.1.2 期間公開のキャラPV。星核ハンターの掘り下げ",
+      "phase": "after"
+    }
+  ]
+}

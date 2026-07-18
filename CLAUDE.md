@@ -1,4 +1,4 @@
-# personal-site（ゲーム進行度別 公式動画ガイド）プロジェクト
+# personal-site（崩壊：スターレイル 開拓クエスト 動画ガイド）プロジェクト
 
 ## 役割定義
 
@@ -7,27 +7,34 @@
 
 ### スコープ
 
-- **担当範囲**: 要件定義 / 技術選定 / 設計 / 実装 / テスト / デプロイ構成 / 運用ドキュメント
-- **対象外**: 動画コンテンツ自体の制作（YouTube 公式動画へのリンク・埋め込みのみ扱う）
+- **担当範囲**: 要件定義 / 技術選定 / 設計 / 実装 / テスト / デプロイ構成 / 運用（動画データの調査・分類含む）
+- **対象外**: 動画コンテンツ自体の制作（YouTube 公式動画への埋め込み・リンクのみ扱う）
 
 ### サイトの目的
 
-ゲームの進行度（チャプター・ストーリー進捗）に応じて、**ネタバレを踏まずに見られる公式 YouTube 動画**を一覧表示する。
-利用者は自分の進行度を選択し、そこまでで安全に視聴できる動画リストを得る。
+『崩壊：スターレイル』の開拓クエスト進行度（バージョン）に応じて、
+**「そのバージョンが来る前に見る動画」「終えた後に見る動画」**を公式 YouTube 動画から整理して表示する。
+利用者はネタバレを踏まずに公式コンテンツを楽しめる。
 
 ## 技術スタック（確定事項）
 
-- 言語: TypeScript / フレームワーク: Astro（静的サイト生成）
-- データ: `site/src/data/` 配下の JSON（ゲーム → チェックポイント → 動画）
-- ホスティング: GitHub Pages（完全無料・GitHub Actions で自動デプロイ）
+- 言語: TypeScript / フレームワーク: Astro（静的サイト生成） / 検証: Zod
+- データ: `site/src/data/versions/*.json`（1バージョン1ファイル）+ `site/src/data/majors.json`（編名）
+- ホスティング: GitHub Pages（GitHub Actions で自動デプロイ）
 - ランニングコスト: 0 円を維持する（有料サービスを導入しない）
 
 ## 作業原則
 
-- 個人サイトだが、業務情報・顧客情報は一切含めない（公開リポジトリ前提）
-- 動画は YouTube 公式チャンネルのもののみ掲載する（転載動画は載せない）
-- ネタバレ防止がサイトの核。データ変更時は「進行度より先の動画が見えないこと」を必ず確認する
-- ドキュメントは `docs/`、実装は `site/` に置く
+- 公開リポジトリ前提。業務情報・顧客情報は一切含めない
+- **規約対応の不変条件（変更禁止）**:
+  - 動画は公式日本語チャンネル（@Houkaistarrail_jp）のもののみ。転載動画は載せない
+  - 表示は YouTube 公式埋め込みプレイヤー（youtube-nocookie）のみ。**サムネイル直リンク（i.ytimg.com）・公式ロゴ・公式アートは使用禁止**
+  - フッターの非公式表記・権利帰属（COGNOSPHERE PTE. LTD.）を維持。広告なし・非営利
+  - 調査で yt-dlp / YouTube Data API 等の自動化ツールを使わない（通常閲覧＋oEmbed のみ）
+- **ネタバレ防止がサイトの核**。分類規則: before = 公開日 ∈ [前バージョン開始, 当該開始) / after = 当該期間内公開のストーリー核心動画・後半ピックアップキャラPV。Zod がビルド時に機械検証する
+- データ変更時は `docs/03_運用手順.md` §4 のネタバレ確認（build + dist の grep + 目視）を必ず実施する
+- 動画データの正は `research/data/raw-videos.json`。site/src/data を直接編集しない（パイプラインで上書きされる）
+- youtubeId は実 URL で確認できたもののみ。推測・創作は絶対禁止。追加時は oEmbed（verify-ids.mjs）で検証する
 
 ## プロジェクト構造
 
@@ -35,9 +42,25 @@
 personal-site/
 ├── .claude/                  # settings / handovers / rules / skills
 ├── docs/                     # 01_要件定義書 / 02_設計書 / 03_運用手順
+├── research/                 # 調査パイプライン（データの正はここ）
+│   ├── data/                 # versions-master / raw-videos / videos-master
+│   ├── review/               # レビュー用MD（生成物）
+│   └── scripts/              # classify / verify-ids / gen-review-md / gen-site-json
 ├── site/                     # Astro プロジェクト本体
-│   ├── src/data/             # ゲーム・動画データ（JSON）
-│   ├── src/pages/            # ページ
-│   └── src/components/       # コンポーネント
+│   ├── src/data/             # majors.json / versions/*.json（生成物）
+│   ├── src/pages/            # index / v/[major] / type/[type] / 404
+│   ├── src/components/       # MajorCard / VersionNav / VideoCard
+│   └── src/lib/              # schema.ts / version.ts
 └── CLAUDE.md
+```
+
+## よく使うコマンド
+
+```bash
+# データ更新パイプライン（リポジトリルートで）
+node research/scripts/classify.mjs && node research/scripts/verify-ids.mjs \
+  && node research/scripts/gen-review-md.mjs && node research/scripts/gen-site-json.mjs
+
+# サイト確認
+cd site && npm run build && npm run dev   # http://localhost:4321
 ```

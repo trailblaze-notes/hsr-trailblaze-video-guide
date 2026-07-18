@@ -1,0 +1,60 @@
+{
+  "id": "3.0",
+  "name": "再創紀の凱歌",
+  "startDate": "2025-01-15",
+  "videos": [
+    {
+      "youtubeId": "qFwqIBqiy_w",
+      "title": "黄金の叙事詩PV「オンパロス英雄記」",
+      "type": "trailblaze",
+      "publishedAt": "2024-11-22",
+      "reason": "オンパロスの神話と黄金裔を予習できる世界観PV。",
+      "movedFrom": "2.7",
+      "note": "ユーザー指定: オンパロスの神話予習用として Ver.3.0 の「来る前」へ配置（公開は Ver.2.6 期間）"
+    },
+    {
+      "youtubeId": "dk6ImhNtVMI",
+      "title": "『崩壊：スターレイル』Ver.3.0「再創紀の凱歌」予告番組",
+      "type": "version",
+      "publishedAt": "2025-01-01",
+      "reason": "オンパロス編開幕となるVer.3.0の内容を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "lHP973olRGc",
+      "title": "千の星を巡る紀行PV「謎のように沈黙する星々」",
+      "type": "trailblaze",
+      "publishedAt": "2025-01-07",
+      "reason": "Ver.3.0期に公開された紀行PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "SSnU0OUssDQ",
+      "title": "ショートアニメ「マダム・ヘルタの魔法キッチン」",
+      "type": "music",
+      "publishedAt": "2025-01-10",
+      "reason": "Ver.3.0実装のマダム・ヘルタを題材にしたコミカルなショートアニメ。"
+    },
+    {
+      "youtubeId": "pneAqiHXpWw",
+      "title": "マダム・ヘルタ キャラクターPV「宇宙天才伝説」",
+      "type": "character",
+      "publishedAt": "2025-01-14",
+      "reason": "Ver.3.0実装のマダム・ヘルタの人物像を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "kTSPfahdHS8",
+      "title": "EP「洞窟の寓話」",
+      "type": "music",
+      "publishedAt": "2025-01-19",
+      "reason": "オンパロス編序盤のテーマを描く楽曲EP映像。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "u2Uf_P9rPXM",
+      "title": "アグライア キャラクターPV「致命的な浪漫」",
+      "type": "character",
+      "publishedAt": "2025-02-04",
+      "reason": "Ver.3.0後半実装のアグライアの気品と黄金の裔としての一面を描くPV。",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3.5",
+  "name": "英雄は死ぬまでに",
+  "startDate": "2025-08-13",
+  "videos": [
+    {
+      "youtubeId": "79Bdydk8_kY",
+      "title": "『崩壊：スターレイル』Ver.3.5「英雄は死ぬまでに」予告番組",
+      "type": "version",
+      "publishedAt": "2025-08-02",
+      "reason": "Ver.3.5の新キャラ・新ストーリーを先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "XqaTAr42RyQ",
+      "title": "セイレンス キャラクターPV「海の娘」",
+      "type": "character",
+      "publishedAt": "2025-08-12",
+      "reason": "Ver.3.5実装のセイレンス（Hysilens）を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "2Xuwbaab9P4",
+      "title": "ケリュドラ キャラクターPV「盤上に上がる」",
+      "type": "character",
+      "publishedAt": "2025-09-02",
+      "reason": "Ver.3.5後半実装のケリュドラの権謀を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

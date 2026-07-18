@@ -1,0 +1,50 @@
+{
+  "id": "2.5",
+  "name": "碧羽飛黄、射られる天狼",
+  "startDate": "2024-09-10",
+  "videos": [
+    {
+      "youtubeId": "P8xr7__k1xo",
+      "title": "【崩壊：スターレイル】Ver.2.5PV「碧羽飛黄、射られる天狼」",
+      "type": "version",
+      "publishedAt": "2024-08-30",
+      "reason": "仙舟編後半戦となるVer.2.5の新ストーリーを紹介する公式PV。"
+    },
+    {
+      "youtubeId": "YbjtlsurHkE",
+      "title": "『崩壊：スターレイル』Ver.2.5「碧羽飛黄、射られる天狼」予告番組",
+      "type": "version",
+      "publishedAt": "2024-08-30",
+      "reason": "Ver.2.5の新要素を公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "Id4WQtsGUZI",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「星を追う飛矢」",
+      "type": "trailblaze",
+      "publishedAt": "2024-09-03",
+      "reason": "雲騎軍の将・飛霄の武勇を描く紀行PV。"
+    },
+    {
+      "youtubeId": "KwPV5_61SMQ",
+      "title": "【崩壊：スターレイル】ショートアニメ「悠々自適」",
+      "type": "music",
+      "publishedAt": "2024-09-06",
+      "reason": "Ver.2.5期の仙舟キャラクターを描いた公式ショートアニメ。"
+    },
+    {
+      "youtubeId": "OGAGT-2w0ac",
+      "title": "【崩壊：スターレイル】飛霄 キャラクターPV「君、笑うこと莫れ」",
+      "type": "character",
+      "publishedAt": "2024-09-09",
+      "reason": "Ver.2.5実装の雲騎軍将軍・飛霄の豪快さを描く公式PV。"
+    },
+    {
+      "youtubeId": "Xrr9F4bih3c",
+      "title": "【崩壊：スターレイル】霊砂 キャラクターPV「沈香を焚く」",
+      "type": "character",
+      "publishedAt": "2024-10-01",
+      "reason": "Ver.2.5実装の丹鼎司の医師・霊砂の静謐な魅力を描く公式PV。",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2.7",
+  "name": "八日目の旅立ち",
+  "startDate": "2024-12-04",
+  "videos": [
+    {
+      "youtubeId": "mfA5KpY68yI",
+      "title": "【崩壊：スターレイル】Ver.2.7PV「八日目の旅立ち」",
+      "type": "version",
+      "publishedAt": "2024-11-22",
+      "reason": "ピノコニー編のエピローグとなるVer.2.7の内容を紹介する公式PV。"
+    },
+    {
+      "youtubeId": "sdLokzQqMzE",
+      "title": "『崩壊：スターレイル』Ver.2.7「八日目の旅立ち」予告番組",
+      "type": "version",
+      "publishedAt": "2024-11-22",
+      "reason": "Ver.2.7の新要素を公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "c_yPBvw9bSw",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「太陽が沈んだ後」",
+      "type": "trailblaze",
+      "publishedAt": "2024-11-29",
+      "reason": "ピノコニー編のその後を示唆するサンデー関連の紀行PV。"
+    },
+    {
+      "youtubeId": "LZMJtJBntT0",
+      "title": "【崩壊：スターレイル】サンデー キャラクターPV「ソリスト」",
+      "type": "character",
+      "publishedAt": "2024-12-03",
+      "reason": "Ver.2.7実装のサンデーの信念と孤独を描く公式PV。"
+    },
+    {
+      "youtubeId": "ZLNWVaAqf4A",
+      "title": "千の星を巡る紀行PV「浮雲とは似て非なり」",
+      "type": "trailblaze",
+      "publishedAt": "2024-12-20",
+      "reason": "Ver.2.7期に公開されたキャラクターの物語を描く紀行PVシリーズの一編。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "CCpDHyK0DJw",
+      "title": "帰忘の流離人 キャラクターPV「子不語」",
+      "type": "character",
+      "publishedAt": "2024-12-24",
+      "reason": "Ver.2.7後半実装の帰忘の流離人（Fugue）の背景を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

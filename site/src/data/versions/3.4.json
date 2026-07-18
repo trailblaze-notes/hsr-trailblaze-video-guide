@@ -1,0 +1,51 @@
+{
+  "id": "3.4",
+  "name": "破滅へ向かう太陽",
+  "startDate": "2025-07-02",
+  "videos": [
+    {
+      "youtubeId": "8Y_7LXuANTw",
+      "title": "Ver.3.4PV「破滅へ向かう太陽」",
+      "type": "version",
+      "publishedAt": "2025-06-20",
+      "reason": "オンパロス編前半のクライマックスとなるVer.3.4の公式PV。"
+    },
+    {
+      "youtubeId": "BCNdn_owYPs",
+      "title": "Ver.3.4「破滅へ向かう太陽」予告番組",
+      "type": "version",
+      "publishedAt": "2025-06-20",
+      "reason": "Ver.3.4の新要素を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "qowOxk6izyU",
+      "title": "千の星を巡る紀行PV「星空の寓話集・その二」",
+      "type": "trailblaze",
+      "publishedAt": "2025-06-24",
+      "reason": "Ver.3.4期に公開された紀行PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "SLCb7Rm9748",
+      "title": "ファイノン キャラクターPV「烈日の栄冠」",
+      "type": "character",
+      "publishedAt": "2025-07-01",
+      "reason": "Ver.3.4実装のファイノンの英雄性を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "lkGZpIwsSkY",
+      "title": "ショートアニメ「聞け！神に祝福されし山頂で開かれた狂宴を！」",
+      "type": "music",
+      "publishedAt": "2025-07-02",
+      "reason": "Ver.3.4 期公開のオンパロス関連ショートアニメ。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "LB-g3xSkjNQ",
+      "title": "MV「フレア」",
+      "type": "music",
+      "publishedAt": "2025-07-03",
+      "reason": "Ver.3.4 期のストーリーテーマ楽曲MV。",
+      "phase": "after"
+    }
+  ]
+}

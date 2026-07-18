@@ -1,0 +1,100 @@
+{
+  "updatedAt": "2026-07-19",
+  "description": "videos-master.json の補完調査結果。youtubeId未確認7件の特定、境界フラグ動画の日付裏取り、未解決の存在確認3件について記録する。",
+  "foundIds": [
+    {
+      "title": "刹那の星旅「花火トリック」",
+      "youtubeId": "2s0fTApRGTk",
+      "publishedAt": "2024-02-29",
+      "approx": false,
+      "oembedTitle": "【崩壊：スターレイル】刹那の星旅：「花火トリック」",
+      "sourceUrl": "https://www.youtube.com/watch?v=2s0fTApRGTk",
+      "channel": "崩壊：スターレイル",
+      "note": "wikiwiki「ゲーム外の公式コンテンツ」ページの記載と一致。oEmbed検証済み、チャンネル=崩壊：スターレイル"
+    },
+    {
+      "title": "刹那の星旅「運命は常に不公平、だけど……」",
+      "youtubeId": "uW-uwhWH0F4",
+      "publishedAt": "2024-04-11",
+      "approx": false,
+      "oembedTitle": "【崩壊：スターレイル】刹那の星旅：運命は常に不公平、だけど……",
+      "sourceUrl": "https://www.youtube.com/watch?v=uW-uwhWH0F4",
+      "channel": "崩壊：スターレイル",
+      "note": "wikiwiki記載のURLで確認。別動画 8cAGeu08yWE（タイトル「運命は常に不公平 — 光の残影」）は Shorts 形式の別動画であり、これとは異なる。oEmbed検証済み"
+    },
+    {
+      "title": "刹那の星旅「非ゼロ和ゲーム」",
+      "youtubeId": "fnHETYDic4M",
+      "publishedAt": "2024-04-17",
+      "approx": false,
+      "oembedTitle": "【崩壊：スターレイル】刹那の星旅：「非ゼロ和ゲーム」",
+      "sourceUrl": "https://www.youtube.com/watch?v=fnHETYDic4M",
+      "channel": "崩壊：スターレイル",
+      "note": "Web検索で直接発見。oEmbed検証済み、チャンネル=崩壊：スターレイル"
+    },
+    {
+      "title": "刹那の星旅「ポーンショップヒスイ」",
+      "youtubeId": "ZpOT4elC9Iw",
+      "publishedAt": "2024-07-10",
+      "approx": false,
+      "oembedTitle": "【崩壊：スターレイル】刹那の星旅「ポーンショップヒスイ」",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZpOT4elC9Iw",
+      "channel": "崩壊：スターレイル",
+      "note": "Web検索で直接発見。oEmbed検証済み、チャンネル=崩壊：スターレイル"
+    },
+    {
+      "title": "刹那の星旅「迷い浮き沈む」",
+      "youtubeId": "Bh3p1W0Frrk",
+      "publishedAt": "2024-08-19",
+      "approx": false,
+      "oembedTitle": "【崩壊：スターレイル】 刹那の星旅 「迷い浮き沈む」",
+      "sourceUrl": "https://www.youtube.com/watch?v=Bh3p1W0Frrk",
+      "channel": "崩壊：スターレイル",
+      "note": "wikiwiki「ゲーム外の公式コンテンツ」ページから発見。通常のWeb検索では見つからなかった。oEmbed検証済み、チャンネル=崩壊：スターレイル"
+    }
+  ],
+  "notFound": [
+    {
+      "title": "EP「Had I Not Seen the Sun」（日本語チャンネル版）",
+      "reason": "日本語チャンネル（@Houkaistarrail_jp）にEP動画として単独投稿されている証拠を発見できなかった。HOYO-MiX公式チャンネルには英語版EP(watch?v=kdV4K17KqAE等)が存在し、YouTube Music / Spotify等の音楽配信サービスにも存在するが、日本語チャンネルのEPプレイリスト(PLbRl8tDzJrvgmT-cPvoan1oUzkBpj1tKB)内での存在は確認できなかった。wikiwikiの公式コンテンツ一覧にも「Had I Not Seen the Sun」EP動画の記載はなかった。日本語チャンネル限定のEP動画としては存在しない可能性が高い"
+    },
+    {
+      "title": "アーチャー キャラクターPV（Fate/stay night [UBW] コラボ参戦映像）",
+      "reason": "日本語チャンネルにアーチャー単独の「キャラクターPV」は見つからなかった。存在するのは『崩壊：スターレイル』× Fate_UBWコラボイベント予告PV(Shorts, watch?v=ybU2atnax04, oEmbed検証済み・チャンネル=崩壊：スターレイル)のみ。アーチャーは配布キャラクターであり、通常のガチャキャラクター向け「キャラクターPV」とは異なるプロモーション形式（コラボ予告PV）で告知された。「キャラクターPV」という形式の単独動画は日本語チャンネルに存在しないと判断"
+    }
+  ],
+  "dateCorrections": [],
+  "existenceChecks": [
+    {
+      "subject": "ダリア キャラクターPV（Ver.3.8 実装キャラ）",
+      "result": "存在する",
+      "youtubeId": "7_hmkhWGbzE",
+      "title": "【崩壊：スターレイル】ダリア キャラクターPV 「一曲の終わり」",
+      "publishedAt": "2025-12-16",
+      "approx": true,
+      "channel": "崩壊：スターレイル",
+      "oembedVerified": true,
+      "note": "Web検索で発見。2025年12月16日公開。Ver.3.8開始日(2025-12-17)の前日。oEmbed検証済み。PS5版(watch?v=XRziDKscx34)は別チャンネル投稿"
+    },
+    {
+      "subject": "Ver.2.0 単独バージョンPV の有無",
+      "result": "存在しない",
+      "note": "日本語チャンネルにはVer.2.0「真夜中に夢を見るなら」の予告番組(watch?v=2iRam7fnPrg)のみ存在。「Ver.2.0PV」というタイトルの短い映像は見つからなかった。videos-master.json にも予告番組のみ記録されており、単独PVは登録されていない。他のバージョンではVer.1.1以降〜1.6、Ver.2.1以降は「PV」と「予告番組」の両方があるが、Ver.2.0は予告番組のみ。大型アップデート(X.0)では省略されるパターンの可能性"
+    },
+    {
+      "subject": "Ver.3.0 単独バージョンPV の有無",
+      "result": "存在しない",
+      "note": "日本語チャンネルにはVer.3.0「再創紀の凱歌」の予告番組(watch?v=dk6ImhNtVMI)のみ存在。「Ver.3.0PV」というタイトルの短い映像は見つからなかった。videos-master.json にも予告番組のみ。Ver.2.0と同様に大型アップデートではPVが省略されるパターン"
+    },
+    {
+      "subject": "Ver.3.5 単独バージョンPV の有無",
+      "result": "存在しない",
+      "note": "日本語チャンネルにはVer.3.5「英雄は死ぬまでに」の予告番組(watch?v=79Bdydk8_kY)のみ存在。「Ver.3.5PV」というタイトルの短い映像は見つからなかった。videos-master.json にも予告番組のみ。Ver.3.1〜3.4、3.6〜3.8にはPVがあるが3.5のみ欠けている。X.0系以外でPVが欠けるのは3.5のみ（例外的）"
+    },
+    {
+      "subject": "雪衣（Ver.2.4 期）のキャラクターPV の有無",
+      "result": "存在しない",
+      "note": "雪衣は星4キャラクター（Ver.1.6で初実装）。日本語チャンネルにキャラクターPV形式の動画は見つからなかった。「ステラ美学速報」(短い紹介映像 watch?v=wRYueTTiJMY)は存在するが、これは他のキャラクターPVとは異なる形式（30秒程度のショート映像）。星4キャラクターにはキャラクターPVが制作されないのが一般的なパターン"
+    }
+  ]
+}

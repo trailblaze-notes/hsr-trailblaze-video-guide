@@ -1,0 +1,369 @@
+{
+  "videos": [
+    {
+      "youtubeId": "vrIumBGXeSw",
+      "title": "【崩壊：スターレイル】オープニングムービー「THE SHOW」",
+      "publishedAt": "2022-05-25",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "リリース前テスト期のオープニングムービーで、列車の旅の世界観を音楽と映像で味わえる。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/vrIumBGXeSw"
+    },
+    {
+      "youtubeId": "3NUig0L8VAA",
+      "title": "「崩壊：スターレイル」SGF出展動画「まもなく旅立つ君」",
+      "publishedAt": "2022-06-10",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Summer Game Fest 2022出展のストーリームービーで、カフカと景元の存在を最初に印象づけた映像。",
+      "spoilerNote": "リリース前映像だがカフカ（星核ハンター）と景元の背景に触れるため、序盤未クリア時は人物像の先取りになる可能性あり",
+      "sourceUrl": "https://youtu.be/3NUig0L8VAA"
+    },
+    {
+      "youtubeId": "zK-RUYiYLok",
+      "title": "【崩壊：スターレイル】EP「制御不能」",
+      "publishedAt": "2022-07-22",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "リリース前に公開された楽曲MVで、ゲームの雰囲気を音楽から先取りできる一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/zK-RUYiYLok"
+    },
+    {
+      "youtubeId": "A-Ie0VFBAbo",
+      "title": "EP「雪は燃えさしに融ける」【崩壊：スターレイル】",
+      "publishedAt": "2022-08-18",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "ベロブルグを題材にした情感豊かな楽曲MVで、ヤリーロ-VI編の余韻に浸れる。",
+      "spoilerNote": "ブローニャ・ゼーレらベロブルグ編の関係性を描くため、ヤリーロ-VI編クリア前は注意",
+      "sourceUrl": "https://youtu.be/A-Ie0VFBAbo"
+    },
+    {
+      "youtubeId": "qAXtWH8JeNU",
+      "title": "Gamescom 2022「悪夢」【崩壊：スターレイル】",
+      "publishedAt": "2022-08-24",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Gamescom 2022出展のストーリームービーで、丹恒と刃の因縁を描く緊張感ある映像。",
+      "spoilerNote": "丹恒と刃の因縁に触れるため、仙舟「羅浮」編（Ver.1.2相当）到達前はネタバレの疑いあり",
+      "sourceUrl": "https://youtu.be/qAXtWH8JeNU"
+    },
+    {
+      "youtubeId": "gMik0JyX62s",
+      "title": "Tokyo Game Show 2022出展動画「観測者」【崩壊：スターレイル】",
+      "publishedAt": "2022-09-17",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "TGS 2022出展の世界観ムービーで、開拓の旅を見守る「観測者」の視点が味わえる。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/gMik0JyX62s"
+    },
+    {
+      "youtubeId": "E9KybqNh_-s",
+      "title": "【崩壊：スターレイル】ファイナルβテストPV|「スペースコメディ」",
+      "publishedAt": "2023-01-24",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "最終テスト告知PVで、リリース直前の期待感と作品のコメディタッチな空気を伝える。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/E9KybqNh_-s"
+    },
+    {
+      "youtubeId": "qO8iDoPIXUU",
+      "title": "「崩壊：スターレイル」オープニング――「星間旅行」",
+      "publishedAt": "2023-04-25",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "正式リリースを飾ったオープニングアニメーションで、開拓の旅の始まりを最高の映像で体験できる。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/qO8iDoPIXUU"
+    },
+    {
+      "youtubeId": "EIm_SZlrnRg",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV 「星空の寓話集・その一」",
+      "publishedAt": "2023-05-03",
+      "approx": true,
+      "type": "trailblaze",
+      "reasonDraft": "星神（アイオーン）にまつわる寓話を語る世界観PVで、宇宙観の理解が深まる。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg"
+    },
+    {
+      "youtubeId": "xE-RhT16VQM",
+      "title": "【崩壊：スターレイル】景元 キャラクターPV 「天地を枰と為す」",
+      "publishedAt": "2023-05-17",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "仙舟「羅浮」の将軍・景元の智謀と器を描くキャラクターPV。",
+      "spoilerNote": "仙舟「羅浮」編到達前は人物背景の先取りになる可能性あり",
+      "sourceUrl": "https://youtu.be/xE-RhT16VQM"
+    },
+    {
+      "youtubeId": "fryhOCgYhNU",
+      "title": "【崩壊：スターレイル】セーバル キャラクターPV 「即・爆破！」",
+      "publishedAt": "2023-05-21",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "ベロブルグのロック歌手セーバルの魅力を音楽とともに描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/fryhOCgYhNU"
+    },
+    {
+      "youtubeId": "DJXZeQ_0-dY",
+      "title": "【崩壊：スターレイル】ジェパード キャラクターPV 「ランドゥーの名の下に」",
+      "publishedAt": "2023-06-01",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "ベロブルグを守るシルバーメイン筆頭ジェパードの誇りと責務を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/DJXZeQ_0-dY"
+    },
+    {
+      "youtubeId": "YISiqN0N9JA",
+      "title": "【崩壊：スターレイル】銀狼キャラクターPV「面白いじゃん」",
+      "publishedAt": "2023-06-07",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "天才ハッカー銀狼の遊び心と実力を凝縮したキャラクターPV。",
+      "spoilerNote": "星核ハンター関連の設定に触れるため、宇宙ステーション編クリア前は注意",
+      "sourceUrl": "https://youtu.be/YISiqN0N9JA"
+    },
+    {
+      "youtubeId": "Dng7o5WWQsw",
+      "title": "【崩壊：スターレイル】白露 キャラクターPV 「乾燥注意報」",
+      "publishedAt": "2023-06-15",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "仙舟の名医・白露のコミカルで愛らしい日常を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/Dng7o5WWQsw"
+    },
+    {
+      "youtubeId": "JXfUSL7mpoU",
+      "title": "【崩壊：スターレイル】彦卿 キャラクターPV 「寒刃砥礪」",
+      "publishedAt": "2023-07-01",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "仙舟の若き剣士・彦卿の研鑽と剣才を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/JXfUSL7mpoU"
+    },
+    {
+      "youtubeId": "Qc6_F5U4-MQ",
+      "title": "【崩壊：スターレイル】刃 キャラクターPV 「死兆、来たれり」",
+      "publishedAt": "2023-07-19",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "星核ハンター・刃の宿命と剣戟を描くダークなキャラクターPV。",
+      "spoilerNote": "刃の過去と丹恒との因縁を示唆するため、仙舟「羅浮」編（Ver.1.2）進行前はネタバレの疑いあり",
+      "sourceUrl": "https://youtu.be/Qc6_F5U4-MQ"
+    },
+    {
+      "youtubeId": "U1yqKWN80EM",
+      "title": "【崩壊：スターレイル】EP「水龍吟」",
+      "publishedAt": "2023-07-20",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "仙舟「羅浮」を題材にした和風・中華風の楽曲MVで、羅浮編の世界に浸れる。",
+      "spoilerNote": "仙舟「羅浮」編の情景を含むため、同編到達前は雰囲気の先取りになる可能性あり",
+      "sourceUrl": "https://youtu.be/U1yqKWN80EM"
+    },
+    {
+      "youtubeId": "AT3umvC8U_c",
+      "title": "「崩壊：スターレイル」Ver.1.3「業塵を映す天鏡」予告番組",
+      "publishedAt": "2023-08-18",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "Ver.1.3の新ストーリー・新キャラクターをまとめて予習できる公式予告番組。",
+      "spoilerNote": "Ver.1.3の新規ストーリー・登場人物の予告を含むため、羅浮編後半未到達時は注意",
+      "sourceUrl": "https://youtu.be/AT3umvC8U_c"
+    },
+    {
+      "youtubeId": "d9LImAsyyHU",
+      "title": "【崩壊：スターレイル】丹恒・飲月 キャラクターPV 「いざ帰らん」",
+      "publishedAt": "2023-08-30",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "丹恒・飲月の帰還と覚悟を描く重厚なキャラクターPV。",
+      "spoilerNote": "丹恒の正体・過去というVer.1.2〜1.3ストーリーの核心に直結するため、羅浮編クリア前は強くネタバレ注意",
+      "sourceUrl": "https://youtu.be/d9LImAsyyHU"
+    },
+    {
+      "youtubeId": "jhLeZi33cSY",
+      "title": "【崩壊：スターレイル】符玄 キャラクターPV 「遺漏なき法眼」",
+      "publishedAt": "2023-09-20",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "仙舟の太卜・符玄の慧眼と責務を描くキャラクターPV。",
+      "spoilerNote": "羅浮編の出来事を前提とする描写を含む可能性があり、同編クリア前は注意",
+      "sourceUrl": "https://youtu.be/jhLeZi33cSY"
+    },
+    {
+      "youtubeId": "8uP7VkJiWRk",
+      "title": "「崩壊：スターレイル」Ver.1.4 PV「冬の夢から目覚めて」",
+      "publishedAt": "2023-09-29",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.1.4の新ストーリー・新キャラクター（鏡流・トパーズら）を紹介する公式PV。",
+      "spoilerNote": "Ver.1.4の新規ストーリー予告を含むため、該当バージョン未到達時は注意",
+      "sourceUrl": "https://youtu.be/8uP7VkJiWRk"
+    },
+    {
+      "youtubeId": "q5o0RpdKaUs",
+      "title": "「崩壊：スターレイル」Ver.1.4「冬の夢から目覚めて」予告番組",
+      "publishedAt": "2023-09-29",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "Ver.1.4の新要素を開発チームが紹介する公式予告番組。",
+      "spoilerNote": "Ver.1.4の新規ストーリー・登場人物の予告を含むため、未到達時は注意",
+      "sourceUrl": "https://youtu.be/q5o0RpdKaUs"
+    },
+    {
+      "youtubeId": "w43X0zt_XZI",
+      "title": "【崩壊：スターレイル】鏡流 キャラクターPV 「切先は返らぬ」",
+      "publishedAt": "2023-10-11",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "仙舟伝説の剣首・鏡流の過去と狂気を描くキャラクターPV。",
+      "spoilerNote": "鏡流の正体・過去はVer.1.4前後の仙舟ストーリー核心に触れるため、未到達時は強くネタバレ注意",
+      "sourceUrl": "https://youtu.be/w43X0zt_XZI"
+    },
+    {
+      "youtubeId": "KHyXcRTNhCc",
+      "title": "【崩壊：スターレイル】トパーズ&カブ キャラクターPV「エキスパート教育」",
+      "publishedAt": "2023-11-01",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "スターピースカンパニーのやり手・トパーズと相棒カブの仕事ぶりを描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/KHyXcRTNhCc"
+    },
+    {
+      "youtubeId": "qVY5qmQVrMo",
+      "title": "【崩壊：スターレイル】Ver.1.5PV：「迷離幻夜譚」",
+      "publishedAt": "2023-11-03",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.1.5のホラーテイストな新ストーリーを紹介する公式PV。",
+      "spoilerNote": "Ver.1.5の新規ストーリー予告を含むため、未到達時は注意",
+      "sourceUrl": "https://youtu.be/qVY5qmQVrMo"
+    },
+    {
+      "youtubeId": "E61Q_yx885A",
+      "title": "「崩壊：スターレイル」Ver.1.5「迷離幻夜譚」予告番組",
+      "publishedAt": "2023-11-03",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "Ver.1.5の新要素をまとめて確認できる公式予告番組。",
+      "spoilerNote": "Ver.1.5の新規ストーリー・登場人物の予告を含むため、未到達時は注意",
+      "sourceUrl": "https://youtu.be/E61Q_yx885A"
+    },
+    {
+      "youtubeId": "FOVHylL_zW8",
+      "title": "【崩壊：スターレイル】フォフォキャラクターPV「還魂の夜」",
+      "publishedAt": "2023-11-15",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "臆病な道士見習いフォフォと尾焔の凸凹コンビを描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/FOVHylL_zW8"
+    },
+    {
+      "youtubeId": "i6kCF9tZDkg",
+      "title": "【崩壊：スターレイル】アルジェンティ キャラクターPV「騎士道物語」",
+      "publishedAt": "2023-12-06",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "「壮麗」を追い求める薔薇の騎士アルジェンティの美学を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://youtu.be/i6kCF9tZDkg"
+    },
+    {
+      "youtubeId": "EOn_MGgOWYs",
+      "title": "【崩壊：スターレイル】Ver.1.6 PV：「只人と神の栄冠」",
+      "publishedAt": "2023-12-15",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.1.6の新ストーリー・新キャラクター（ルアン・メェイら）を紹介する公式PV。",
+      "spoilerNote": "Ver.1.6の新規ストーリー予告を含むため、未到達時は注意",
+      "sourceUrl": "https://youtu.be/EOn_MGgOWYs"
+    },
+    {
+      "youtubeId": "uSt1p2BG5EM",
+      "title": "「崩壊：スターレイル」Ver.1.6「只人と神の栄冠」予告番組",
+      "publishedAt": "2023-12-15",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "Ver.1.6の新要素をまとめて確認できる公式予告番組。",
+      "spoilerNote": "Ver.1.6の新規ストーリー・登場人物の予告を含むため、未到達時は注意",
+      "sourceUrl": "https://youtu.be/uSt1p2BG5EM"
+    },
+    {
+      "youtubeId": "pLWr1I9D5lA",
+      "title": "【崩壊：スターレイル】ルアン・メェイ　キャラクターPV「万物に流るる命」",
+      "publishedAt": "2023-12-26",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "天才クラブの生命科学者ルアン・メェイの探究心と危うさを描くキャラクターPV。",
+      "spoilerNote": "天才クラブ・模擬宇宙関連の設定に触れる可能性あり。公開日が1.6開始（12/27）直前のため担当期間の境界（12/27以降の可能性も要確認）",
+      "sourceUrl": "https://youtu.be/pLWr1I9D5lA"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "リリース発車TVCM「次は、宇宙。」（2023/04/26・NIixsDuzzjc）",
+      "reason": "CMスポットのため除外"
+    },
+    {
+      "title": "リリース発車TVCM「さぁ、乗ろう。」（2023/04/27・bOs9CQIf8QU）",
+      "reason": "CMスポットのため除外"
+    },
+    {
+      "title": "出演キャスト リリースお祝いメッセージ（2023/04/26）",
+      "reason": "声優メッセージ・告知系のため除外"
+    },
+    {
+      "title": "星穹講座――「銀河奇想」（2023/05/05）",
+      "reason": "システム紹介・講座シリーズのため除外"
+    },
+    {
+      "title": "列車周遊記・黟県駅（2023/05/06）",
+      "reason": "実写プロモーション・バラエティのため除外"
+    },
+    {
+      "title": "「さぁ、乗ろう。」星穹列車地球ツアーフェスティバル（2023/05/19）",
+      "reason": "リアルイベントのプロモ映像のため除外"
+    },
+    {
+      "title": "アコレードトレーラー（2023/06/17）",
+      "reason": "受賞実績紹介CMのため除外"
+    },
+    {
+      "title": "イッテ星穹！――「模擬宇宙：宇宙の蝗害」特別番組（2023/09/06）",
+      "reason": "システム（模擬宇宙）紹介のバラエティ特番のため除外"
+    },
+    {
+      "title": "開発者インタビュー | PS5（2023/09/29）",
+      "reason": "インタビュー映像のため除外"
+    },
+    {
+      "title": "『崩壊：スターレイル』がPlayStation®5に登場！（2023/10/11）",
+      "reason": "プラットフォーム展開の告知CMのため除外"
+    },
+    {
+      "title": "目指せ、エーテル戦線チャンピオン！（2023/10/11）",
+      "reason": "ミニゲーム・システム紹介のため除外"
+    },
+    {
+      "title": "「怪異事件」総振り返り（2023/11/29）",
+      "reason": "イベント振り返りバラエティのため除外"
+    },
+    {
+      "title": "「WHITE NIGHT」OP MV／ダンスMV",
+      "reason": "公開が2024年1月末のため担当期間（〜2023-12-26）外。次期間の収集対象として引き継ぎ推奨"
+    }
+  ],
+  "coverageNotes": "全youtubeIdはYouTube oEmbed APIで実在・公式チャンネル（author_name「崩壊：スターレイル」）・タイトルを個別確認済み（推測ID一切なし）。日付の根拠: バージョンPV・EP・リリース前動画はwikiwiki（ゲーム外の公式コンテンツ）記載の日付。キャラクターPV14件はwikiwikiに公開日列が確認できなかったため、実装バナー/バージョン開始日を基準にした概算（すべてapprox:true、実際は基準日の0〜3日前公開が通例）。特にジェパード・セーバル・白露・彦卿の4件はVer.1.0〜1.2期の推定でありばらつきが大きく要再確認。予告番組（1.3〜1.6）は対応するバージョンPVと同日公開の慣例に基づく概算。未確認領域: (1) 2021年の始発PV以外の動画、巡星PVの追加エピソード有無（検証中にツール一時停止）、(2) ゲームプレイ系キャラクター紹介映像の有無、(3) 千の星を巡る紀行PV「星空の寓話集・その一」の日付は検索結果表示（2023-05-03）依拠、(4) 開拓クロニクルPVは2023年内に確認できず（2024年以降のシリーズと推定）。タイトル表記の注意: 彦卿PV「寒刃砥礪」・鏡流PV「切先は返らぬ」・白露PV「乾燥注意報」・景元PV「天地を枰と為す」は抽出モデル間で漢字表記の揺れがあったため、データ登録前にYouTube上での正式表記の目視確認を推奨。ショートアニメ「飛光」「玄黄」およびVer.1.1/1.2のPV・予告番組、主要キャラPV5件（姫子・ゼーレ・三月なのか・羅刹・カフカ）は指示どおり確認済み14件に含まれるため出力から除外した。"
+}

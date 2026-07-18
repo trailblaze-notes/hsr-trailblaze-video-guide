@@ -1,0 +1,57 @@
+{
+  "id": "4.4",
+  "name": "汽笛は轟く、帰寂のさなかに",
+  "startDate": "2026-07-15",
+  "videos": [
+    {
+      "youtubeId": "-9FrEf-iN38",
+      "title": "即興芝居PV「愉悦の死」",
+      "type": "trailblaze",
+      "publishedAt": "2026-06-26",
+      "reason": "愉悦編の核心テーマに切り込む即興芝居PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "KHjnk4YH2vA",
+      "title": "Ver.4.4PV「汽笛は轟く、帰寂のさなかに」",
+      "type": "version",
+      "publishedAt": "2026-07-03",
+      "reason": "姫子・旅立ちが登場する現行Ver.4.4のバージョンPV。"
+    },
+    {
+      "youtubeId": "8CM5QXzwiUM",
+      "title": "Ver.4.4「汽笛は轟く、帰寂のさなかに」予告番組",
+      "type": "version",
+      "publishedAt": "2026-07-03",
+      "reason": "星5キャラ「姫子・旅立ち」の情報などVer.4.4の内容を紹介する予告番組。"
+    },
+    {
+      "youtubeId": "Yp2j9BEarSQ",
+      "title": "即興芝居PV「仰ぎ見る者へ」",
+      "type": "trailblaze",
+      "publishedAt": "2026-07-08",
+      "reason": "姫子（CV:田中理恵）を軸にVer.4.4へつながる物語を描く即興芝居PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "czh3UXrkxM0",
+      "title": "ショートアニメ「あんたの終点、私の始まり」",
+      "type": "music",
+      "publishedAt": "2026-07-12",
+      "reason": "姫子と素子（CV:田中理恵）の関係を描く、姫子・旅立ち実装前公開のショートアニメ。"
+    },
+    {
+      "youtubeId": "HH2Umzd-rxY",
+      "title": "姫子・旅立ち キャラクターPV「今宵、明けの明星が墜ちる」",
+      "type": "character",
+      "publishedAt": "2026-07-14",
+      "reason": "Ver.4.4実装の「姫子・旅立ち」（CV:田中理恵）の過去と現在が交差する物語を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "iyY7VNMqwKU",
+      "title": "EP「Beyond This Station」",
+      "type": "music",
+      "publishedAt": "2026-07-17",
+      "reason": "姫子の物語を描く Ver.4.4 テーマの楽曲EP。",
+      "phase": "after"
+    }
+  ]
+}

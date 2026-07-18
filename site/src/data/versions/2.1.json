@@ -1,0 +1,57 @@
+{
+  "id": "2.1",
+  "name": "深淵への狂走",
+  "startDate": "2024-03-27",
+  "videos": [
+    {
+      "youtubeId": "dQFw_-55pZ4",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「『花火』：舞台裏の記録」",
+      "type": "trailblaze",
+      "publishedAt": "2024-02-25",
+      "reason": "仮面の愚者「花火」の素顔に迫るドキュメンタリー風の紀行PV。"
+    },
+    {
+      "youtubeId": "3FqAcWYLirA",
+      "title": "【崩壊：スターレイル】Ver.2.1PV「深淵への狂走」",
+      "type": "version",
+      "publishedAt": "2024-03-16",
+      "reason": "ピノコニー編が加速するVer.2.1の新ストーリーと新キャラを紹介する公式PV。"
+    },
+    {
+      "youtubeId": "aDhaaLhcmj0",
+      "title": "『崩壊：スターレイル』Ver.2.1「深淵への狂走」予告番組",
+      "type": "version",
+      "publishedAt": "2024-03-16",
+      "reason": "Ver.2.1の新要素・イベントを公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "v9qTBUZtgQk",
+      "title": "【崩壊：スターレイル】ショートアニメ「永劫の輪舞」",
+      "type": "music",
+      "publishedAt": "2024-03-19",
+      "reason": "Ver.2.1期に公開された公式ショートアニメで、世界観の深掘りが楽しめる。"
+    },
+    {
+      "youtubeId": "XbWbOIxbFMA",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「虚譚・浮世三千一刀繚断」",
+      "type": "trailblaze",
+      "publishedAt": "2024-03-22",
+      "reason": "黄泉の剣戟を怪談語り風に描いた異色の紀行PV。"
+    },
+    {
+      "youtubeId": "fOvY5tG_qFk",
+      "title": "【崩壊：スターレイル】黄泉 キャラクターPV「君の色」",
+      "type": "character",
+      "publishedAt": "2024-03-26",
+      "reason": "Ver.2.1実装の限定キャラ黄泉の記憶と剣を描く公式PV。"
+    },
+    {
+      "youtubeId": "isu6OthQH2Y",
+      "title": "【崩壊：スターレイル】アベンチュリン キャラクターPV「金の造り手」",
+      "type": "character",
+      "publishedAt": "2024-04-16",
+      "reason": "Ver.2.1実装のアベンチュリンの賭けと生い立ちを描く公式PV。",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1.5",
+  "name": "迷離幻夜譚",
+  "startDate": "2023-11-15",
+  "videos": [
+    {
+      "youtubeId": "lsS5OnN6On0",
+      "title": "千の星を巡る紀行PV「スターピース案内：選別、計画と好機」",
+      "type": "trailblaze",
+      "publishedAt": "2023-10-22",
+      "reason": "スターピースカンパニーの実像を描く世界観PV。"
+    },
+    {
+      "youtubeId": "qVY5qmQVrMo",
+      "title": "【崩壊：スターレイル】Ver.1.5PV：「迷離幻夜譚」",
+      "type": "version",
+      "publishedAt": "2023-11-03",
+      "reason": "Ver.1.5のホラーテイストな新ストーリーを紹介する公式PV。"
+    },
+    {
+      "youtubeId": "E61Q_yx885A",
+      "title": "「崩壊：スターレイル」Ver.1.5「迷離幻夜譚」予告番組",
+      "type": "version",
+      "publishedAt": "2023-11-03",
+      "reason": "Ver.1.5の新要素をまとめて確認できる公式予告番組。"
+    },
+    {
+      "youtubeId": "bMqzzG9CXq0",
+      "title": "千の星を巡る紀行PV「綏園伏鬼録」",
+      "type": "trailblaze",
+      "publishedAt": "2023-11-10",
+      "reason": "紀行PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "FOVHylL_zW8",
+      "title": "【崩壊：スターレイル】フォフォキャラクターPV「還魂の夜」",
+      "type": "character",
+      "publishedAt": "2023-11-14",
+      "reason": "臆病な道士見習いフォフォと尾焔の凸凹コンビを描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "i6kCF9tZDkg",
+      "title": "【崩壊：スターレイル】アルジェンティ キャラクターPV「騎士道物語」",
+      "type": "character",
+      "publishedAt": "2023-12-06",
+      "reason": "「壮麗」を追い求める薔薇の騎士アルジェンティの美学を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

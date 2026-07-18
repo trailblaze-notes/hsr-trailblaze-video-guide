@@ -1,0 +1,43 @@
+{
+  "id": "1.4",
+  "name": "冬の夢から目覚めて",
+  "startDate": "2023-10-11",
+  "videos": [
+    {
+      "youtubeId": "8uP7VkJiWRk",
+      "title": "「崩壊：スターレイル」Ver.1.4 PV「冬の夢から目覚めて」",
+      "type": "version",
+      "publishedAt": "2023-09-29",
+      "reason": "Ver.1.4の新ストーリー・新キャラクター（鏡流・トパーズら）を紹介する公式PV。"
+    },
+    {
+      "youtubeId": "q5o0RpdKaUs",
+      "title": "「崩壊：スターレイル」Ver.1.4「冬の夢から目覚めて」予告番組",
+      "type": "version",
+      "publishedAt": "2023-09-29",
+      "reason": "Ver.1.4の新要素を開発チームが紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "JX7d7rDmd7g",
+      "title": "千の星を巡る紀行PV「雲騎武経・説剣」",
+      "type": "trailblaze",
+      "publishedAt": "2023-10-06",
+      "reason": "雲騎軍の剣術を描く世界観PV。"
+    },
+    {
+      "youtubeId": "w43X0zt_XZI",
+      "title": "【崩壊：スターレイル】鏡流 キャラクターPV 「切先は返らぬ」",
+      "type": "character",
+      "publishedAt": "2023-10-10",
+      "reason": "仙舟伝説の剣首・鏡流の過去と狂気を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "KHyXcRTNhCc",
+      "title": "【崩壊：スターレイル】トパーズ&カブ キャラクターPV「エキスパート教育」",
+      "type": "character",
+      "publishedAt": "2023-11-01",
+      "reason": "スターピースカンパニーのやり手・トパーズと相棒カブの仕事ぶりを描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

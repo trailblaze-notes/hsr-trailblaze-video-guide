@@ -1,0 +1,297 @@
+{
+  "videos": [
+    {
+      "youtubeId": "FOj68wLqj7A",
+      "title": "即興芝居PV「一気に解説！鉄墓との戦いの後、公式で語られなかった真実！」",
+      "publishedAt": "2026-02-01",
+      "approx": true,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.4シリーズ（愉悦編）開幕前に、前章の顛末と新章の橋渡しを公式がユニークな形で描いた導入映像。",
+      "spoilerNote": "オンパロス編（Ver.3.x）終盤「鉄墓」との戦い後の顛末に言及するため、Ver.3.x未クリアではネタバレ注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=FOj68wLqj7A"
+    },
+    {
+      "youtubeId": "EMT6GmhDiBk",
+      "title": "Ver.4.0PV「月満ちる時に神はなし」",
+      "publishedAt": "2026-02-06",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "新章の舞台「二相楽園」と愉悦をテーマにした1年間の物語の開幕を告げるバージョンPV。",
+      "spoilerNote": "Ver.4.0本編の予告を含むため、Ver.3.x進行中の場合は注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=EMT6GmhDiBk"
+    },
+    {
+      "youtubeId": "r2bxxcYK9qo",
+      "title": "Ver.4.0「月満ちる時に神はなし」予告番組",
+      "publishedAt": "2026-02-06",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.4.0の新ストーリー・新キャラ・イベントを公式がまとめて紹介する予告番組。",
+      "spoilerNote": "Ver.4.0本編の予告を含む",
+      "sourceUrl": "https://www.youtube.com/watch?v=r2bxxcYK9qo"
+    },
+    {
+      "youtubeId": "cKxHKZaEURk",
+      "title": "即興芝居PV「吉凶の彼方」",
+      "publishedAt": "2026-02-08",
+      "approx": true,
+      "type": "trailblaze",
+      "reasonDraft": "二相楽園（愉悦編）の世界観を掘り下げる即興芝居PVシリーズの一編。",
+      "spoilerNote": "Ver.4.0の世界観・登場人物に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84"
+    },
+    {
+      "youtubeId": "ke8-S0MnoV0",
+      "title": "爻光 キャラクターPV「万事順調」",
+      "publishedAt": "2026-02-12",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.4.0の新キャラ・仙舟の戎韜将軍「爻光」（CV:花澤香菜）の人物像を停雲・景元・飛霄との掛け合いで描くPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=ke8-S0MnoV0"
+    },
+    {
+      "youtubeId": "AdUoc-nSB94",
+      "title": "火花 キャラクターPV「愚か者が語る夢」",
+      "publishedAt": "2026-03-02",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.4.0後半の新キャラ「火花」（CV:上田麗奈）が花火と対峙する、花火PV「独り芝居」の楽曲アレンジも聴きどころのPV。",
+      "spoilerNote": "花火との関係性の示唆を含むため、ピノコニー編（Ver.2.x）未了では注意",
+      "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260302015/"
+    },
+    {
+      "youtubeId": "LMt1zaLUa08",
+      "title": "Ver.4.1PV「荒れ狂う暁の空」",
+      "publishedAt": "2026-03-13",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "二相楽園編の物語が動き出すVer.4.1のバージョンPV。",
+      "spoilerNote": "Ver.4.0本編の展開を前提とした予告を含む",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84"
+    },
+    {
+      "youtubeId": "H97-304rAxs",
+      "title": "Ver.4.1「荒れ狂う暁の空」予告番組",
+      "publishedAt": "2026-03-13",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "新キャラ「不死途」や開拓クエストなどVer.4.1の内容を紹介する予告番組。",
+      "spoilerNote": "Ver.4.0本編の展開を前提とした予告を含む",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84"
+    },
+    {
+      "youtubeId": "n6zuiPxJ15w",
+      "title": "不死途 キャラクターPV「狼が来た」",
+      "publishedAt": "2026-03-20",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.4.1の重要人物「不死途」（CV:子安武人）の底知れなさを描くキャラクターPV。",
+      "spoilerNote": "Ver.4.1本編の重要人物のため、Ver.4.0以前の進行度では人物像のネタバレに注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=n6zuiPxJ15w"
+    },
+    {
+      "youtubeId": "QaHPMkksn3U",
+      "title": "Ver.4.2PV「そして、人々の笑いが響き渡る」",
+      "publishedAt": "2026-04-10",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "3周年アップデートとなるVer.4.2のストーリーと見どころを描くバージョンPV。",
+      "spoilerNote": "Ver.4.1本編までの展開を前提とした予告を含む",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84"
+    },
+    {
+      "youtubeId": "fJqOTRK7pDw",
+      "title": "Ver.4.2「そして、人々の笑いが響き渡る」予告番組",
+      "publishedAt": "2026-04-10",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "3周年記念キャラ「銀狼LV.999」などVer.4.2の内容を紹介する予告番組。",
+      "spoilerNote": "Ver.4.1本編までの展開を前提とした予告を含む",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84"
+    },
+    {
+      "youtubeId": "NEn6umYiiU8",
+      "title": "即興芝居PV「初心者ガイド」",
+      "publishedAt": "2026-04-15",
+      "approx": true,
+      "type": "trailblaze",
+      "reasonDraft": "愉悦編の世界のルールをコミカルに紹介する即興芝居PVシリーズの一編。",
+      "spoilerNote": "Ver.4.x（二相楽園）の世界観に触れる",
+      "sourceUrl": "https://www.youtube.com/watch?v=NEn6umYiiU8"
+    },
+    {
+      "youtubeId": "LkxwwIyXJxE",
+      "title": "銀狼LV.999 キャラクターPV「私だけカンストな件」",
+      "publishedAt": "2026-04-19",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "3周年記念キャラとして愉悦の令使の力を解放した「銀狼LV.999」（CV:阿澄佳奈）を描くPV。",
+      "spoilerNote": "銀狼の新たな姿・立場（Ver.4.2本編関連）の示唆を含む",
+      "sourceUrl": "https://www.youtube.com/watch?v=LkxwwIyXJxE"
+    },
+    {
+      "youtubeId": "UXJdmEBdCh0",
+      "title": "緋英 キャラクターPV「彼女の日常」",
+      "publishedAt": "2026-05-11",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.4.2後半の新キャラ「緋英」（CV:佐倉綾音）の名もなき守り手としての日常を描くPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://hsr.hoyoverse.com/ja-jp/news/163893"
+    },
+    {
+      "youtubeId": "XS2s7NifsFY",
+      "title": "Ver.4.3PV「生者、彼岸へ渡りて」",
+      "publishedAt": "2026-05-22",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "物語が核心へ向かうVer.4.3のバージョンPV。",
+      "spoilerNote": "Ver.4.2本編までの展開を前提とした予告を含む",
+      "sourceUrl": "https://www.youtube.com/watch?v=XS2s7NifsFY"
+    },
+    {
+      "youtubeId": "fExOv6o-gkU",
+      "title": "Ver.4.3「生者、彼岸へ渡りて」予告番組",
+      "publishedAt": "2026-05-22",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "新キャラ「千冶・刃」などVer.4.3の内容を紹介する予告番組。",
+      "spoilerNote": "Ver.4.2本編までの展開を前提とした予告を含む",
+      "sourceUrl": "https://www.youtube.com/watch?v=fExOv6o-gkU"
+    },
+    {
+      "youtubeId": "qtodm5Uf-t4",
+      "title": "千冶・刃 キャラクターPV「滅度」",
+      "publishedAt": "2026-05-29",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.4.3の新キャラ「千冶・刃」の生と死をめぐる物語を描くキャラクターPV。",
+      "spoilerNote": "刃のこれまでの物語（仙舟編）の帰結に触れる可能性があるため、仙舟編未了では注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=qtodm5Uf-t4"
+    },
+    {
+      "youtubeId": "-9FrEf-iN38",
+      "title": "即興芝居PV「愉悦の死」",
+      "publishedAt": "2026-06-26",
+      "approx": true,
+      "type": "trailblaze",
+      "reasonDraft": "愉悦編の核心テーマに切り込む即興芝居PVシリーズの一編。",
+      "spoilerNote": "Ver.4.3本編前後のストーリー核心に触れる可能性あり",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84"
+    },
+    {
+      "youtubeId": "KHjnk4YH2vA",
+      "title": "Ver.4.4PV「汽笛は轟く、帰寂のさなかに」",
+      "publishedAt": "2026-07-03",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "姫子・旅立ちが登場する現行Ver.4.4のバージョンPV。",
+      "spoilerNote": "公開時点の最新バージョン予告のため、Ver.4.3未クリアではネタバレ注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=KHjnk4YH2vA"
+    },
+    {
+      "youtubeId": "8CM5QXzwiUM",
+      "title": "Ver.4.4「汽笛は轟く、帰寂のさなかに」予告番組",
+      "publishedAt": "2026-07-03",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "星5キャラ「姫子・旅立ち」の情報などVer.4.4の内容を紹介する予告番組。",
+      "spoilerNote": "公開時点の最新バージョン予告のため、Ver.4.3未クリアではネタバレ注意",
+      "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260629033/"
+    },
+    {
+      "youtubeId": "Yp2j9BEarSQ",
+      "title": "即興芝居PV「仰ぎ見る者へ」",
+      "publishedAt": "2026-07-08",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "姫子（CV:田中理恵）を軸にVer.4.4へつながる物語を描く即興芝居PVシリーズの一編。",
+      "spoilerNote": "姫子・素子に関するVer.4.4直前の核心的示唆を含む",
+      "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260708019/"
+    },
+    {
+      "youtubeId": "czh3UXrkxM0",
+      "title": "ショートアニメ「あんたの終点、私の始まり」",
+      "publishedAt": "2026-07-12",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "姫子と素子（CV:田中理恵）の関係を描く、姫子・旅立ち実装前公開のショートアニメ。",
+      "spoilerNote": "姫子の過去とVer.4.4本編につながる核心的示唆を含むため、Ver.4.3以前の進行度では注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=czh3UXrkxM0"
+    },
+    {
+      "youtubeId": "HH2Umzd-rxY",
+      "title": "姫子・旅立ち キャラクターPV「今宵、明けの明星が墜ちる」",
+      "publishedAt": "2026-07-14",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.4.4実装の「姫子・旅立ち」（CV:田中理恵）の過去と現在が交差する物語を描くキャラクターPV。",
+      "spoilerNote": "衝撃的な冒頭を含む姫子の物語の核心に触れるため、Ver.4.3以前の進行度ではネタバレ注意",
+      "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260714016/"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Ver.3.8PV「記憶は夢のプロローグ」",
+      "reason": "2025-12-05公開で担当期間（2025-12-17以降）外"
+    },
+    {
+      "title": "Ver.3.8「記憶は夢のプロローグ」予告番組",
+      "reason": "2025-12-05公開で担当期間外"
+    },
+    {
+      "title": "ダリア キャラクターPV（正式タイトル未確認）",
+      "reason": "Ver.3.8実装日（12/17）直前公開の可能性が高く、公開日とURLを確認できなかったため未収録"
+    },
+    {
+      "title": "千の星を巡る紀行PV「謎のように沈黙する星々」",
+      "reason": "2025-01-07公開（4Gamer記事で確認）で期間外。wikiwiki要約では2026年と誤認されていた"
+    },
+    {
+      "title": "千の星を巡る紀行PV「星間平和提言：反壊滅同盟」",
+      "reason": "公開年を2026年と確認できず（2025年2月公開の可能性が高い）ため保留"
+    },
+    {
+      "title": "千の星を巡る紀行PV「物語の外側：第8幕」",
+      "reason": "2025年10月公開で期間外"
+    },
+    {
+      "title": "千の星を巡る紀行PV「星空の寓話集・その一／その二」",
+      "reason": "2023年・2025年6月公開で期間外"
+    },
+    {
+      "title": "EP「払暁」",
+      "reason": "2025-05-22公開で期間外（期間内のEP楽曲MVは確認できず）"
+    },
+    {
+      "title": "ショートアニメ「ハローワールド」",
+      "reason": "2025-11-05公開で期間外"
+    },
+    {
+      "title": "キャラクタープレビュー（キュレネ／銀狼LV.999／不死途 等）",
+      "reason": "YouTube Shortsのため除外"
+    },
+    {
+      "title": "イッテ星穹！シリーズ（「不死途：おたく…ほんっとに…はあ…！」等）",
+      "reason": "バラエティ企画動画でストーリー関連外"
+    },
+    {
+      "title": "PS5 Games チャンネル版の各PV（Ver.4.0PV／姫子PV／千冶・刃PV 等）",
+      "reason": "公式日本語チャンネル（@Houkaistarrail_jp）ではない別チャンネルの重複掲載"
+    },
+    {
+      "title": "《崩坏：星穹铁道》中国語版PV各種",
+      "reason": "日本語公式チャンネルの動画ではないため"
+    },
+    {
+      "title": "HoYoHoYoにしてあげる♪／初音ミク×銀狼LV.999",
+      "reason": "コラボ企画楽曲でストーリー関連外（掲載チャンネルも未確認）"
+    },
+    {
+      "title": "予告番組の同時視聴ミラー・生放送アーカイブ類",
+      "reason": "生放送アーカイブおよび非公式動画のため除外"
+    }
+  ],
+  "coverageNotes": "情報源のwikiwiki要約取得で年表記のズレ（2025年動画を2026年と誤記）が確認されたため、期間内と独立確認できなかった紀行PVはexcludedに回した。youtubeIdのうち H97-304rAxs（4.1予告番組）・QaHPMkksn3U（4.2PV）・fJqOTRK7pDw（4.2予告番組）・-9FrEf-iN38（愉悦の死）・cKxHKZaEURk（吉凶の彼方）はwikiwiki記載の転記のみで検索結果による独立確認が未了（他のwikiwiki転記IDは全て独立ソースと一致しており信頼性は高い）。未調査の可能性領域: (1) 3周年（2026-04-22）記念の楽曲MV・記念映像（ストーリー関連の有無未確認）、(2) 2026年3月〜6月に追加の即興芝居PV・紀行PV・アニメーションPVが存在する可能性、(3) ダリア（Ver.3.8）キャラクターPVの公開日（期間境界12/17前後の判定不能）、(4) 期間内のEP（楽曲MV）は見つからなかったが網羅確認は未完。爻光PVの公開日（2/12）と即興芝居PV3件の日付は二次情報からの概算。調査終盤に検索ツールが一時利用不可となり、上記の最終裏取りができていない。"
+}

@@ -1,80 +1,83 @@
 ---
-import type { Video } from '../lib/schema';
+import { VIDEO_TYPE_LABELS, type Video } from '../lib/schema';
 
 interface Props {
   video: Video;
-  rank: number;
-  hidden: boolean;
 }
-const { video, rank, hidden } = Astro.props;
+const { video } = Astro.props;
 const watchUrl = `https://www.youtube.com/watch?v=${video.youtubeId}`;
-const thumbUrl = `https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`;
+// プライバシー強化モードの公式埋め込みプレイヤー。サムネ・再生とも YouTube 側で完結する
+const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
 ---
-<article class="video-card" data-rank={rank} hidden={hidden}>
-  <a class="thumb" href={watchUrl} target="_blank" rel="noopener noreferrer">
-    <img src={thumbUrl} alt="" loading="lazy" onerror="this.closest('.thumb').classList.add('noimg'); this.remove()" />
-    <span class="play">▶</span>
-  </a>
+<article class="video-card">
+  {video.embeddable && (
+    <div class="embed">
+      <iframe
+        src={embedUrl}
+        title={video.title}
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  )}
   <div class="body">
-    <span class="badge">{video.type}</span>
-    <h3>
-      <a href={watchUrl} target="_blank" rel="noopener noreferrer">{video.title}</a>
-    </h3>
-    <p class="reason">{video.reason}</p>
+    <p class="meta">
+      <span class="badge">{VIDEO_TYPE_LABELS[video.type]}</span>
+      <span class="date">{video.publishedAt}</span>
+    </p>
+    <h3><a href={watchUrl} target="_blank" rel="noopener noreferrer">{video.title}</a></h3>
+    <p class="watch"><a href={watchUrl} target="_blank" rel="noopener noreferrer">YouTube で見る ↗</a></p>
   </div>
 </article>
 
 <style>
   .video-card {
-    display: flex;
-    gap: 1rem;
     background: var(--surface);
-    border: 1px solid var(--surface-2);
+    border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 0.9rem;
-  }
-  .video-card[hidden] {
-    display: none;
-  }
-  .thumb {
-    position: relative;
-    flex: 0 0 160px;
-    aspect-ratio: 16 / 9;
-    border-radius: 8px;
     overflow: hidden;
-    background: linear-gradient(135deg, var(--surface-2), #2e3450);
-    align-self: flex-start;
+    transition: border-color 0.15s;
   }
-  .thumb img {
+  .video-card:hover {
+    border-color: var(--accent);
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
+    background: #000;
+  }
+  .embed iframe {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    border: 0;
     display: block;
   }
-  .play {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    color: #fff;
-    font-size: 1.4rem;
-    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
-    opacity: 0.85;
-  }
   .body {
-    min-width: 0;
+    padding: 0.8rem 1rem 0.9rem;
+  }
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0;
   }
   .badge {
     display: inline-block;
-    background: var(--surface-2);
+    background: var(--accent-soft);
     color: var(--accent);
-    border-radius: 999px;
+    border-radius: 4px;
     font-size: 0.72rem;
-    padding: 0.1rem 0.6rem;
+    font-weight: 700;
+    padding: 0.12rem 0.5rem;
+  }
+  .date {
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.74rem;
   }
   h3 {
-    margin: 0.35rem 0;
-    font-size: 1rem;
+    margin: 0.45rem 0 0.3rem;
+    font-size: 0.98rem;
+    line-height: 1.5;
   }
   h3 a {
     color: var(--text);
@@ -83,18 +86,14 @@ const thumbUrl = `https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`;
   h3 a:hover {
     color: var(--accent);
   }
-  .reason {
-    margin: 0;
-    color: var(--text-dim);
-    font-size: 0.85rem;
+  .watch {
+    margin: 0.55rem 0 0;
+    font-size: 0.8rem;
   }
-  @media (max-width: 560px) {
-    .video-card {
-      flex-direction: column;
-    }
-    .thumb {
-      flex-basis: auto;
-      width: 100%;
-    }
+  .watch a {
+    text-decoration: none;
+  }
+  .watch a:hover {
+    text-decoration: underline;
   }
 </style>

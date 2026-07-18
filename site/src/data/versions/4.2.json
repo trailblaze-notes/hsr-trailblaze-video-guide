@@ -1,0 +1,64 @@
+{
+  "id": "4.2",
+  "name": "そして、人々の笑いが響き渡る",
+  "startDate": "2026-04-22",
+  "videos": [
+    {
+      "youtubeId": "QaHPMkksn3U",
+      "title": "Ver.4.2PV「そして、人々の笑いが響き渡る」",
+      "type": "version",
+      "publishedAt": "2026-04-10",
+      "reason": "3周年アップデートとなるVer.4.2のストーリーと見どころを描くバージョンPV。"
+    },
+    {
+      "youtubeId": "fJqOTRK7pDw",
+      "title": "Ver.4.2「そして、人々の笑いが響き渡る」予告番組",
+      "type": "version",
+      "publishedAt": "2026-04-10",
+      "reason": "3周年記念キャラ「銀狼LV.999」などVer.4.2の内容を紹介する予告番組。"
+    },
+    {
+      "youtubeId": "Ndis7_as3vg",
+      "title": "3周年テーマソング「Side Quest King」",
+      "type": "music",
+      "publishedAt": "2026-04-11",
+      "reason": "3周年記念テーマソングのMV。"
+    },
+    {
+      "youtubeId": "NEn6umYiiU8",
+      "title": "即興芝居PV「初心者ガイド」",
+      "type": "trailblaze",
+      "publishedAt": "2026-04-15",
+      "reason": "愉悦編の世界のルールをコミカルに紹介する即興芝居PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "k9rCUlWO6y8",
+      "title": "千の星を巡る紀行PV「第999幕：GAME NOT OVER」",
+      "type": "trailblaze",
+      "publishedAt": "2026-04-16",
+      "reason": "銀狼とカフカを描く紀行PV。3周年・銀狼LV.999 の前奏。"
+    },
+    {
+      "youtubeId": "LkxwwIyXJxE",
+      "title": "銀狼LV.999 キャラクターPV「私だけカンストな件」",
+      "type": "character",
+      "publishedAt": "2026-04-19",
+      "reason": "3周年記念キャラとして愉悦の令使の力を解放した「銀狼LV.999」（CV:阿澄佳奈）を描くPV。"
+    },
+    {
+      "youtubeId": "7TK9bTfoRZo",
+      "title": "ショートアニメ「このゲーム、まともに遊べるの？」",
+      "type": "music",
+      "publishedAt": "2026-04-21",
+      "reason": "3周年期のコミカルな公式ショートアニメ。"
+    },
+    {
+      "youtubeId": "UXJdmEBdCh0",
+      "title": "緋英 キャラクターPV「彼女の日常」",
+      "type": "character",
+      "publishedAt": "2026-05-11",
+      "reason": "Ver.4.2後半の新キャラ「緋英」（CV:佐倉綾音）の名もなき守り手としての日常を描くPV。",
+      "phase": "after"
+    }
+  ]
+}

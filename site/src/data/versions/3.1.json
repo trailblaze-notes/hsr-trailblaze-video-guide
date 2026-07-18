@@ -1,0 +1,43 @@
+{
+  "id": "3.1",
+  "name": "始まりの門と終わりの玉座",
+  "startDate": "2025-02-26",
+  "videos": [
+    {
+      "youtubeId": "ShxBeYcYE5c",
+      "title": "Ver.3.1PV「始まりの門と終わりの玉座」",
+      "type": "version",
+      "publishedAt": "2025-02-14",
+      "reason": "オンパロス編第2章となるVer.3.1の公式PV。"
+    },
+    {
+      "youtubeId": "l3k5xI-Dshc",
+      "title": "Ver.3.1「始まりの門と終わりの玉座」予告番組",
+      "type": "version",
+      "publishedAt": "2025-02-14",
+      "reason": "Ver.3.1の新キャラ・新ストーリーを先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "zwWvxtaYjzM",
+      "title": "黄金の叙事詩PV「運命の最初の黎明」",
+      "type": "trailblaze",
+      "publishedAt": "2025-02-21",
+      "reason": "オンパロスの神話・歴史を語る「黄金の叙事詩」シリーズの世界観PV。"
+    },
+    {
+      "youtubeId": "R02TJA9akS0",
+      "title": "トリビー キャラクターPV「子供の言葉は純真無垢」",
+      "type": "character",
+      "publishedAt": "2025-02-25",
+      "reason": "Ver.3.1実装のトリビー（三つ子の黄金の裔）を描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "Y0QFCfhqqE0",
+      "title": "モーディス キャラクターPV「人間の怒り」",
+      "type": "character",
+      "publishedAt": "2025-03-18",
+      "reason": "Ver.3.1後半実装のモーディス（Mydei）の宿命を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1.3",
+  "name": "業塵を映す天鏡",
+  "startDate": "2023-08-30",
+  "videos": [
+    {
+      "youtubeId": "U1yqKWN80EM",
+      "title": "【崩壊：スターレイル】EP「水龍吟」",
+      "type": "music",
+      "publishedAt": "2023-07-20",
+      "reason": "仙舟「羅浮」を題材にした和風・中華風の楽曲MVで、羅浮編の世界に浸れる。"
+    },
+    {
+      "youtubeId": "FPNiZhu6Wtw",
+      "title": "千の星を巡る紀行PV「ヤペラー反逆事件：第47場」",
+      "type": "trailblaze",
+      "publishedAt": "2023-08-13",
+      "reason": "紀行PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "XgpmjOuUlRI",
+      "title": "Ver.1.3 公式PV「業塵を映す天鏡」",
+      "type": "version",
+      "publishedAt": "2023-08-18",
+      "reason": "Ver.1.3 の内容を紹介するバージョンPV。仙舟編クライマックスの予告"
+    },
+    {
+      "youtubeId": "AT3umvC8U_c",
+      "title": "「崩壊：スターレイル」Ver.1.3「業塵を映す天鏡」予告番組",
+      "type": "version",
+      "publishedAt": "2023-08-18",
+      "reason": "Ver.1.3の新ストーリー・新キャラクターをまとめて予習できる公式予告番組。"
+    },
+    {
+      "youtubeId": "PQkNaWKMUZE",
+      "title": "千の星を巡る紀行PV「仙舟通鑑・五龍遠徙」",
+      "type": "trailblaze",
+      "publishedAt": "2023-08-27",
+      "reason": "仙舟の歴史「五龍遠徙」を語る世界観PV。"
+    },
+    {
+      "youtubeId": "o3X4nfxx6oY",
+      "title": "ショートアニメ「玄黄」",
+      "type": "music",
+      "publishedAt": "2023-08-29",
+      "reason": "Ver.1.2 期間末に公開された仙舟の過去を描く公式ショートアニメ"
+    },
+    {
+      "youtubeId": "d9LImAsyyHU",
+      "title": "【崩壊：スターレイル】丹恒・飲月 キャラクターPV 「いざ帰らん」",
+      "type": "character",
+      "publishedAt": "2023-08-29",
+      "reason": "丹恒・飲月の帰還と覚悟を描く重厚なキャラクターPV。"
+    },
+    {
+      "youtubeId": "jhLeZi33cSY",
+      "title": "【崩壊：スターレイル】符玄 キャラクターPV 「遺漏なき法眼」",
+      "type": "character",
+      "publishedAt": "2023-09-20",
+      "reason": "仙舟の太卜・符玄の慧眼と責務を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

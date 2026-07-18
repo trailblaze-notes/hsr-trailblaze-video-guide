@@ -1,0 +1,51 @@
+{
+  "id": "3.3",
+  "name": "夜明け前に迎える崩落",
+  "startDate": "2025-05-21",
+  "videos": [
+    {
+      "youtubeId": "sduHTO2TuYY",
+      "title": "2ndアニバーサリー スペシャルアニメ「旅の途中で」",
+      "type": "music",
+      "publishedAt": "2025-04-26",
+      "reason": "2周年を記念して公開されたスペシャルアニメーション短編。"
+    },
+    {
+      "youtubeId": "b86rpnKULps",
+      "title": "Ver.3.3PV「夜明け前に迎える崩落」",
+      "type": "version",
+      "publishedAt": "2025-05-09",
+      "reason": "オンパロス編中盤の転換点となるVer.3.3の公式PV。"
+    },
+    {
+      "youtubeId": "R-xKvF_Fpxo",
+      "title": "Ver.3.3「夜明け前に迎える崩落」予告番組",
+      "type": "version",
+      "publishedAt": "2025-05-09",
+      "reason": "Ver.3.3の新要素を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "7NBQT9aEeZw",
+      "title": "ヒアンシー キャラクターPV「なんでも解決！」",
+      "type": "character",
+      "publishedAt": "2025-05-20",
+      "reason": "Ver.3.3実装のヒアンシーの明るさと癒し手としての顔を描くPV。"
+    },
+    {
+      "youtubeId": "cgCo0D1iWyk",
+      "title": "EP「払暁」",
+      "type": "music",
+      "publishedAt": "2025-05-22",
+      "reason": "Ver.3.3 期のストーリーテーマを描く楽曲EP。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "c8Y1tNRvb8k",
+      "title": "サフェル キャラクターPV「楽勝、楽勝！」",
+      "type": "character",
+      "publishedAt": "2025-06-10",
+      "reason": "Ver.3.3後半実装の怪盗サフェル（Cipher）を描くキャラクターPV。",
+      "phase": "after"
+    }
+  ]
+}

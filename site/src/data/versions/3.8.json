@@ -1,0 +1,28 @@
+{
+  "id": "3.8",
+  "name": "記憶は夢のプロローグ",
+  "startDate": "2025-12-17",
+  "videos": [
+    {
+      "youtubeId": "sWuPj0W7I-I",
+      "title": "Ver.3.8PV「記憶は夢のプロローグ」",
+      "type": "version",
+      "publishedAt": "2025-12-05",
+      "reason": "オンパロス編完結後の新展開Ver.3.8の公式PV。"
+    },
+    {
+      "youtubeId": "fl5--WIcpCk",
+      "title": "Ver.3.8「記憶は夢のプロローグ」予告番組",
+      "type": "version",
+      "publishedAt": "2025-12-05",
+      "reason": "Ver.3.8の新要素を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "7_hmkhWGbzE",
+      "title": "ダリア キャラクターPV「一曲の終わり」",
+      "type": "character",
+      "publishedAt": "2025-12-16",
+      "reason": "Ver.3.8実装のダリアの人物像を描くキャラクターPV。"
+    }
+  ]
+}

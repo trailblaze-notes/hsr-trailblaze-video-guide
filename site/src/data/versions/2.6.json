@@ -1,0 +1,35 @@
+{
+  "id": "2.6",
+  "name": "毘乃昆尼末法筆録",
+  "startDate": "2024-10-23",
+  "videos": [
+    {
+      "youtubeId": "AvCqDPER400",
+      "title": "【崩壊：スターレイル】Ver.2.6PV「毘乃昆尼末法筆録」",
+      "type": "version",
+      "publishedAt": "2024-10-11",
+      "reason": "異色の忍者テーマで展開するVer.2.6の内容を紹介する公式PV。"
+    },
+    {
+      "youtubeId": "lwMJkyJSdhE",
+      "title": "『崩壊：スターレイル』Ver.2.6「毘乃昆尼末法筆録」予告番組",
+      "type": "version",
+      "publishedAt": "2024-10-11",
+      "reason": "Ver.2.6の新要素を公式が解説する予告番組。"
+    },
+    {
+      "youtubeId": "AGpkJmzqEHQ",
+      "title": "【崩壊：スターレイル】ショートアニメ「銀河忍法帖・乱武破邪斬月之巻」",
+      "type": "music",
+      "publishedAt": "2024-10-18",
+      "reason": "忍者・乱破の活躍をアニメで描くVer.2.6期の公式ショートアニメ。"
+    },
+    {
+      "youtubeId": "VAeBuYQ5sW4",
+      "title": "【崩壊：スターレイル】乱破 キャラクターPV「不乱不破」",
+      "type": "character",
+      "publishedAt": "2024-10-21",
+      "reason": "Ver.2.6実装の忍者・乱破の破天荒な忍道を描く公式PV。"
+    }
+  ]
+}

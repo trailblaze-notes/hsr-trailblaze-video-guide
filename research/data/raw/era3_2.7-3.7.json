@@ -1,0 +1,631 @@
+{
+  "videos": [
+    {
+      "youtubeId": "5he7BSAfe9o",
+      "title": "TGA出展動画「あなたが辿り着いたことのない世界」",
+      "publishedAt": "2024-12-14",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "TGA 2024で公開されたオンパロス（Ver.3.0新世界）を初披露するアニメーショントレイラー。",
+      "spoilerNote": "Ver.3.0以降の新世界オンパロスの映像を含む（Ver.2.x進行中の人には未知の世界）",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "ZLNWVaAqf4A",
+      "title": "千の星を巡る紀行PV「浮雲とは似て非なり」",
+      "publishedAt": "2024-12-20",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.2.7期に公開されたキャラクターの物語を描く紀行PVシリーズの一編。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "CCpDHyK0DJw",
+      "title": "帰忘の流離人 キャラクターPV「子不語」",
+      "publishedAt": "2024-12-24",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.7後半実装の帰忘の流離人（Fugue）の背景を描くキャラクターPV。",
+      "spoilerNote": "帰忘の流離人の正体は仙舟ストーリー（Ver.2.7）の展開に関わる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "SJerEGZpR6o",
+      "title": "太古の賛歌PV「タイタンと都市国家」",
+      "publishedAt": "2024-12-30",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロスのタイタン信仰と都市国家を紹介するVer.3.0前の世界観PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "_XbfpvM2tlc",
+      "title": "OP「Nameless Faces」",
+      "publishedAt": "2025-01-01",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロス編の開幕を飾るVer.3.0アニメーションオープニング映像。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "dk6ImhNtVMI",
+      "title": "『崩壊：スターレイル』Ver.3.0「再創紀の凱歌」予告番組",
+      "publishedAt": "2025-01-01",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編開幕となるVer.3.0の内容を先行紹介する公式予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=dk6ImhNtVMI"
+    },
+    {
+      "youtubeId": "BFiz8oBdyvg",
+      "title": "開拓者必見！開拓の星神さえ辿り着いたことのないオンパロスへ！",
+      "publishedAt": "2025-01-05",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.3.0開幕期に公開されたオンパロス世界観の紹介映像。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "lHP973olRGc",
+      "title": "千の星を巡る紀行PV「謎のように沈黙する星々」",
+      "publishedAt": "2025-01-07",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.3.0期に公開された紀行PVシリーズの一編。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "SSnU0OUssDQ",
+      "title": "ショートアニメ「マダム・ヘルタの魔法キッチン」",
+      "publishedAt": "2025-01-10",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.3.0実装のマダム・ヘルタを題材にしたコミカルなショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "pneAqiHXpWw",
+      "title": "マダム・ヘルタ キャラクターPV「宇宙天才伝説」",
+      "publishedAt": "2025-01-14",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.0実装のマダム・ヘルタの人物像を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "kTSPfahdHS8",
+      "title": "EP「洞窟の寓話」",
+      "publishedAt": "2025-01-19",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "オンパロス編序盤のテーマを描く楽曲EP映像。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "u2Uf_P9rPXM",
+      "title": "アグライア キャラクターPV「致命的な浪漫」",
+      "publishedAt": "2025-02-04",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.0後半実装のアグライアの気品と黄金の裔としての一面を描くPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "ShxBeYcYE5c",
+      "title": "Ver.3.1PV「始まりの門と終わりの玉座」",
+      "publishedAt": "2025-02-14",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編第2章となるVer.3.1の公式PV。",
+      "spoilerNote": "Ver.3.0クリア前に見ると3.1本編の展開に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "l3k5xI-Dshc",
+      "title": "Ver.3.1「始まりの門と終わりの玉座」予告番組",
+      "publishedAt": "2025-02-14",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.1の新キャラ・新ストーリーを先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.0クリア前に見ると3.1の内容に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "zwWvxtaYjzM",
+      "title": "黄金の叙事詩PV「運命の最初の黎明」",
+      "publishedAt": "2025-02-21",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロスの神話・歴史を語る「黄金の叙事詩」シリーズの世界観PV。",
+      "spoilerNote": "オンパロスの背景神話に触れるためVer.3.1以降の進行推奨",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "R02TJA9akS0",
+      "title": "トリビー キャラクターPV「子供の言葉は純真無垢」",
+      "publishedAt": "2025-02-25",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.1実装のトリビー（三つ子の黄金の裔）を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "Y0QFCfhqqE0",
+      "title": "モーディス キャラクターPV「人間の怒り」",
+      "publishedAt": "2025-03-18",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.1後半実装のモーディス（Mydei）の宿命を描くキャラクターPV。",
+      "spoilerNote": "モーディスの不死の体質などVer.3.1本編の要素に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "_L10fx_RpW4",
+      "title": "Ver.3.2PV「安眠の地の花海を歩いて」",
+      "publishedAt": "2025-03-28",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編第3章となるVer.3.2の公式PV。",
+      "spoilerNote": "Ver.3.1クリア前に見ると3.2本編の展開に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "tG_fexf8CW8",
+      "title": "Ver.3.2「安眠の地の花海を歩いて」予告番組",
+      "publishedAt": "2025-03-28",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.2の新要素を先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.1クリア前に見ると3.2の内容に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "rYhpE1qpv3s",
+      "title": "ショートアニメ「安らかに眠る長夜」",
+      "publishedAt": "2025-03-31",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.3.2期に公開されたオンパロス関連のショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "irRjMAiYFz0",
+      "title": "黄金の叙事詩PV「夜から目覚める生命」",
+      "publishedAt": "2025-04-05",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロスの神話を掘り下げる「黄金の叙事詩」シリーズ第2弾。",
+      "spoilerNote": "オンパロスの背景神話に触れるためVer.3.2以降の進行推奨",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "Wpg8NTpdpcI",
+      "title": "キャストリス キャラクターPV「墓碑銘」",
+      "publishedAt": "2025-04-08",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.2実装のキャストリス（死の黄金の裔）の哀しみを描くキャラクターPV。",
+      "spoilerNote": "キャストリスの力の性質などVer.3.2本編の要素に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "sduHTO2TuYY",
+      "title": "2ndアニバーサリー スペシャルアニメ「旅の途中で」",
+      "publishedAt": "2025-04-26",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "2周年を記念して公開されたスペシャルアニメーション短編。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "GvcmRUUR-yo",
+      "title": "アナイクス キャラクターPV「無辜の身」",
+      "publishedAt": "2025-04-29",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.2後半実装の学者アナイクスの思想を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "b86rpnKULps",
+      "title": "Ver.3.3PV「夜明け前に迎える崩落」",
+      "publishedAt": "2025-05-09",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編中盤の転換点となるVer.3.3の公式PV。",
+      "spoilerNote": "Ver.3.2クリア前に見ると3.3本編の展開に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "R-xKvF_Fpxo",
+      "title": "Ver.3.3「夜明け前に迎える崩落」予告番組",
+      "publishedAt": "2025-05-09",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.3の新要素を先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.2クリア前に見ると3.3の内容に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "7NBQT9aEeZw",
+      "title": "ヒアンシー キャラクターPV「なんでも解決！」",
+      "publishedAt": "2025-05-20",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.3実装のヒアンシーの明るさと癒し手としての顔を描くPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "cgCo0D1iWyk",
+      "title": "EP「払暁」",
+      "publishedAt": "2025-05-22",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.3.3期のストーリーテーマを描く楽曲EP映像。",
+      "spoilerNote": "Ver.3.3本編のテーマに紐づくため同章クリア後推奨",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "c8Y1tNRvb8k",
+      "title": "サフェル キャラクターPV「楽勝、楽勝！」",
+      "publishedAt": "2025-06-10",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.3後半実装の怪盗サフェル（Cipher）を描くキャラクターPV。",
+      "spoilerNote": "サフェルの正体はVer.3.3本編の展開に関わる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "8Y_7LXuANTw",
+      "title": "Ver.3.4PV「破滅へ向かう太陽」",
+      "publishedAt": "2025-06-20",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編前半のクライマックスとなるVer.3.4の公式PV。",
+      "spoilerNote": "Ver.3.3クリア前に見ると3.4本編の展開に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "BCNdn_owYPs",
+      "title": "Ver.3.4「破滅へ向かう太陽」予告番組",
+      "publishedAt": "2025-06-20",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.4の新要素を先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.3クリア前に見ると3.4の内容に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "qowOxk6izyU",
+      "title": "千の星を巡る紀行PV「星空の寓話集・その二」",
+      "publishedAt": "2025-06-24",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.3.4期に公開された紀行PVシリーズの一編。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "SLCb7Rm9748",
+      "title": "ファイノン キャラクターPV「烈日の栄冠」",
+      "publishedAt": "2025-07-01",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.4実装のファイノンの英雄性を描くキャラクターPV。",
+      "spoilerNote": "ファイノンの背負う運命はVer.3.4本編の核心に関わる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "lkGZpIwsSkY",
+      "title": "ショートアニメ「聞け！神に祝福されし山頂で開かれた狂宴を！」",
+      "publishedAt": "2025-07-02",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.3.4期に公開されたオンパロス関連のショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "LB-g3xSkjNQ",
+      "title": "MV「フレア」",
+      "publishedAt": "2025-07-03",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.3.4期に公開されたストーリーテーマの楽曲MV。",
+      "spoilerNote": "Ver.3.4本編のテーマに紐づくため同章クリア後推奨",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": null,
+      "title": "アーチャー キャラクターPV（Fate/stay night [UBW] コラボ参戦映像）",
+      "publishedAt": "2025-07-22",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.4後半実装のコラボキャラクター、アーチャーの参戦PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "TjTVP4GxK0Y",
+      "title": "救世PV「開拓者」",
+      "publishedAt": "2025-08-02",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.3.5の開幕に合わせ開拓者と仲間たちの「救世」の姿を描くストーリーPV。",
+      "spoilerNote": "Ver.3.4終盤の展開（救世主の使命）を前提とする内容",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "79Bdydk8_kY",
+      "title": "『崩壊：スターレイル』Ver.3.5「英雄は死ぬまでに」予告番組",
+      "publishedAt": "2025-08-02",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.5の新キャラ・新ストーリーを先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.4クリア前に見ると3.5の内容に触れる",
+      "sourceUrl": "https://www.youtube.com/watch?v=79Bdydk8_kY"
+    },
+    {
+      "youtubeId": "XqaTAr42RyQ",
+      "title": "セイレンス キャラクターPV「海の娘」",
+      "publishedAt": "2025-08-12",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.5実装のセイレンス（Hysilens）を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "2Xuwbaab9P4",
+      "title": "ケリュドラ キャラクターPV「盤上に上がる」",
+      "publishedAt": "2025-09-02",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.5後半実装のケリュドラの権謀を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "7G2ErfYy2TI",
+      "title": "Ver.3.6PV「長き夜に再び大地へ」",
+      "publishedAt": "2025-09-12",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編終盤に突入するVer.3.6の公式PV。",
+      "spoilerNote": "Ver.3.5クリア前に見ると3.6本編の展開に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "cA9GcVHzwV8",
+      "title": "Ver.3.6「長き夜に再び大地へ」予告番組",
+      "publishedAt": "2025-09-12",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.6の新要素を先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.5クリア前に見ると3.6の内容に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "_DiNQTXmVOw",
+      "title": "千の星を巡る紀行PV「親愛なるなのかへ」",
+      "publishedAt": "2025-09-19",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "三月なのかを主題にした紀行PVシリーズの一編。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "bFDqlynGl64",
+      "title": "長夜月 キャラクターPV「夜がきました、目を閉じてください」",
+      "publishedAt": "2025-09-23",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.6実装の長夜月（Evernight）の神秘を描くキャラクターPV。",
+      "spoilerNote": "長夜月の正体はVer.3.6本編の核心に関わる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "w6HLrCIX4Ws",
+      "title": "千の星を巡る紀行PV「オンパロス英雄記」",
+      "publishedAt": "2025-09-24",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.3.6開幕日に公開されたオンパロスの英雄たちを描く紀行PV。",
+      "spoilerNote": "オンパロス編中盤までの登場人物・展開に広く触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "n0F5_9L-KKY",
+      "title": "ショートアニメ「山河を越えて」",
+      "publishedAt": "2025-09-24",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.3.6開幕日に公開されたショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "mFnxGYaMpDE",
+      "title": "丹恒・騰荒 キャラクターPV「帰るべき場所」",
+      "publishedAt": "2025-10-14",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.6後半実装の丹恒・騰荒（新形態）を描くキャラクターPV。",
+      "spoilerNote": "丹恒の新形態はVer.3.6本編の展開に関わる重大要素",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "-L1PxKwvJ74",
+      "title": "Ver.3.7PV「明日は昨日に」",
+      "publishedAt": "2025-10-24",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編完結章となるVer.3.7の公式PV。",
+      "spoilerNote": "Ver.3.6クリア前に見ると最終章の展開に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "15x3KOhWsf4",
+      "title": "Ver.3.7「明日は昨日に」予告番組",
+      "publishedAt": "2025-10-24",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス完結章Ver.3.7を先行紹介する公式予告番組。",
+      "spoilerNote": "Ver.3.6クリア前に見ると最終章の内容に触れる",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "owFII5A3OfE",
+      "title": "千の星を巡る紀行PV「物語の外側：第8幕」",
+      "publishedAt": "2025-10-28",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.3.7直前に公開された紀行PVシリーズの一編。",
+      "spoilerNote": "オンパロス編終盤の文脈を含む可能性が高い",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "zHFGsd-KsX0",
+      "title": "黄金の叙事詩PV「さようなら、キュレネ」",
+      "publishedAt": "2025-10-31",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロス編完結を目前にキュレネの物語を描く叙事詩PV。",
+      "spoilerNote": "キュレネの正体・役割などVer.3.5〜3.7の核心に直結",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "rtSkMbDs1Xw",
+      "title": "キュレネ キャラクターPV「もういちどあなたと」",
+      "publishedAt": "2025-11-04",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.3.7実装のキュレネを描くキャラクターPV。",
+      "spoilerNote": "キュレネの正体はオンパロス編全体の最重要ネタバレ要素",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "qq2dhNFcQXg",
+      "title": "「最も長い夜」| オンパロス カウントダウン",
+      "publishedAt": "2025-11-04",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロス編完結前夜に公開されたカウントダウン特別映像。",
+      "spoilerNote": "オンパロス編最終章直前の内容で、これまでの旅路全体に触れる",
+      "sourceUrl": "https://www.youtube.com/watch?v=qq2dhNFcQXg"
+    },
+    {
+      "youtubeId": "8AZT1_HOYF4",
+      "title": "「最も長い夜」| こんにちは、世界",
+      "publishedAt": "2025-11-05",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロス編完結日に公開された「最も長い夜」シリーズの特別映像。",
+      "spoilerNote": "オンパロス編最終章（Ver.3.7）の内容に直結",
+      "sourceUrl": "https://www.youtube.com/watch?v=8AZT1_HOYF4"
+    },
+    {
+      "youtubeId": "yCxRG7GWcl4",
+      "title": "「最も長い夜」| キュレネの寝物語",
+      "publishedAt": "2025-11-05",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "オンパロス編完結日に公開されたキュレネによる語りの特別映像。",
+      "spoilerNote": "キュレネの正体を含むVer.3.7核心に直結",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "_GG4BgkyRiY",
+      "title": "ショートアニメ「ハローワールド」",
+      "publishedAt": "2025-11-05",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "オンパロス編完結日に公開されたショートアニメ。",
+      "spoilerNote": "オンパロス編最終章（Ver.3.7）クリア後の視聴推奨",
+      "sourceUrl": "https://www.youtube.com/watch?v=_GG4BgkyRiY"
+    },
+    {
+      "youtubeId": "sWuPj0W7I-I",
+      "title": "Ver.3.8PV「記憶は夢のプロローグ」",
+      "publishedAt": "2025-12-05",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "オンパロス編完結後の新展開Ver.3.8の公式PV。",
+      "spoilerNote": "オンパロス編（Ver.3.7まで）完結後の内容を前提とする",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "fl5--WIcpCk",
+      "title": "Ver.3.8「記憶は夢のプロローグ」予告番組",
+      "publishedAt": "2025-12-05",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.3.8の新要素を先行紹介する公式予告番組。",
+      "spoilerNote": "オンパロス編完結後の内容を前提とする",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "サンデー キャラクターPV「ソリスト」",
+      "reason": "公開日2024-12-02で担当期間（2024-12-04以降）の直前のため対象外（前期間担当分。ID: LZMJtJBntT0）"
+    },
+    {
+      "title": "『崩壊：スターレイル』×『Fate/stay night [UBW]』コラボPV「遅すぎた出会い」（2025-07-10）",
+      "reason": "コラボ告知に該当するため除外"
+    },
+    {
+      "title": "夢のコラボレーション！スターレイルの世界で聖杯戦争が始まった（2025-07-06）",
+      "reason": "コラボ紹介番組のため除外"
+    },
+    {
+      "title": "「スターレイルLIVE2025」公式録画完全版（2025-05-04）",
+      "reason": "コンサート録画（生放送アーカイブ相当）のため除外"
+    },
+    {
+      "title": "2周年声優お祝いメッセージ 各組（2025-04-19〜04-26 計8本）",
+      "reason": "声優挨拶動画でストーリー動画ではないため除外"
+    },
+    {
+      "title": "担当声優からの2025年新年のお祝い（2024-12-31）",
+      "reason": "挨拶動画のため除外"
+    },
+    {
+      "title": "イッテ星穹！特別番組（「千の面を持つ英雄」2025-02-26／「マネーウォーズ」2025-11-03）",
+      "reason": "ゲーム内イベント紹介のバラエティ番組のため除外"
+    },
+    {
+      "title": "厨房、すなわち戦場！「黄金食堂」最新予告解禁（2025-04-01）",
+      "reason": "ゲーム内イベント告知（システム紹介系）のため除外"
+    },
+    {
+      "title": "星穹列車グローバルツアー | 2024展覧会ハイライト（2024-12-26）",
+      "reason": "展覧会・グッズ系告知のため除外"
+    },
+    {
+      "title": "Ver.3.0「再創紀の凱歌」まもなくリリース",
+      "reason": "YouTube Shorts のため除外"
+    },
+    {
+      "title": "アルバム試聴・OST動画（『星空劇場2』等）",
+      "reason": "OST試聴のみの動画のため除外（期間内該当は確認範囲では2024-12-04以降になし）"
+    }
+  ],
+  "coverageNotes": "情報源は主に wikiwiki.jp/star-rail「ゲーム外の公式コンテンツ」のソース全文と WebSearch（YouTube・電撃・PR TIMES等）。(1) キャラクターPVの公開日は wikiwiki に日付記載がなくガチャ開始日から前日と推定したため全件 approx:true。(2) Ver.3.0 と Ver.3.5 は単独の「バージョンPV」がJPチャンネルで確認できず、3.0 は OP「Nameless Faces」＋予告番組、3.5 は救世PV「開拓者」＋予告番組が実質的な該当。(3) アーチャー参戦PVは取得結果間で情報が矛盾（youtu.be/mrdRyxssdLs との記載と「PVなし」の両方）したため youtubeId は null とした。セイバーのPVは確認できず。(4) キャラクター紹介映像（戦闘スタイル紹介系）、「最も長い夜」シリーズの他の映像（「永夜の帳、三月なのか」等）、紀行PV「星空の寓話集・その一」、オンパロス期の追加EP/MV（「Had I Not Seen the Sun」日本語版相当等）は調査途中で検索ツールが利用不能になり未確認。(5) 「開拓者必見！…オンパロスへ！」（BFiz8oBdyvg）は世界観紹介として videos に含めたが CM 寄りの可能性あり。(6) 日付・IDの大半は wikiwiki 単一ソース由来のため、サイト掲載前に YouTube oEmbed 等での実在確認を推奨。"
+}

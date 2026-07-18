@@ -1,0 +1,50 @@
+{
+  "id": "3.7",
+  "name": "明日は昨日に",
+  "startDate": "2025-11-05",
+  "videos": [
+    {
+      "youtubeId": "-L1PxKwvJ74",
+      "title": "Ver.3.7PV「明日は昨日に」",
+      "type": "version",
+      "publishedAt": "2025-10-24",
+      "reason": "オンパロス編完結章となるVer.3.7の公式PV。"
+    },
+    {
+      "youtubeId": "15x3KOhWsf4",
+      "title": "Ver.3.7「明日は昨日に」予告番組",
+      "type": "version",
+      "publishedAt": "2025-10-24",
+      "reason": "オンパロス完結章Ver.3.7を先行紹介する公式予告番組。"
+    },
+    {
+      "youtubeId": "owFII5A3OfE",
+      "title": "千の星を巡る紀行PV「物語の外側：第8幕」",
+      "type": "trailblaze",
+      "publishedAt": "2025-10-28",
+      "reason": "Ver.3.7直前に公開された紀行PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "zHFGsd-KsX0",
+      "title": "黄金の叙事詩PV「さようなら、キュレネ」",
+      "type": "trailblaze",
+      "publishedAt": "2025-10-31",
+      "reason": "オンパロス編完結を目前にキュレネの物語を描く叙事詩PV。"
+    },
+    {
+      "youtubeId": "rtSkMbDs1Xw",
+      "title": "キュレネ キャラクターPV「もういちどあなたと」",
+      "type": "character",
+      "publishedAt": "2025-11-04",
+      "reason": "Ver.3.7実装のキュレネを描くキャラクターPV。"
+    },
+    {
+      "youtubeId": "_GG4BgkyRiY",
+      "title": "ショートアニメ「ハローワールド」",
+      "type": "music",
+      "publishedAt": "2025-11-05",
+      "reason": "オンパロス編完結日に公開されたショートアニメ。",
+      "phase": "after"
+    }
+  ]
+}

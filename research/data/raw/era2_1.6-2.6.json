@@ -1,0 +1,637 @@
+{
+  "videos": [
+    {
+      "youtubeId": "pLWr1I9D5lA",
+      "title": "【崩壊：スターレイル】ルアン・メェイ キャラクターPV「万物に流るる命」",
+      "publishedAt": "2023-12-26",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.1.6実装の限定キャラ「ルアン・メェイ」の研究者としての人物像を映像で掴める公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=pLWr1I9D5lA"
+    },
+    {
+      "youtubeId": "Ms5u_lXJIAA",
+      "title": "【崩壊：スターレイル】Dr.レイシオ キャラクターPV「愚の骨頂」",
+      "publishedAt": "2023-12-29",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.1.6で登場したDr.レイシオの毒舌と教育者としての信念が凝縮された公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=Ms5u_lXJIAA"
+    },
+    {
+      "youtubeId": "ieUxZHy6ICo",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「永火の一夜：第33場」",
+      "publishedAt": "2024-01-19",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "ピノコニー編開幕前の世界観を掘り下げる紀行PVシリーズの一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=ieUxZHy6ICo"
+    },
+    {
+      "youtubeId": "wGGAQ6rr784",
+      "title": "ピノコニー観光プロモーション動画",
+      "publishedAt": "2024-01-21",
+      "approx": true,
+      "type": "trailblaze",
+      "reasonDraft": "夢の地ピノコニーを作中観光CM風に紹介する世界観映像で、Ver.2.0突入前の予習に最適。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "2iRam7fnPrg",
+      "title": "『崩壊：スターレイル』Ver.2.0「真夜中に夢を見るなら」予告番組",
+      "publishedAt": "2024-01-26",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "ピノコニー編の幕開けとなるVer.2.0の新ストーリー・新キャラを公式が解説する予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=2iRam7fnPrg"
+    },
+    {
+      "youtubeId": "AA_zeBkX9uI",
+      "title": "【崩壊：スターレイル】「WHITE NIGHT」ダンスMV",
+      "publishedAt": "2024-01-28",
+      "approx": true,
+      "type": "music",
+      "reasonDraft": "Ver.2.0テーマ曲「WHITE NIGHT」を実写ダンスで表現したプロモーションMV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=AA_zeBkX9uI"
+    },
+    {
+      "youtubeId": "rV-EzvxqSFw",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「旧夢の追憶」",
+      "publishedAt": "2024-02-01",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "ピノコニーにまつわる過去の記憶を描く世界観紀行PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=rV-EzvxqSFw"
+    },
+    {
+      "youtubeId": "8qk2IOjmrsY",
+      "title": "【崩壊：スターレイル】ブラックスワン キャラクターPV「子守唄」",
+      "publishedAt": "2024-02-05",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.0実装の「記憶の管理人」ブラックスワンの神秘的な魅力を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=8qk2IOjmrsY"
+    },
+    {
+      "youtubeId": "KdbnaBhJs6Y",
+      "title": "【崩壊：スターレイル】OP：「WHITE NIGHT」",
+      "publishedAt": "2024-02-06",
+      "approx": true,
+      "type": "music",
+      "reasonDraft": "ピノコニー編の開幕を飾るテーマ曲「WHITE NIGHT」のオープニングアニメーション。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=KdbnaBhJs6Y"
+    },
+    {
+      "youtubeId": "WFXxf6xneZg",
+      "title": "【崩壊：スターレイル】ショートアニメ「太平迎新歳」",
+      "publishedAt": "2024-02-08",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "仙舟の面々が新年を祝う様子を描いた旧正月記念ショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=WFXxf6xneZg"
+    },
+    {
+      "youtubeId": "dQFw_-55pZ4",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「『花火』：舞台裏の記録」",
+      "publishedAt": "2024-02-25",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "仮面の愚者「花火」の素顔に迫るドキュメンタリー風の紀行PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=dQFw_-55pZ4"
+    },
+    {
+      "youtubeId": "-FrbSYzlqdU",
+      "title": "【崩壊：スターレイル】花火 キャラクターPV「独り芝居」",
+      "publishedAt": "2024-02-28",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.0実装の花火が演じる悪戯と狂騒の一人舞台を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=-FrbSYzlqdU"
+    },
+    {
+      "youtubeId": null,
+      "title": "刹那の星旅「花火トリック」",
+      "publishedAt": "2024-02-29",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "花火を題材にした公式ショート映像シリーズ「刹那の星旅」の一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "3FqAcWYLirA",
+      "title": "【崩壊：スターレイル】Ver.2.1PV「深淵への狂走」",
+      "publishedAt": "2024-03-16",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "ピノコニー編が加速するVer.2.1の新ストーリーと新キャラを紹介する公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=3FqAcWYLirA"
+    },
+    {
+      "youtubeId": "aDhaaLhcmj0",
+      "title": "『崩壊：スターレイル』Ver.2.1「深淵への狂走」予告番組",
+      "publishedAt": "2024-03-16",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.1の新要素・イベントを公式が解説する予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=aDhaaLhcmj0"
+    },
+    {
+      "youtubeId": "v9qTBUZtgQk",
+      "title": "【崩壊：スターレイル】ショートアニメ「永劫の輪舞」",
+      "publishedAt": "2024-03-19",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.2.1期に公開された公式ショートアニメで、世界観の深掘りが楽しめる。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=v9qTBUZtgQk"
+    },
+    {
+      "youtubeId": "XbWbOIxbFMA",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「虚譚・浮世三千一刀繚断」",
+      "publishedAt": "2024-03-22",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "黄泉の剣戟を怪談語り風に描いた異色の紀行PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=XbWbOIxbFMA"
+    },
+    {
+      "youtubeId": "fOvY5tG_qFk",
+      "title": "【崩壊：スターレイル】黄泉 キャラクターPV「君の色」",
+      "publishedAt": "2024-03-26",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.1実装の限定キャラ黄泉の記憶と剣を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=fOvY5tG_qFk"
+    },
+    {
+      "youtubeId": null,
+      "title": "EP「Had I Not Seen the Sun」（日本語チャンネル版の正式タイトル・URL未確認）",
+      "publishedAt": "2024-03-27",
+      "approx": true,
+      "type": "music",
+      "reasonDraft": "黄泉のテーマ曲として名高い楽曲のMVで、ピノコニー編を象徴するEPのひとつ。",
+      "spoilerNote": "黄泉（Ver.2.1ストーリー）の核心描写を含む疑いあり",
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": null,
+      "title": "刹那の星旅「運命は常に不公平、だけど……」",
+      "publishedAt": "2024-04-11",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "アベンチュリン関連の公式ショート映像シリーズ「刹那の星旅」の一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "isu6OthQH2Y",
+      "title": "【崩壊：スターレイル】アベンチュリン キャラクターPV「金の造り手」",
+      "publishedAt": "2024-04-16",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.1実装のアベンチュリンの賭けと生い立ちを描く公式PV。",
+      "spoilerNote": "アベンチュリンの出自に触れる描写があり、Ver.2.1ストーリー未クリアだと核心示唆の可能性",
+      "sourceUrl": "https://www.youtube.com/watch?v=isu6OthQH2Y"
+    },
+    {
+      "youtubeId": null,
+      "title": "刹那の星旅「非ゼロ和ゲーム」",
+      "publishedAt": "2024-04-17",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "アベンチュリンを題材にした公式ショート映像シリーズ「刹那の星旅」の一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "rz2dG9n3Qdc",
+      "title": "【崩壊：スターレイル】Ver.2.2PV「涙は目覚めの後で」",
+      "publishedAt": "2024-04-26",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "ピノコニー編クライマックスへ向かうVer.2.2の見どころを紹介する公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=rz2dG9n3Qdc"
+    },
+    {
+      "youtubeId": "faamSlM1aOA",
+      "title": "『崩壊：スターレイル』Ver.2.2「涙は目覚めの後で」予告番組",
+      "publishedAt": "2024-04-26",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.2の新ストーリー・新キャラ情報を公式が解説する予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=faamSlM1aOA"
+    },
+    {
+      "youtubeId": "ze3BepDFFWo",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「もし、翼があったら」",
+      "publishedAt": "2024-05-03",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "ハルモニーの使者ロビンの歌声と願いを描く紀行PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=ze3BepDFFWo"
+    },
+    {
+      "youtubeId": "oxJeQc-C-_4",
+      "title": "【崩壊：スターレイル】ロビン キャラクターPV「独り揺蕩う」",
+      "publishedAt": "2024-05-07",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.2実装のロビンの歌と信念を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=oxJeQc-C-_4"
+    },
+    {
+      "youtubeId": "Nizm-_h1VG4",
+      "title": "【崩壊：スターレイル】EP「傷つく誰かの心を守ることができたなら」",
+      "publishedAt": "2024-05-09",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "ピノコニー編の名曲「If I Can Stop One Heart From Breaking」の公式MV。",
+      "spoilerNote": "Ver.2.2ストーリーの山場に関わる描写を含む疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nizm-_h1VG4"
+    },
+    {
+      "youtubeId": "7m8OSE7n-jY",
+      "title": "【崩壊：スターレイル】EP「翼の生えた希望」",
+      "publishedAt": "2024-05-11",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "ピノコニー編を代表する楽曲「Hope Is the Thing With Feathers」の公式MV。",
+      "spoilerNote": "Ver.2.2クライマックスの展開に関わる映像を含む疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=7m8OSE7n-jY"
+    },
+    {
+      "youtubeId": "eydcYmlQnZo",
+      "title": "【崩壊：スターレイル】ブートヒル キャラクターPV「カウボーイは忙しい」",
+      "publishedAt": "2024-05-28",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.2実装の賞金稼ぎブートヒルの流儀を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=eydcYmlQnZo"
+    },
+    {
+      "youtubeId": "DbcX-UDWjmU",
+      "title": "【崩壊：スターレイル】Ver.2.3PV「さよなら、ピノコニー」",
+      "publishedAt": "2024-06-07",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "ピノコニー編の締めくくりとなるVer.2.3の内容を紹介する公式PV。",
+      "spoilerNote": "Ver.2.2終盤の展開（ホタル関連）を前提とした映像を含む疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=DbcX-UDWjmU"
+    },
+    {
+      "youtubeId": "jOMvG6_I4Pg",
+      "title": "『崩壊：スターレイル』Ver.2.3「さよなら、ピノコニー」予告番組",
+      "publishedAt": "2024-06-07",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.3の新要素を公式が解説する予告番組。",
+      "spoilerNote": "Ver.2.2終盤の展開を前提とした内容を含む可能性",
+      "sourceUrl": "https://www.youtube.com/watch?v=jOMvG6_I4Pg"
+    },
+    {
+      "youtubeId": "kzzOhisspus",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「今、同じ星空の下で」",
+      "publishedAt": "2024-06-11",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "ホタルと開拓者の出会いを情感豊かに描く紀行PV。",
+      "spoilerNote": "ホタルに関するVer.2.2の展開に触れる可能性あり",
+      "sourceUrl": "https://www.youtube.com/watch?v=kzzOhisspus"
+    },
+    {
+      "youtubeId": "TQcc7ippnnU",
+      "title": "【崩壊：スターレイル】ショートアニメ「グラモスの余燼」",
+      "publishedAt": "2024-06-14",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "ホタルの過去とグラモスの戦火を描く重厚な公式ショートアニメ。",
+      "spoilerNote": "ホタルの過去（Ver.2.2以降の核心）に関わる内容を含む疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=TQcc7ippnnU"
+    },
+    {
+      "youtubeId": "_lYN9EMQ1N4",
+      "title": "【崩壊：スターレイル】ホタル キャラクターPV「殻の中の蛍火」",
+      "publishedAt": "2024-06-18",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.3実装のホタルの心情を描く公式PV。",
+      "spoilerNote": "ホタルの正体に関わる内容で、Ver.2.2ストーリー未クリアだと核心ネタバレの疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=_lYN9EMQ1N4"
+    },
+    {
+      "youtubeId": "xvD_8cMelAw",
+      "title": "【崩壊：スターレイル】ジェイド キャラクターPV「欲望コレクション」",
+      "publishedAt": "2024-07-09",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.3実装のストーンハートの幹部ジェイドの取引哲学を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=xvD_8cMelAw"
+    },
+    {
+      "youtubeId": null,
+      "title": "刹那の星旅「ポーンショップヒスイ」",
+      "publishedAt": "2024-07-10",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "ジェイドを題材にした公式ショート映像シリーズ「刹那の星旅」の一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "OS-tdpka1ro",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「誓環の石心・天秤の両端」",
+      "publishedAt": "2024-07-14",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "ストーンハートのジェイドとアベンチュリンの関係を描く紀行PV。",
+      "spoilerNote": "アベンチュリンの過去などVer.2.1の核心に触れる可能性あり",
+      "sourceUrl": "https://www.youtube.com/watch?v=OS-tdpka1ro"
+    },
+    {
+      "youtubeId": "5M6zQOnVB9I",
+      "title": "【崩壊：スターレイル】Ver.2.4PV「風起雲湧、相見える鋒鋩」",
+      "publishedAt": "2024-07-19",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "舞台を仙舟「羅浮」に戻すVer.2.4の新ストーリーを紹介する公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=5M6zQOnVB9I"
+    },
+    {
+      "youtubeId": "Zl3MagK3uyM",
+      "title": "『崩壊：スターレイル』Ver.2.4「風起雲湧、相見える鋒鋩」予告番組",
+      "publishedAt": "2024-07-19",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.4の新要素を公式が解説する予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=Zl3MagK3uyM"
+    },
+    {
+      "youtubeId": "Wxp4Ugs-LKI",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「火の用心、魔剣1本鍛冶の元」",
+      "publishedAt": "2024-07-26",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.2.4期の仙舟キャラクターを掘り下げるコミカルな紀行PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=Wxp4Ugs-LKI"
+    },
+    {
+      "youtubeId": "ZwY5gxcWuUM",
+      "title": "【崩壊：スターレイル】雲璃 キャラクターPV「偶然の出来事」",
+      "publishedAt": "2024-07-30",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.4実装の剣士・雲璃の日常と剣技を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=ZwY5gxcWuUM"
+    },
+    {
+      "youtubeId": null,
+      "title": "刹那の星旅「迷い浮き沈む」",
+      "publishedAt": "2024-08-19",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.2.4期キャラクターを題材にした公式ショート映像シリーズ「刹那の星旅」の一本。",
+      "spoilerNote": null,
+      "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
+    },
+    {
+      "youtubeId": "LdBkTZijWxY",
+      "title": "【崩壊：スターレイル】椒丘 キャラクターPV「昇天飯」",
+      "publishedAt": "2024-08-20",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.4実装の料理人・椒丘の食と処世術を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=LdBkTZijWxY"
+    },
+    {
+      "youtubeId": "P8xr7__k1xo",
+      "title": "【崩壊：スターレイル】Ver.2.5PV「碧羽飛黄、射られる天狼」",
+      "publishedAt": "2024-08-30",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "仙舟編後半戦となるVer.2.5の新ストーリーを紹介する公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=P8xr7__k1xo"
+    },
+    {
+      "youtubeId": "YbjtlsurHkE",
+      "title": "『崩壊：スターレイル』Ver.2.5「碧羽飛黄、射られる天狼」予告番組",
+      "publishedAt": "2024-08-30",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.5の新要素を公式が解説する予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=YbjtlsurHkE"
+    },
+    {
+      "youtubeId": "Id4WQtsGUZI",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「星を追う飛矢」",
+      "publishedAt": "2024-09-03",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "雲騎軍の将・飛霄の武勇を描く紀行PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=Id4WQtsGUZI"
+    },
+    {
+      "youtubeId": "KwPV5_61SMQ",
+      "title": "【崩壊：スターレイル】ショートアニメ「悠々自適」",
+      "publishedAt": "2024-09-06",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "Ver.2.5期の仙舟キャラクターを描いた公式ショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=KwPV5_61SMQ"
+    },
+    {
+      "youtubeId": "OGAGT-2w0ac",
+      "title": "【崩壊：スターレイル】飛霄 キャラクターPV「君、笑うこと莫れ」",
+      "publishedAt": "2024-09-09",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.5実装の雲騎軍将軍・飛霄の豪快さを描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=OGAGT-2w0ac"
+    },
+    {
+      "youtubeId": "Xrr9F4bih3c",
+      "title": "【崩壊：スターレイル】霊砂 キャラクターPV「沈香を焚く」",
+      "publishedAt": "2024-10-01",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.5実装の丹鼎司の医師・霊砂の静謐な魅力を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=Xrr9F4bih3c"
+    },
+    {
+      "youtubeId": "AvCqDPER400",
+      "title": "【崩壊：スターレイル】Ver.2.6PV「毘乃昆尼末法筆録」",
+      "publishedAt": "2024-10-11",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "異色の忍者テーマで展開するVer.2.6の内容を紹介する公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=AvCqDPER400"
+    },
+    {
+      "youtubeId": "lwMJkyJSdhE",
+      "title": "『崩壊：スターレイル』Ver.2.6「毘乃昆尼末法筆録」予告番組",
+      "publishedAt": "2024-10-11",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.6の新要素を公式が解説する予告番組。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=lwMJkyJSdhE"
+    },
+    {
+      "youtubeId": "AGpkJmzqEHQ",
+      "title": "【崩壊：スターレイル】ショートアニメ「銀河忍法帖・乱武破邪斬月之巻」",
+      "publishedAt": "2024-10-18",
+      "approx": false,
+      "type": "music",
+      "reasonDraft": "忍者・乱破の活躍をアニメで描くVer.2.6期の公式ショートアニメ。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=AGpkJmzqEHQ"
+    },
+    {
+      "youtubeId": "VAeBuYQ5sW4",
+      "title": "【崩壊：スターレイル】乱破 キャラクターPV「不乱不破」",
+      "publishedAt": "2024-10-21",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.6実装の忍者・乱破の破天荒な忍道を描く公式PV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=VAeBuYQ5sW4"
+    },
+    {
+      "youtubeId": "mfA5KpY68yI",
+      "title": "【崩壊：スターレイル】Ver.2.7PV「八日目の旅立ち」",
+      "publishedAt": "2024-11-22",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "ピノコニー編のエピローグとなるVer.2.7の内容を紹介する公式PV。",
+      "spoilerNote": "ピノコニー編（Ver.2.0〜2.3）本編クリアを前提とした内容を含む可能性",
+      "sourceUrl": "https://www.youtube.com/watch?v=mfA5KpY68yI"
+    },
+    {
+      "youtubeId": "sdLokzQqMzE",
+      "title": "『崩壊：スターレイル』Ver.2.7「八日目の旅立ち」予告番組",
+      "publishedAt": "2024-11-22",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.2.7の新要素を公式が解説する予告番組。",
+      "spoilerNote": "ピノコニー編本編クリアを前提とした内容を含む可能性",
+      "sourceUrl": "https://www.youtube.com/watch?v=sdLokzQqMzE"
+    },
+    {
+      "youtubeId": "c_yPBvw9bSw",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV「太陽が沈んだ後」",
+      "publishedAt": "2024-11-29",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "ピノコニー編のその後を示唆するサンデー関連の紀行PV。",
+      "spoilerNote": "ピノコニー編終盤（Ver.2.3）のサンデーに関する核心に触れる疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=c_yPBvw9bSw"
+    },
+    {
+      "youtubeId": "LZMJtJBntT0",
+      "title": "【崩壊：スターレイル】サンデー キャラクターPV「ソリスト」",
+      "publishedAt": "2024-12-03",
+      "approx": true,
+      "type": "character",
+      "reasonDraft": "Ver.2.7実装のサンデーの信念と孤独を描く公式PV。",
+      "spoilerNote": "ピノコニー編終盤のサンデーの立場・動向に関わる内容を含む疑いあり",
+      "sourceUrl": "https://www.youtube.com/watch?v=LZMJtJBntT0"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "【崩壊：スターレイル】EP：「フラッパーのサントーム」Disc 1（2024-02-16）",
+      "reason": "OSTアルバムの試聴動画のため除外"
+    },
+    {
+      "title": "【崩壊：スターレイル】EP：「フラッパーのサントーム」Disc 2（2024-02-21）",
+      "reason": "OSTアルバムの試聴動画のため除外"
+    },
+    {
+      "title": "ピノコニーの制作秘話大公開（2024-01-30）",
+      "reason": "開発舞台裏・制作紹介動画でストーリー視聴対象外のため除外"
+    },
+    {
+      "title": "夢の地「ピノコニー」到着特番（2024-02-05）",
+      "reason": "告知系の特別番組のため除外"
+    },
+    {
+      "title": "声優お祝いメッセージ～ピノコニー編①～（2024-04-20）",
+      "reason": "声優メッセージ企画のため除外"
+    },
+    {
+      "title": "声優お祝いメッセージ～ピノコニー編②～（2024-04-21）",
+      "reason": "声優メッセージ企画のため除外"
+    },
+    {
+      "title": "「2024スターレイルLIVE」公式配信録画（2024-05-11）",
+      "reason": "生放送アーカイブのため除外"
+    },
+    {
+      "title": "「階差宇宙」特別番組（2024-06-19）",
+      "reason": "新モード（システム）紹介番組のため除外"
+    },
+    {
+      "title": "「不可知域」特別番組（2024-10-22）",
+      "reason": "新モード（システム）紹介番組のため除外"
+    },
+    {
+      "title": "星穹講座「スペースオペラ」（2024-08-23）",
+      "reason": "解説・講座系動画のため除外"
+    },
+    {
+      "title": "星間ドキュメンタリー（2024-09-08）",
+      "reason": "制作ドキュメンタリー系のため除外"
+    },
+    {
+      "title": "列車周遊記（2024-08-04）",
+      "reason": "企画・告知系動画のため除外"
+    },
+    {
+      "title": "1周年記念コンテンツ各種（2024-04-26）",
+      "reason": "記念企画・告知動画のため除外"
+    },
+    {
+      "title": "TGA出展動画「あなたが辿り着いたことのない世界」（2024-12-14）",
+      "reason": "対象期間外（2024-12-03より後）かつ出展告知動画のため除外"
+    },
+    {
+      "title": "即興芝居PV「仰ぎ見る者へ」",
+      "reason": "対象期間外（2026年7月公開）のため除外"
+    }
+  ],
+  "coverageNotes": "youtubeIdはYouTubeページのtitleタグまたは検索結果で1件ずつ照合済み（例外は下記）。(1) Ver.2.0の単独バージョンPVは日本語側で確認できず、予告番組のみ収録。(2) EP「Had I Not Seen the Sun」の日本語チャンネル版はURL・正式邦題を確認できずyoutubeId:null（グローバル版は2024年3月末公開）。ロビンのフルMV「Sway to My Beat in Cosmos」単独動画も未確認。(3) キャラクターPVの公開日はガチャ開始日からの概算（approx:true）。特にルアン・メェイPVは2023-12-26頃で担当期間の直前（前チャンクと重複の可能性）、Dr.レイシオPVの日付は根拠が弱い。サンデーPV「ソリスト」は期間境界（Ver.2.7実装12/4の前日と推定）。(4) 「刹那の星旅」5本とピノコニー観光プロモ動画（wGGAQ6rr784）はwikiwikiの抽出のみでYouTube側再検証が未完（セッション上限のため）。(5) バージョンPVと予告番組はwikiwiki準拠で同日付としたが1日ズレの可能性あり。(6) ミーシャ・ギャラガー・モゼ・雪衣・三月なのか（巡狩）の専用キャラクターPVは確認できなかった（存在しない可能性が高いが雪衣は未確認）。(7) 一部の紀行PV・ショートアニメは映像内容未確認のためspoilerNoteは推定。"
+}

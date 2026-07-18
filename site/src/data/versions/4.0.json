@@ -1,0 +1,65 @@
+{
+  "id": "4.0",
+  "name": "月満ちる時に神はなし",
+  "startDate": "2026-02-13",
+  "videos": [
+    {
+      "youtubeId": "FOj68wLqj7A",
+      "title": "即興芝居PV「一気に解説！鉄墓との戦いの後、公式で語られなかった真実！」",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-01",
+      "reason": "Ver.4シリーズ（愉悦編）開幕前に、前章の顛末と新章の橋渡しを公式がユニークな形で描いた導入映像。"
+    },
+    {
+      "youtubeId": "_2YD35PJOmU",
+      "title": "千の星を巡る紀行PV「星間平和提言：反壊滅同盟」",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-03",
+      "reason": "オンパロス編後の銀河情勢と「反壊滅同盟」の結成を描く、Ver.4.0 直前公開の紀行PV。"
+    },
+    {
+      "youtubeId": "EMT6GmhDiBk",
+      "title": "Ver.4.0PV「月満ちる時に神はなし」",
+      "type": "version",
+      "publishedAt": "2026-02-06",
+      "reason": "新章の舞台「二相楽園」と愉悦をテーマにした1年間の物語の開幕を告げるバージョンPV。"
+    },
+    {
+      "youtubeId": "r2bxxcYK9qo",
+      "title": "Ver.4.0「月満ちる時に神はなし」予告番組",
+      "type": "version",
+      "publishedAt": "2026-02-06",
+      "reason": "Ver.4.0の新ストーリー・新キャラ・イベントを公式がまとめて紹介する予告番組。"
+    },
+    {
+      "youtubeId": "cKxHKZaEURk",
+      "title": "即興芝居PV「吉凶の彼方」",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-08",
+      "reason": "二相楽園（愉悦編）の世界観を掘り下げる即興芝居PVシリーズの一編。"
+    },
+    {
+      "youtubeId": "ke8-S0MnoV0",
+      "title": "爻光 キャラクターPV「万事順調」",
+      "type": "character",
+      "publishedAt": "2026-02-12",
+      "reason": "Ver.4.0の新キャラ・仙舟の戎韜将軍「爻光」（CV:花澤香菜）の人物像を停雲・景元・飛霄との掛け合いで描くPV。"
+    },
+    {
+      "youtubeId": "gI-W8r-TWUM",
+      "title": "スターレイル 絶対に許さない",
+      "type": "music",
+      "publishedAt": "2026-02-27",
+      "reason": "火花（CV:上田麗奈）を描く公式ショート映像。",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "AdUoc-nSB94",
+      "title": "火花 キャラクターPV「愚か者が語る夢」",
+      "type": "character",
+      "publishedAt": "2026-03-02",
+      "reason": "Ver.4.0後半の新キャラ「火花」（CV:上田麗奈）が花火と対峙する、花火PV「独り芝居」の楽曲アレンジも聴きどころのPV。",
+      "phase": "after"
+    }
+  ]
+}

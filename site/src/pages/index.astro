@@ -1,17 +1,91 @@
 ---
 import Base from '../layouts/Base.astro';
-import GameCard from '../components/GameCard.astro';
-import { loadGames } from '../lib/schema';
+import MajorCard from '../components/MajorCard.astro';
+import { loadVersions, groupByMajor, type VideoType } from '../lib/schema';
 
-const games = loadGames();
+const versions = loadVersions();
+const groups = groupByMajor(versions);
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+
+const countOf = (type: VideoType) =>
+  versions.reduce((sum, v) => sum + v.videos.filter((video) => video.type === type).length, 0);
 ---
-<Base title="ネタバレ回避 公式動画ガイド">
-  <h1>ネタバレを踏まずに、公式動画を楽しむ。</h1>
+<Base title="崩壊：スターレイル 開拓クエスト 動画ガイド">
+  <h1>開拓クエストを最大限楽しむための公式YouTube動画ガイド</h1>
   <p class="lead">
-    ゲームを選んで自分の進行度を設定すると、そこまでで安全に見られる公式 YouTube 動画だけが表示されます。
-    まだ先の内容を含む動画は、タイトルもサムネイルも隠れたままです。
+    『崩壊：スターレイル』のバージョンごとに、<strong>来る前に見る動画</strong>と<strong>終えた後に見る動画</strong>を整理しています。
+    メジャーバージョンのページを開き、自分の進行度のバージョンを選んでください。
   </p>
+
   <ul class="card-grid">
-    {games.map((game) => <GameCard game={game} />)}
+    {groups.map((group) => <MajorCard group={group} />)}
   </ul>
+
+  <section class="type-links">
+    <h2>種別からまとめて見る（ネタバレ注意）</h2>
+    <div class="type-grid">
+      <a class="type-link" href={`${base}type/character/`}>
+        <span class="t-label">キャラクターPV</span>
+        <span class="t-meta">{countOf('character')} 件 ・ 全キャラのPVを一気見</span>
+      </a>
+      <a class="type-link" href={`${base}type/trailblaze/`}>
+        <span class="t-label">紀行PV・ストーリー</span>
+        <span class="t-meta">{countOf('trailblaze')} 件 ・ 即興芝居・黄金の叙事詩PV含む</span>
+      </a>
+      <a class="type-link" href={`${base}type/music/`}>
+        <span class="t-label">曲（EP・MV・アニメーション）</span>
+        <span class="t-meta">{countOf('music')} 件 ・ 主題歌・ショートアニメを一気見</span>
+      </a>
+    </div>
+  </section>
 </Base>
+
+<style>
+  .type-links h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: 1.1rem;
+    margin: 2rem 0 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .type-links h2::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .type-grid {
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .type-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1rem 1.2rem;
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .type-link:hover {
+    border-color: var(--accent);
+    background: var(--surface-2);
+  }
+  .t-label {
+    font-weight: 700;
+    font-size: 1.02rem;
+  }
+  .t-meta {
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.76rem;
+  }
+</style>
