@@ -12,8 +12,19 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 const root = langBase(base, lang);
 
 // 言語切替リンク: 現在のパスの対応ページへ（ja ⇔ en）
+// 注意: サブパス配信時、トップ等では pathname が末尾スラッシュなし（= base と完全一致しない）になるため両形を処理する
 const pathname = Astro.url.pathname;
-const rel = pathname.startsWith(base) ? pathname.slice(base.length) : pathname.replace(/^\//, '');
+const baseNoSlash = base.slice(0, -1);
+let rel: string;
+if (pathname.startsWith(base)) {
+  rel = pathname.slice(base.length);
+} else if (pathname === baseNoSlash) {
+  rel = '';
+} else if (baseNoSlash && pathname.startsWith(`${baseNoSlash}/`)) {
+  rel = pathname.slice(baseNoSlash.length + 1);
+} else {
+  rel = pathname.replace(/^\//, '');
+}
 const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${rel}`;
 ---
 <!doctype html>
