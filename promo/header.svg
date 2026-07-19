@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+  <rect width="1500" height="500" fill="#0b0e19"/>
+  <!-- 星 -->
+  <g fill="#e9ecf8">
+    <circle cx="140" cy="90" r="2.5" opacity="0.5"/>
+    <circle cx="420" cy="60" r="2" opacity="0.4"/>
+    <circle cx="720" cy="95" r="1.8" opacity="0.35"/>
+    <circle cx="1050" cy="55" r="2.2" opacity="0.45"/>
+    <circle cx="1330" cy="100" r="2.5" opacity="0.5"/>
+    <circle cx="250" cy="160" r="1.5" opacity="0.3"/>
+    <circle cx="900" cy="140" r="1.6" opacity="0.3"/>
+    <circle cx="1220" cy="170" r="1.5" opacity="0.3"/>
+    <circle cx="580" cy="130" r="1.4" opacity="0.3"/>
+  </g>
+
+  <!-- 見出し（中央セーフエリア内） -->
+  <text x="750" y="185" text-anchor="middle" fill="#98a1c0"
+        font-family="'SF Mono', Menlo, monospace" font-size="20" letter-spacing="6">HONKAI: STAR RAIL — FAN GUIDE</text>
+  <text x="750" y="252" text-anchor="middle" fill="#e9ecf8"
+        font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="52" font-weight="700">崩壊：スターレイル 開拓クエスト 動画ガイド</text>
+  <text x="750" y="308" text-anchor="middle" fill="#98a1c0"
+        font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26">ネタバレを踏まずに、公式動画を楽しむ。</text>
+
+  <!-- 路線図 -->
+  <path d="M180 400 H1320" stroke="#2c3554" stroke-width="6"/>
+  <!-- 駅: Ver.1.0 / 2.0 / 3.0 / 4.0 / 4.4(現在地) -->
+  <g font-family="'SF Mono', Menlo, monospace" font-size="22" fill="#98a1c0" text-anchor="middle">
+    <circle cx="250" cy="400" r="12" fill="#0b0e19" stroke="#d9a95c" stroke-width="5"/>
+    <text x="250" y="450">1.0</text>
+    <circle cx="500" cy="400" r="12" fill="#0b0e19" stroke="#d9a95c" stroke-width="5"/>
+    <text x="500" y="450">2.0</text>
+    <circle cx="750" cy="400" r="12" fill="#0b0e19" stroke="#d9a95c" stroke-width="5"/>
+    <text x="750" y="450">3.0</text>
+    <circle cx="1000" cy="400" r="12" fill="#0b0e19" stroke="#d9a95c" stroke-width="5"/>
+    <text x="1000" y="450">4.0</text>
+    <circle cx="1250" cy="400" r="16" fill="#d9a95c"/>
+    <circle cx="1250" cy="400" r="26" fill="none" stroke="#d9a95c" stroke-width="3" opacity="0.4"/>
+    <text x="1250" y="450" fill="#d9a95c" font-weight="700">4.4</text>
+  </g>
+</svg>

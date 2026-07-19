@@ -4,6 +4,16 @@
   "startDate": "2026-07-15",
   "videos": [
     {
+      "youtubeId": "EIm_SZlrnRg",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV 「星空の寓話集・その一」",
+      "type": "trailblaze",
+      "publishedAt": "2023-05-03",
+      "reason": "星神（アイオーン）にまつわる寓話を語る世界観PVで、宇宙観の理解が深まる。",
+      "phase": "after",
+      "movedFrom": "1.1",
+      "note": "ユーザー指定: アイオーンにまつわる寓話の内容が終盤の核心に通じるため、Ver.4.4 クリア後へ移動（公開は Ver.1.0 期間）"
+    },
+    {
       "youtubeId": "-9FrEf-iN38",
       "title": "即興芝居PV「愉悦の死」",
       "type": "trailblaze",

@@ -51,11 +51,12 @@ export const versionSchema = z
           message: `公開日 ${video.publishedAt} が Ver.${version.id} 開始日 ${version.startDate} 以降です（「来る前に見る」の規則違反）`,
         });
       }
-      if (video.phase === 'after' && video.publishedAt < version.startDate) {
+      if (video.phase === 'after' && !video.movedFrom && video.publishedAt < version.startDate) {
+        // movedFrom 付きは「内容都合でクリア後へ手動移動した動画」なので公開日制約を免除する
         ctx.addIssue({
           code: z.ZodIssueCode.custom,
           path: ['videos', i, 'publishedAt'],
-          message: `公開日 ${video.publishedAt} が Ver.${version.id} 開始日 ${version.startDate} より前です（「終えた後に見る」の規則違反）`,
+          message: `公開日 ${video.publishedAt} が Ver.${version.id} 開始日 ${version.startDate} より前です（「終えた後に見る」の規則違反。手動移動なら movedFrom と note を指定）`,
         });
       }
       if (video.movedFrom && !video.note) {
@@ -115,7 +116,7 @@ export function loadVersions(): VersionEntry[] {
         );
       }
       const next = versions[i + 1];
-      if (video.phase === 'after' && next && video.publishedAt >= next.startDate) {
+      if (video.phase === 'after' && !video.movedFrom && next && video.publishedAt >= next.startDate) {
         // after は当該バージョン期間 [start(N), start(N+1)) 内の公開分のみ
         throw new Error(
           `Ver.${version.id} の「${video.title}」（終えた後に見る）は公開日 ${video.publishedAt} が次バージョン開始 ${next.startDate} 以降です`
