@@ -1,0 +1,44 @@
+{
+  "id": "2.1",
+  "name": "Into the Yawning Chasm",
+  "startDate": "2024-03-27",
+  "videos": [
+    {
+      "youtubeId": "IpuQvbTwCWU",
+      "title": "Myriad Celestia Trailer — \"Sparkle: Behind the Curtain\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-02-25"
+    },
+    {
+      "youtubeId": "RSg-JRqQ8QA",
+      "title": "Version 2.1 Trailer - \"Into the Yawning Chasm\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-03-16"
+    },
+    {
+      "youtubeId": "yWd6NeDxN9s",
+      "title": "Honkai: Star Rail Version 2.1 \"Into the Yawning Chasm\" Special Program",
+      "type": "version",
+      "publishedAt": "2024-03-16"
+    },
+    {
+      "youtubeId": "e5xueJq4Lwc",
+      "title": "Animated Short: Rondo Across Countless Kalpas | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2024-03-19"
+    },
+    {
+      "youtubeId": "IQQPDPAvxTg",
+      "title": "Acheron Trailer — \"Your Color\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-03-26"
+    },
+    {
+      "youtubeId": "kKj16KPl0jg",
+      "title": "Aventurine Trailer — \"The Golden Touch\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-04-16",
+      "phase": "after"
+    }
+  ]
+}

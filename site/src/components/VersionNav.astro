@@ -1,17 +1,21 @@
 ---
 import type { MajorGroup } from '../lib/schema';
+import { STRINGS, langBase, type Lang } from '../lib/i18n';
 
 interface Props {
   prev: MajorGroup | null;
   next: MajorGroup | null;
+  lang?: Lang;
 }
-const { prev, next } = Astro.props;
+const { prev, next, lang = 'ja' } = Astro.props;
+const t = STRINGS[lang];
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const root = langBase(base, lang);
 ---
 <nav class="version-nav">
-  {prev ? <a href={`${base}v/${prev.major}/`}>← Ver.{prev.major}.x</a> : <span></span>}
-  <a class="index-link" href={base}>一覧</a>
-  {next ? <a href={`${base}v/${next.major}/`}>Ver.{next.major}.x →</a> : <span></span>}
+  {prev ? <a href={`${root}v/${prev.major}/`}>← Ver.{prev.major}.x</a> : <span></span>}
+  <a class="index-link" href={root}>{t.navIndex}</a>
+  {next ? <a href={`${root}v/${next.major}/`}>Ver.{next.major}.x →</a> : <span></span>}
 </nav>
 
 <style>

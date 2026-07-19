@@ -1,0 +1,52 @@
+{
+  "id": "3.6",
+  "name": "Back to Earth in Evernight",
+  "startDate": "2025-09-24",
+  "videos": [
+    {
+      "youtubeId": "_2B_woXdf_E",
+      "title": "Version 3.6 Trailer — Back to Earth in Evernight | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2025-09-12"
+    },
+    {
+      "youtubeId": "qpRDn1lgLlg",
+      "title": "Honkai: Star Rail Version 3.6 \"Back to Earth in Evernight\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-09-12"
+    },
+    {
+      "youtubeId": "bWzgwpiesoE",
+      "title": "Myriad Celestia Trailer: \"Dear March 7th\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-09-19"
+    },
+    {
+      "youtubeId": "vh1ipA1aaUQ",
+      "title": "Evernight Trailer — \"Night Falls, Everyone, Close Your Eyes\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-09-23"
+    },
+    {
+      "youtubeId": "A-rk1-hrdq0",
+      "title": "Myriad Celestia Trailer: \"Amphoreus' Saga of Heroes\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-09-24",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "Msj-hOY9u0A",
+      "title": "Animated Short: \"Trek\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2025-09-24",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "m-pQBgRsXJI",
+      "title": "Dan Heng • Permansor Terrae Character Trailer: \"Home\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-10-14",
+      "phase": "after"
+    }
+  ]
+}

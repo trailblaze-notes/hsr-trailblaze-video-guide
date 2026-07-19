@@ -1,0 +1,25 @@
+{
+  "id": "4.3",
+  "name": "The Lethe Below the Living",
+  "startDate": "2026-06-01",
+  "videos": [
+    {
+      "youtubeId": "lW5ndcGuw2c",
+      "title": "Version 4.3 Trailer: \"The Lethe Below the Living\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "youtubeId": "20owz6UcABs",
+      "title": "Honkai: Star Rail Version 4.3 \"The Lethe Below the Living\" Special Program",
+      "type": "version",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "youtubeId": "DxOPkAWGFkI",
+      "title": "Mortenax Blade Character Trailer: \"Nirvana\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-05-29"
+    }
+  ]
+}

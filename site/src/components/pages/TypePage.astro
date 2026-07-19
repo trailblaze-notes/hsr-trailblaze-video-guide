@@ -1,0 +1,133 @@
+---
+import Base from '../../layouts/Base.astro';
+import VideoCard from '../VideoCard.astro';
+import { loadVersions, groupByMajor, type VideoType } from '../../lib/schema';
+import { STRINGS, TYPE_LABELS, type Lang } from '../../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  type: VideoType;
+}
+const { lang, type } = Astro.props;
+const t = STRINGS[lang];
+const label = TYPE_LABELS[lang][type];
+
+const byDate = (a: { publishedAt: string }, b: { publishedAt: string }) =>
+  a.publishedAt.localeCompare(b.publishedAt);
+
+// メジャーバージョンのトグルのみで区切り、中は公開日順の一気見（種別ページはネタバレ配慮なし）
+const groups = groupByMajor(loadVersions(lang), lang)
+  .map((group) => ({
+    ...group,
+    all: group.versions
+      .flatMap((version) => version.videos)
+      .filter((v) => v.type === type && !v.excludeFromTypePages)
+      .sort(byDate),
+  }))
+  .filter((group) => group.all.length > 0);
+
+const total = groups.reduce((sum, g) => sum + g.all.length, 0);
+const countText = (n: number) => (lang === 'ja' ? `${n} 件` : `${n} videos`);
+---
+<Base title={`${label} | ${t.siteTitle}`} lang={lang}>
+  <h1>{label}</h1>
+  <p class="sub">{lang === 'ja' ? `全 ${total} 件` : `${total} videos`}{t.typeSub}</p>
+
+  <p class="static-note">{t.typeNote}</p>
+
+  {
+    groups.map((group) => (
+      <details class="major-toggle" open>
+        <summary>
+          <span class="major-ver">Ver.{group.major}.x</span>
+          {group.arc && <span class="major-name">（{group.arc}）</span>}
+          <span class="count">{countText(group.all.length)}</span>
+        </summary>
+        <div class="major-body">
+          <div class="video-list">
+            {group.all.map((video) => (
+              <VideoCard video={video} lang={lang} />
+            ))}
+          </div>
+        </div>
+      </details>
+    ))
+  }
+</Base>
+
+<style>
+  h1 {
+    margin-bottom: 0.1rem;
+  }
+  .sub {
+    margin: 0 0 1rem;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+  }
+  .static-note {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 0.7rem 1rem;
+    color: var(--text-dim);
+    font-size: 0.88rem;
+  }
+  .major-toggle {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin: 0.8rem 0;
+  }
+  .major-toggle summary {
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.05rem;
+  }
+  .major-toggle summary::-webkit-details-marker {
+    display: none;
+  }
+  .major-toggle summary::after {
+    content: '－';
+    margin-left: auto;
+    color: var(--text-dim);
+    font-family: var(--mono);
+  }
+  .major-toggle:not([open]) summary::after {
+    content: '＋';
+  }
+  .major-toggle[open] summary {
+    border-bottom: 1px solid var(--line);
+  }
+  .major-toggle summary:hover .major-name {
+    color: var(--accent);
+  }
+  .major-ver {
+    color: var(--accent);
+    font-family: var(--mono);
+    font-weight: 700;
+  }
+  .major-name {
+    font-weight: 700;
+    transition: color 0.15s;
+  }
+  .count {
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.76rem;
+  }
+  .major-body {
+    padding: 0.9rem 1rem 1rem;
+  }
+  .video-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+</style>

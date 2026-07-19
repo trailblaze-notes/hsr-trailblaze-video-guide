@@ -1,0 +1,31 @@
+{
+  "id": "2.6",
+  "name": "Annals of Pinecany's Mappou Age",
+  "startDate": "2024-10-23",
+  "videos": [
+    {
+      "youtubeId": "vpZFQLWsJlo",
+      "title": "Version 2.6 Trailer — \"Annals of Pinecany's Mappou Age\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-10-11"
+    },
+    {
+      "youtubeId": "TM_iWWS2_mo",
+      "title": "Honkai: Star Rail Version 2.6 \"Annals of Pinecany's Mappou Age\" Special Program",
+      "type": "version",
+      "publishedAt": "2024-10-11"
+    },
+    {
+      "youtubeId": "mJCUl-UU9KQ",
+      "title": "Animated Short: \"Cosmic Ninjutsu Inscriptions — Havoc Exorcism: Lunar Vileslayer Scroll\"",
+      "type": "music",
+      "publishedAt": "2024-10-18"
+    },
+    {
+      "youtubeId": "vcTV5EVeVrc",
+      "title": "Rappa Trailer — \"No Dazzle, No Break\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-10-21"
+    }
+  ]
+}

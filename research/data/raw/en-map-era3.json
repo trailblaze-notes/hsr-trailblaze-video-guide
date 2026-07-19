@@ -1,0 +1,307 @@
+{
+  "description": "English channel (@HonkaiStarRail) counterparts for JP videos published 2024-12-04 to 2025-12-16",
+  "createdAt": "2026-07-19",
+  "mappings": [
+    {
+      "jpId": "ZLNWVaAqf4A",
+      "enId": "F0FmRWadmVM",
+      "enTitle": "Myriad Celestia Trailer — \"Unlike a Floating Cloud\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=F0FmRWadmVM"
+    },
+    {
+      "jpId": "CCpDHyK0DJw",
+      "enId": "guGouXhwtK4",
+      "enTitle": "Fugue Trailer: \"Wordless\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=guGouXhwtK4"
+    },
+    {
+      "jpId": "dk6ImhNtVMI",
+      "enId": "V6X--sky3lE",
+      "enTitle": "Honkai: Star Rail Version 3.0 \"Paean of Era Nova\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=V6X--sky3lE"
+    },
+    {
+      "jpId": "lHP973olRGc",
+      "enId": "mI876O5vaYc",
+      "enTitle": "Myriad Celestia Trailer: Stars, Silent as Enigmas | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=mI876O5vaYc"
+    },
+    {
+      "jpId": "SSnU0OUssDQ",
+      "enId": "P-kgat5C1JY",
+      "enTitle": "Animated Short: \"T H E   H E R T A'S   M A G I C   K I T C H E N\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=P-kgat5C1JY"
+    },
+    {
+      "jpId": "pneAqiHXpWw",
+      "enId": "u1tkz0Sxa7Q",
+      "enTitle": "The Herta Character Trailer: \"Geniuses in the Universe\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=u1tkz0Sxa7Q"
+    },
+    {
+      "jpId": "kTSPfahdHS8",
+      "enId": "fao9fjeAGEI",
+      "enTitle": "Honkai: Star Rail EP: Allegory of the Cave",
+      "sourceUrl": "https://www.youtube.com/watch?v=fao9fjeAGEI"
+    },
+    {
+      "jpId": "u2Uf_P9rPXM",
+      "enId": "MwaB2-zFrBg",
+      "enTitle": "Aglaea Trailer: \"Deadly Romance\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=MwaB2-zFrBg"
+    },
+    {
+      "jpId": "ShxBeYcYE5c",
+      "enId": "8DNFByA5fdY",
+      "enTitle": "Version 3.1 Trailer: \"Light Slips the Gate, Shadow Greets the Throne\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=8DNFByA5fdY"
+    },
+    {
+      "jpId": "l3k5xI-Dshc",
+      "enId": "PONPyKx8J80",
+      "enTitle": "Honkai: Star Rail Version 3.1 \"Light Slips the Gate, Shadow Greets the Throne\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=PONPyKx8J80"
+    },
+    {
+      "jpId": "zwWvxtaYjzM",
+      "enId": "br-FKJnXdrY",
+      "enTitle": "Golden Epic PV: \"The First Dawn of Destiny\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=br-FKJnXdrY"
+    },
+    {
+      "jpId": "R02TJA9akS0",
+      "enId": "smmy-QQAGE4",
+      "enTitle": "Tribbie Character Trailer: \"Children Know Nothing\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=smmy-QQAGE4"
+    },
+    {
+      "jpId": "Y0QFCfhqqE0",
+      "enId": "dywDrslYCJg",
+      "enTitle": "Mydei Trailer — \"Wrath of Man\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=dywDrslYCJg"
+    },
+    {
+      "jpId": "_L10fx_RpW4",
+      "enId": "tU8SpZhnpt0",
+      "enTitle": "Version 3.2 Trailer: \"Through the Petals in the Land of Repose\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=tU8SpZhnpt0"
+    },
+    {
+      "jpId": "tG_fexf8CW8",
+      "enId": "so1hAOvpmh0",
+      "enTitle": "Honkai: Star Rail Version 3.2 \"Through the Petals in the Land of Repose\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=so1hAOvpmh0"
+    },
+    {
+      "jpId": "rYhpE1qpv3s",
+      "enId": "ASoKhMbUFV0",
+      "enTitle": "Animated Short: The Long Night of Serenity | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=ASoKhMbUFV0"
+    },
+    {
+      "jpId": "irRjMAiYFz0",
+      "enId": "DlEeCK3yp54",
+      "enTitle": "Golden Epic PV: \"Life Awakens from the Night\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=DlEeCK3yp54"
+    },
+    {
+      "jpId": "Wpg8NTpdpcI",
+      "enId": "0FPvfC8g6-Q",
+      "enTitle": "Castorice Trailer — \"Epitaph\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=0FPvfC8g6-Q"
+    },
+    {
+      "jpId": "sduHTO2TuYY",
+      "enId": "_OUWtPhDQpk",
+      "enTitle": "Honkai: Star Rail Two-Year Anniversary Special Animation: On the Journey",
+      "sourceUrl": "https://www.youtube.com/watch?v=_OUWtPhDQpk"
+    },
+    {
+      "jpId": "GvcmRUUR-yo",
+      "enId": "jxVST5hF-P8",
+      "enTitle": "Anaxa Trailer - \"The Sin of Pride\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=jxVST5hF-P8"
+    },
+    {
+      "jpId": "b86rpnKULps",
+      "enId": "e8suWXD8jso",
+      "enTitle": "Version 3.3 Trailer - \"The Fall at Dawn's Rise\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=e8suWXD8jso"
+    },
+    {
+      "jpId": "R-xKvF_Fpxo",
+      "enId": "9jYw7s4QWxg",
+      "enTitle": "Honkai: Star Rail Version 3.3 \"The Fall at Dawn's Rise\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=9jYw7s4QWxg"
+    },
+    {
+      "jpId": "7NBQT9aEeZw",
+      "enId": "GhJOJxHZ20E",
+      "enTitle": "Hyacine Trailer — \"Always Here to Help\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=GhJOJxHZ20E"
+    },
+    {
+      "jpId": "cgCo0D1iWyk",
+      "enId": "loWA5o1RdTY",
+      "enTitle": "Honkai: Star Rail EP: Proi Proi",
+      "sourceUrl": "https://www.youtube.com/watch?v=loWA5o1RdTY"
+    },
+    {
+      "jpId": "c8Y1tNRvb8k",
+      "enId": "CxGowChsEdo",
+      "enTitle": "Cipher Character Trailer — \"Piece of Cake\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=CxGowChsEdo"
+    },
+    {
+      "jpId": "8Y_7LXuANTw",
+      "enId": "bwj-WxggXcI",
+      "enTitle": "Version 3.4 Trailer — \"For the Sun is Set to Die\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=bwj-WxggXcI"
+    },
+    {
+      "jpId": "BCNdn_owYPs",
+      "enId": "U4OmLnWnmno",
+      "enTitle": "Honkai: Star Rail Version 3.4 \"For the Sun is Set to Die\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=U4OmLnWnmno"
+    },
+    {
+      "jpId": "qowOxk6izyU",
+      "enId": "io9W-dvBTog",
+      "enTitle": "Myriad Celestia Trailer — Fables About the Stars Part 2 | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=io9W-dvBTog"
+    },
+    {
+      "jpId": "SLCb7Rm9748",
+      "enId": "GaT1GftoqV0",
+      "enTitle": "Phainon Trailer — \"Coronal Radiance\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=GaT1GftoqV0"
+    },
+    {
+      "jpId": "lkGZpIwsSkY",
+      "enId": "xQbetWZS-zs",
+      "enTitle": "Animated Short \"Hark! There's Revelry Atop the Divine Mountain\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=xQbetWZS-zs"
+    },
+    {
+      "jpId": "LB-g3xSkjNQ",
+      "enId": "SUe-S489CTo",
+      "enTitle": "Music Video: \"Flares of the Blazing Sun\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=SUe-S489CTo"
+    },
+    {
+      "jpId": "79Bdydk8_kY",
+      "enId": "lT48gE7YMDE",
+      "enTitle": "Honkai: Star Rail Version 3.5 \"Before Their Deaths\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=lT48gE7YMDE"
+    },
+    {
+      "jpId": "XqaTAr42RyQ",
+      "enId": "-Yb1VobUdE0",
+      "enTitle": "Hysilens Trailer — \"Daughter of the Sea\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=-Yb1VobUdE0"
+    },
+    {
+      "jpId": "2Xuwbaab9P4",
+      "enId": "AudFPWzkW-k",
+      "enTitle": "Cerydra Trailer — Step Onto the Board | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=AudFPWzkW-k"
+    },
+    {
+      "jpId": "7G2ErfYy2TI",
+      "enId": "_2B_woXdf_E",
+      "enTitle": "Version 3.6 Trailer — Back to Earth in Evernight | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=_2B_woXdf_E"
+    },
+    {
+      "jpId": "cA9GcVHzwV8",
+      "enId": "qpRDn1lgLlg",
+      "enTitle": "Honkai: Star Rail Version 3.6 \"Back to Earth in Evernight\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=qpRDn1lgLlg"
+    },
+    {
+      "jpId": "_DiNQTXmVOw",
+      "enId": "bWzgwpiesoE",
+      "enTitle": "Myriad Celestia Trailer: \"Dear March 7th\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=bWzgwpiesoE"
+    },
+    {
+      "jpId": "bFDqlynGl64",
+      "enId": "vh1ipA1aaUQ",
+      "enTitle": "Evernight Trailer — \"Night Falls, Everyone, Close Your Eyes\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=vh1ipA1aaUQ"
+    },
+    {
+      "jpId": "w6HLrCIX4Ws",
+      "enId": "A-rk1-hrdq0",
+      "enTitle": "Myriad Celestia Trailer: \"Amphoreus' Saga of Heroes\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=A-rk1-hrdq0"
+    },
+    {
+      "jpId": "n0F5_9L-KKY",
+      "enId": "Msj-hOY9u0A",
+      "enTitle": "Animated Short: \"Trek\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=Msj-hOY9u0A"
+    },
+    {
+      "jpId": "mFnxGYaMpDE",
+      "enId": "m-pQBgRsXJI",
+      "enTitle": "Dan Heng • Permansor Terrae Character Trailer: \"Home\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=m-pQBgRsXJI"
+    },
+    {
+      "jpId": "-L1PxKwvJ74",
+      "enId": "r4gljUbCzqA",
+      "enTitle": "Honkai: Star Rail Version 3.7 Trailer: \"As Tomorrow Became Yesterday\"",
+      "sourceUrl": "https://www.youtube.com/watch?v=r4gljUbCzqA"
+    },
+    {
+      "jpId": "15x3KOhWsf4",
+      "enId": "Sx7xZp96nZM",
+      "enTitle": "Honkai: Star Rail Version 3.7 \"As Tomorrow Became Yesterday\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sx7xZp96nZM"
+    },
+    {
+      "jpId": "owFII5A3OfE",
+      "enId": "x3bRer52asE",
+      "enTitle": "Myriad Celestia Trailer — \"Exotale: Scene 8\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=x3bRer52asE"
+    },
+    {
+      "jpId": "zHFGsd-KsX0",
+      "enId": "Sn901sn5_B0",
+      "enTitle": "Golden Epic Trailer: Farewell, Cyrene | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sn901sn5_B0"
+    },
+    {
+      "jpId": "rtSkMbDs1Xw",
+      "enId": "CRAuK8T6Xis",
+      "enTitle": "Cyrene Character Trailer: \"With You Once More\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=CRAuK8T6Xis"
+    },
+    {
+      "jpId": "_GG4BgkyRiY",
+      "enId": "LB_65-rOYYo",
+      "enTitle": "Animated Short: \"Hello, World!\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=LB_65-rOYYo"
+    },
+    {
+      "jpId": "sWuPj0W7I-I",
+      "enId": "dUZl4ssk5Pw",
+      "enTitle": "Version 3.8 Trailer: \"Memories are the Prelude to Dreams\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=dUZl4ssk5Pw"
+    },
+    {
+      "jpId": "fl5--WIcpCk",
+      "enId": "VrSInGzFFKs",
+      "enTitle": "Honkai: Star Rail Version 3.8 \"Memories are the Prelude to Dreams\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=VrSInGzFFKs"
+    },
+    {
+      "jpId": "7_hmkhWGbzE",
+      "enId": "SVeam_lliG0",
+      "enTitle": "The Dahlia Character Trailer: \"The Final Note\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=SVeam_lliG0"
+    }
+  ],
+  "notFound": []
+}

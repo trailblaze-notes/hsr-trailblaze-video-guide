@@ -1,0 +1,45 @@
+{
+  "id": "2.7",
+  "name": "A New Venture on the Eighth Dawn",
+  "startDate": "2024-12-04",
+  "videos": [
+    {
+      "youtubeId": "ils93QDRYSc",
+      "title": "Version 2.7 Trailer — \"A New Venture on the Eighth Dawn\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-11-22"
+    },
+    {
+      "youtubeId": "4aKrB7s43Yw",
+      "title": "Honkai: Star Rail Version 2.7 \"A New Venture on the Eighth Dawn\" Special Program",
+      "type": "version",
+      "publishedAt": "2024-11-22"
+    },
+    {
+      "youtubeId": "ZFWC0dwB3wY",
+      "title": "Myriad Celestia Trailer — \"After the Sunset\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-11-29"
+    },
+    {
+      "youtubeId": "ud0jXAK5Uls",
+      "title": "Sunday Trailer — \"Soloist\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-12-03"
+    },
+    {
+      "youtubeId": "F0FmRWadmVM",
+      "title": "Myriad Celestia Trailer — \"Unlike a Floating Cloud\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-12-20",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "guGouXhwtK4",
+      "title": "Fugue Trailer: \"Wordless\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-12-24",
+      "phase": "after"
+    }
+  ]
+}

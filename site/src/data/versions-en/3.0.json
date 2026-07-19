@@ -1,0 +1,53 @@
+{
+  "id": "3.0",
+  "name": "Paean of Era Nova",
+  "startDate": "2025-01-15",
+  "videos": [
+    {
+      "youtubeId": "hn4WDWxbDZM",
+      "title": "Golden Epic Trailer — \"Amphoreus' Saga of Heroes\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-11-22",
+      "movedFrom": "2.7",
+      "note": "ユーザー指定: オンパロスの神話予習用として Ver.3.0 の「来る前」へ配置（公開は Ver.2.6 期間）"
+    },
+    {
+      "youtubeId": "V6X--sky3lE",
+      "title": "Honkai: Star Rail Version 3.0 \"Paean of Era Nova\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-01-01"
+    },
+    {
+      "youtubeId": "mI876O5vaYc",
+      "title": "Myriad Celestia Trailer: Stars, Silent as Enigmas | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-01-07"
+    },
+    {
+      "youtubeId": "P-kgat5C1JY",
+      "title": "Animated Short: \"T H E   H E R T A'S   M A G I C   K I T C H E N\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2025-01-10"
+    },
+    {
+      "youtubeId": "u1tkz0Sxa7Q",
+      "title": "The Herta Character Trailer: \"Geniuses in the Universe\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-01-14"
+    },
+    {
+      "youtubeId": "fao9fjeAGEI",
+      "title": "Honkai: Star Rail EP: Allegory of the Cave",
+      "type": "music",
+      "publishedAt": "2025-01-19",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "MwaB2-zFrBg",
+      "title": "Aglaea Trailer: \"Deadly Romance\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-02-04",
+      "phase": "after"
+    }
+  ]
+}

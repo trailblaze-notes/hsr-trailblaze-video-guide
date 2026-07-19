@@ -1,0 +1,44 @@
+{
+  "id": "1.5",
+  "name": "The Crepuscule Zone",
+  "startDate": "2023-11-15",
+  "videos": [
+    {
+      "youtubeId": "2f2qB_gw8b8",
+      "title": "Myriad Celestia Trailer — \"Interastral Peace Tour: Selection, Planning, and Opportunity\"",
+      "type": "trailblaze",
+      "publishedAt": "2023-10-22"
+    },
+    {
+      "youtubeId": "w1utY0z9g00",
+      "title": "Version 1.5 Trailer - \"The Crepuscule Zone\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2023-11-03"
+    },
+    {
+      "youtubeId": "JTCDc7InXNU",
+      "title": "Honkai: Star Rail Version 1.5 \"The Crepuscule Zone\" Special Program",
+      "type": "version",
+      "publishedAt": "2023-11-03"
+    },
+    {
+      "youtubeId": "ysyo7uNTvfs",
+      "title": "Myriad Celestia Trailer — \"An Exorcism at Fyxestroll Garden\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-11-10"
+    },
+    {
+      "youtubeId": "ZK8qfeSOUv4",
+      "title": "Huohuo Trailer — \"Night of Thrills\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-11-14"
+    },
+    {
+      "youtubeId": "PhqU5X_sMPA",
+      "title": "Argenti Trailer — \"Chivalric Romances\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-12-06",
+      "phase": "after"
+    }
+  ]
+}

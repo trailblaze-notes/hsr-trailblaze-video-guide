@@ -1,0 +1,25 @@
+{
+  "id": "3.8",
+  "name": "Memories are the Prelude to Dreams",
+  "startDate": "2025-12-17",
+  "videos": [
+    {
+      "youtubeId": "dUZl4ssk5Pw",
+      "title": "Version 3.8 Trailer: \"Memories are the Prelude to Dreams\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2025-12-05"
+    },
+    {
+      "youtubeId": "VrSInGzFFKs",
+      "title": "Honkai: Star Rail Version 3.8 \"Memories are the Prelude to Dreams\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-12-05"
+    },
+    {
+      "youtubeId": "SVeam_lliG0",
+      "title": "The Dahlia Character Trailer: \"The Final Note\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-12-16"
+    }
+  ]
+}

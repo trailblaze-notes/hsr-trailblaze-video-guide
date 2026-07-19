@@ -1,0 +1,188 @@
+{
+  "description": "日本語公式チャンネル動画 (publishedAt >= 2025-12-17) の英語公式チャンネル (@HonkaiStarRail) 対応マッピング",
+  "generatedAt": "2026-07-19",
+  "method": "WebSearch + oEmbed verification (author_name = 'Honkai: Star Rail')",
+  "mappings": [
+    {
+      "jpId": "FOj68wLqj7A",
+      "enId": "VsrABLcQQvc",
+      "enTitle": "Improv Tour Trailer: \"Binge It All! The Truth After the Battle of Irontomb!\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=VsrABLcQQvc"
+    },
+    {
+      "jpId": "_2YD35PJOmU",
+      "enId": "ZwnE5o7_gzA",
+      "enTitle": "Myriad Celestia Trailer: \"Anti-Destruction Alliance\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZwnE5o7_gzA"
+    },
+    {
+      "jpId": "EMT6GmhDiBk",
+      "enId": "2hH0hILcWPs",
+      "enTitle": "Version 4.0 Trailer: \"No Aha at Full Moon\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=2hH0hILcWPs"
+    },
+    {
+      "jpId": "r2bxxcYK9qo",
+      "enId": "JwD3wN33R_A",
+      "enTitle": "Honkai: Star Rail Version 4.0 \"No Aha At Full Moon\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=JwD3wN33R_A"
+    },
+    {
+      "jpId": "cKxHKZaEURk",
+      "enId": "kmzwoua4dUk",
+      "enTitle": "Improv Tour Trailer: \"Beyond Weal and Woe\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=kmzwoua4dUk"
+    },
+    {
+      "jpId": "ke8-S0MnoV0",
+      "enId": "XpQ0TXUnESQ",
+      "enTitle": "Yao Guang Character Trailer: \"All the Best\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=XpQ0TXUnESQ"
+    },
+    {
+      "jpId": "CzI5ivqZNRo",
+      "enId": "saTCKwpVewk",
+      "enTitle": "Aha's Favorites: Phantasmoon Games Winners Compilation | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=saTCKwpVewk"
+    },
+    {
+      "jpId": "gI-W8r-TWUM",
+      "enId": "7ia3b_9-znQ",
+      "enTitle": "I'll Never Forgive Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=7ia3b_9-znQ"
+    },
+    {
+      "jpId": "AdUoc-nSB94",
+      "enId": "NU6J88t4luM",
+      "enTitle": "Sparxie Character Trailer — \"Ravings\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=NU6J88t4luM"
+    },
+    {
+      "jpId": "LMt1zaLUa08",
+      "enId": "HqQqHgt4frU",
+      "enTitle": "Version 4.1 Trailer: \"Unraveled for Daybreak\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=HqQqHgt4frU"
+    },
+    {
+      "jpId": "H97-304rAxs",
+      "enId": "TgGPAPo02pM",
+      "enTitle": "Honkai: Star Rail Version 4.1 \"Unraveled for Daybreak\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=TgGPAPo02pM"
+    },
+    {
+      "jpId": "n6zuiPxJ15w",
+      "enId": "8nXcEPRksLA",
+      "enTitle": "Ashveil Character Trailer — \"The Wolf is Coming\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=8nXcEPRksLA"
+    },
+    {
+      "jpId": "QaHPMkksn3U",
+      "enId": "NyM_seY0XKg",
+      "enTitle": "Version 4.2 Trailer: \"So Laughed the Masses\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=NyM_seY0XKg"
+    },
+    {
+      "jpId": "fJqOTRK7pDw",
+      "enId": "edceHCWiC1I",
+      "enTitle": "Honkai: Star Rail Version 4.2 \"So Laughed the Masses\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=edceHCWiC1I"
+    },
+    {
+      "jpId": "Ndis7_as3vg",
+      "enId": "jgtPZdB9cWA",
+      "enTitle": "3rd Anniversary Theme Song: \"Side Quest King\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=jgtPZdB9cWA"
+    },
+    {
+      "jpId": "NEn6umYiiU8",
+      "enId": "FArOcK-HzXo",
+      "enTitle": "Improv Tour Trailer: \"Beginner's Guide\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=FArOcK-HzXo"
+    },
+    {
+      "jpId": "k9rCUlWO6y8",
+      "enId": "paFelc1vM1k",
+      "enTitle": "Myriad Celestia Trailer — \"Scene 999: GAME NOT OVER\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=paFelc1vM1k"
+    },
+    {
+      "jpId": "LkxwwIyXJxE",
+      "enId": "va-4BypzDQo",
+      "enTitle": "Silver Wolf LV.999 Character Trailer: \"Solo Maxxing\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=va-4BypzDQo"
+    },
+    {
+      "jpId": "7TK9bTfoRZo",
+      "enId": "GMY_N6ca3Ig",
+      "enTitle": "Animated Short: \"Is This Game Even Playable?\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=GMY_N6ca3Ig"
+    },
+    {
+      "jpId": "UXJdmEBdCh0",
+      "enId": "fGm2X5XkwpY",
+      "enTitle": "Evanescia Character Trailer: \"Her Daily Life\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=fGm2X5XkwpY"
+    },
+    {
+      "jpId": "XS2s7NifsFY",
+      "enId": "lW5ndcGuw2c",
+      "enTitle": "Version 4.3 Trailer: \"The Lethe Below the Living\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=lW5ndcGuw2c"
+    },
+    {
+      "jpId": "fExOv6o-gkU",
+      "enId": "20owz6UcABs",
+      "enTitle": "Honkai: Star Rail Version 4.3 \"The Lethe Below the Living\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=20owz6UcABs"
+    },
+    {
+      "jpId": "qtodm5Uf-t4",
+      "enId": "DxOPkAWGFkI",
+      "enTitle": "Mortenax Blade Character Trailer: \"Nirvana\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=DxOPkAWGFkI"
+    },
+    {
+      "jpId": "-9FrEf-iN38",
+      "enId": "Wg_Y8mauIHg",
+      "enTitle": "Improv Tour Trailer: \"Death of the Elation\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=Wg_Y8mauIHg"
+    },
+    {
+      "jpId": "KHjnk4YH2vA",
+      "enId": "xT88aPknvag",
+      "enTitle": "Version 4.4 Trailer: \"In Ravages Does the Whistle Sound\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=xT88aPknvag"
+    },
+    {
+      "jpId": "8CM5QXzwiUM",
+      "enId": "FxO3eKc1z4U",
+      "enTitle": "Honkai: Star Rail Version 4.4 \"In Ravages Does the Whistle Sound\" Special Program",
+      "sourceUrl": "https://www.youtube.com/watch?v=FxO3eKc1z4U"
+    },
+    {
+      "jpId": "Yp2j9BEarSQ",
+      "enId": "q7MK5ghgl1w",
+      "enTitle": "Improv Tour Trailer: \"To the Onlooker\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=q7MK5ghgl1w"
+    },
+    {
+      "jpId": "czh3UXrkxM0",
+      "enId": "nAX7qNcp7g4",
+      "enTitle": "Animated Short: \"Your Ending, My Beginning\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=nAX7qNcp7g4"
+    },
+    {
+      "jpId": "HH2Umzd-rxY",
+      "enId": "QPgR6EEWPMo",
+      "enTitle": "Himeko • Nova Character Trailer: \"The Morning Star Falls Tonight\" | Honkai: Star Rail",
+      "sourceUrl": "https://www.youtube.com/watch?v=QPgR6EEWPMo"
+    },
+    {
+      "jpId": "iyY7VNMqwKU",
+      "enId": "2wIubFgXlyk",
+      "enTitle": "Honkai: Star Rail EP: Beyond This Station",
+      "sourceUrl": "https://www.youtube.com/watch?v=2wIubFgXlyk"
+    }
+  ],
+  "notFound": []
+}

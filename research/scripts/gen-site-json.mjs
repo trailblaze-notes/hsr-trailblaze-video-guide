@@ -34,6 +34,7 @@ for (const v of master.versions) {
         reason: x.reason,
       };
       if (x.phase === 'after') video.phase = 'after';
+      if (x.excludeFromTypePages) video.excludeFromTypePages = true;
       if (x.embeddable === false) video.embeddable = false;
       if (x.movedFrom) {
         video.movedFrom = x.movedFrom;

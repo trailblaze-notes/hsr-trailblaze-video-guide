@@ -1,0 +1,38 @@
+{
+  "id": "1.6",
+  "name": "Crown of the Mundane and Divine",
+  "startDate": "2023-12-27",
+  "videos": [
+    {
+      "youtubeId": "Y02F-UtpiVw",
+      "title": "Version 1.6 Trailer - \"Crown of the Mundane and Divine\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2023-12-15"
+    },
+    {
+      "youtubeId": "3TkHmjV0hf8",
+      "title": "Honkai: Star Rail Version 1.6 \"Crown of the Mundane and Divine\" Special Program",
+      "type": "version",
+      "publishedAt": "2023-12-15"
+    },
+    {
+      "youtubeId": "zLbGzCuxLy4",
+      "title": "Myriad Celestia Trailer — \"Transcendent  Ruan Tunes, Blushing Mei Blooms\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-12-22"
+    },
+    {
+      "youtubeId": "xrovyt1awpk",
+      "title": "Ruan Mei Trailer — \"In All Does Life Flow\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-12-26"
+    },
+    {
+      "youtubeId": "-UZ0n2Tqiyw",
+      "title": "Dr. Ratio Trailer — \"Supreme Idiocy\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-12-29",
+      "phase": "after"
+    }
+  ]
+}

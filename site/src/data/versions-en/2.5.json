@@ -1,0 +1,44 @@
+{
+  "id": "2.5",
+  "name": "Flying Aureus Shot to Lupine Rue",
+  "startDate": "2024-09-10",
+  "videos": [
+    {
+      "youtubeId": "DMHigW8mq9g",
+      "title": "Version 2.5 Trailer — \"Flying Aureus Shot to Lupine Rue\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-08-30"
+    },
+    {
+      "youtubeId": "tFu-eSscT10",
+      "title": "Honkai: Star Rail Version 2.5 \"Flying Aureus Shot to Lupine Rue\" Special Program",
+      "type": "version",
+      "publishedAt": "2024-08-30"
+    },
+    {
+      "youtubeId": "R0p3IqJ_PtI",
+      "title": "Myriad Celestia Trailer: The Arrow that Seeks the Stars | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-09-03"
+    },
+    {
+      "youtubeId": "i6kLabq7RyE",
+      "title": "Animated Short: \"Taking It Easy\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2024-09-06"
+    },
+    {
+      "youtubeId": "NYOkcSlmjDE",
+      "title": "Feixiao Trailer — \"Nothing to Laugh At\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-09-09"
+    },
+    {
+      "youtubeId": "HyS-McxYXpU",
+      "title": "Lingsha Trailer — \"Burning Scent of Home\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-10-01",
+      "phase": "after"
+    }
+  ]
+}

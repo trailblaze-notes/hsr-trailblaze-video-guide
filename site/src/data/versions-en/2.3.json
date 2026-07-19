@@ -1,0 +1,51 @@
+{
+  "id": "2.3",
+  "name": "Farewell, Penacony",
+  "startDate": "2024-06-19",
+  "videos": [
+    {
+      "youtubeId": "UeYjxEqSbgw",
+      "title": "Version 2.3 Trailer: \"Farewell, Penacony\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-06-07"
+    },
+    {
+      "youtubeId": "SCGFxtsZYLM",
+      "title": "Version 2.3 \"Farewell, Penacony\" Special Program | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-06-07"
+    },
+    {
+      "youtubeId": "qsBBZRNoP8s",
+      "title": "Myriad Celestia Trailer — \"Presently, Beneath a Shared Sky of Stars\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-06-11"
+    },
+    {
+      "youtubeId": "pdiwGOicQVs",
+      "title": "Animated Short: The Embers of Glamoth | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2024-06-14"
+    },
+    {
+      "youtubeId": "eFXQqY3ia6k",
+      "title": "Firefly Trailer — Embers in a Shell | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-06-18"
+    },
+    {
+      "youtubeId": "PSjczeQfOZs",
+      "title": "Jade Trailer — \"A Collection of Desires\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-07-09",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "C5YQEsZ-yWU",
+      "title": "Myriad Celestia Trailer: Stoneheart's Oath Ring: Both Ends of the Scale | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-07-14",
+      "phase": "after"
+    }
+  ]
+}

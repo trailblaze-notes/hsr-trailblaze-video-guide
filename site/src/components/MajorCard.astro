@@ -1,27 +1,37 @@
 ---
 import type { MajorGroup } from '../lib/schema';
+import { STRINGS, langBase, type Lang } from '../lib/i18n';
 
 interface Props {
   group: MajorGroup;
+  lang?: Lang;
 }
-const { group } = Astro.props;
+const { group, lang = 'ja' } = Astro.props;
+const t = STRINGS[lang];
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const root = langBase(base, lang);
 const first = group.versions[0];
 const last = group.versions[group.versions.length - 1];
-const period = last.endDate ? `${first.startDate} 〜 ${last.endDate}` : `${first.startDate} 〜 配信中`;
+const period = last.endDate
+  ? `${first.startDate} ${t.minorUntil} ${last.endDate}`
+  : `${first.startDate} ${t.minorUntil} ${t.ongoing}`;
 const videoCount = group.versions.reduce((sum, v) => sum + v.videos.length, 0);
+const countLine =
+  lang === 'ja'
+    ? `全${group.versions.length}バージョン ・ 動画 ${videoCount} 件`
+    : `${group.versions.length} versions ・ ${videoCount} videos`;
 ---
 <li class="major-card">
-  <a href={`${base}v/${group.major}/`}>
+  <a href={`${root}v/${group.major}/`}>
     <p class="eyebrow">Ver.{group.major}.x</p>
     {group.arc && <h2>{group.arc}</h2>}
-    <p class="route" aria-label={`Ver.${first.id} から Ver.${last.id} まで`}>
+    <p class="route" aria-label={`Ver.${first.id} → Ver.${last.id}`}>
       <span class="station">{first.id}</span>
       <span class="track" aria-hidden="true"></span>
       <span class="station">{last.id}</span>
     </p>
     <p class="meta">{period}</p>
-    <p class="meta">全{group.versions.length}バージョン ・ 動画 {videoCount} 件</p>
+    <p class="meta">{countLine}</p>
   </a>
 </li>
 

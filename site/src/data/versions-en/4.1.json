@@ -1,0 +1,31 @@
+{
+  "id": "4.1",
+  "name": "Unraveled for Daybreak",
+  "startDate": "2026-03-25",
+  "videos": [
+    {
+      "youtubeId": "saTCKwpVewk",
+      "title": "Aha's Favorites: Phantasmoon Games Winners Compilation | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-13"
+    },
+    {
+      "youtubeId": "HqQqHgt4frU",
+      "title": "Version 4.1 Trailer: \"Unraveled for Daybreak\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "youtubeId": "TgGPAPo02pM",
+      "title": "Honkai: Star Rail Version 4.1 \"Unraveled for Daybreak\" Special Program",
+      "type": "version",
+      "publishedAt": "2026-03-13"
+    },
+    {
+      "youtubeId": "8nXcEPRksLA",
+      "title": "Ashveil Character Trailer — \"The Wolf is Coming\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-03-20"
+    }
+  ]
+}

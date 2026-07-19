@@ -1,0 +1,44 @@
+{
+  "id": "3.2",
+  "name": "Through the Petals in the Land of Repose",
+  "startDate": "2025-04-09",
+  "videos": [
+    {
+      "youtubeId": "tU8SpZhnpt0",
+      "title": "Version 3.2 Trailer: \"Through the Petals in the Land of Repose\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2025-03-28"
+    },
+    {
+      "youtubeId": "so1hAOvpmh0",
+      "title": "Honkai: Star Rail Version 3.2 \"Through the Petals in the Land of Repose\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-03-28"
+    },
+    {
+      "youtubeId": "ASoKhMbUFV0",
+      "title": "Animated Short: The Long Night of Serenity | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2025-03-31"
+    },
+    {
+      "youtubeId": "DlEeCK3yp54",
+      "title": "Golden Epic PV: \"Life Awakens from the Night\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-04-05"
+    },
+    {
+      "youtubeId": "0FPvfC8g6-Q",
+      "title": "Castorice Trailer — \"Epitaph\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-04-08"
+    },
+    {
+      "youtubeId": "jxVST5hF-P8",
+      "title": "Anaxa Trailer - \"The Sin of Pride\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-04-29",
+      "phase": "after"
+    }
+  ]
+}

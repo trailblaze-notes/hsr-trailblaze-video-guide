@@ -1,0 +1,38 @@
+{
+  "id": "1.4",
+  "name": "Jolted Awake From a Winter Dream",
+  "startDate": "2023-10-11",
+  "videos": [
+    {
+      "youtubeId": "6pgebw3sXSU",
+      "title": "Version 1.4 Trailer - \"Jolted Awake From a Winter Dream\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2023-09-29"
+    },
+    {
+      "youtubeId": "IHt8hzGs9oE",
+      "title": "Honkai: Star Rail Version 1.4 \"Jolted Awake From a Winter Dream\" Special Program",
+      "type": "version",
+      "publishedAt": "2023-09-29"
+    },
+    {
+      "youtubeId": "gUXPNtSYmdk",
+      "title": "Myriad Celestia Trailer — \"Cloud Knights Martial Doctrine, On Swords\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-10-06"
+    },
+    {
+      "youtubeId": "fMiYAEj46Rc",
+      "title": "Jingliu Trailer — \"Swordward\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-10-10"
+    },
+    {
+      "youtubeId": "Vf8xtB9k9Ws",
+      "title": "Topaz & Numby Trailer — \"Expert Tutorial\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-11-01",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "updatedAt": "2026-07-19",
+  "note": "全29バージョンの公式英語名を収集。ソースはHoYoverse公式サイト(hsr.hoyoverse.com/en-us, hoyoverse.com/en-us)・公式YouTube・Fandom Wiki。Ver.1.0は正式にタイトルあり(The Rail Unto the Stars)。",
+  "versions": [
+    { "id": "1.0", "nameEn": "The Rail Unto the Stars", "source": "https://hsr.hoyoverse.com/en-us/news/111258" },
+    { "id": "1.1", "nameEn": "Galactic Roaming", "source": "https://honkai-star-rail.fandom.com/wiki/Version/1.1" },
+    { "id": "1.2", "nameEn": "Even Immortality Ends", "source": "https://hsr.hoyoverse.com/en-us/news/112230" },
+    { "id": "1.3", "nameEn": "Celestial Eyes Above Mortal Ruins", "source": "https://act.hoyoverse.com/sr/event/e20230818version-u88u8o/index.html" },
+    { "id": "1.4", "nameEn": "Jolted Awake From a Winter Dream", "source": "https://hsr.hoyoverse.com/en-us/news/113276" },
+    { "id": "1.5", "nameEn": "The Crepuscule Zone", "source": "https://www.hoyolab.com/article/22642403" },
+    { "id": "1.6", "nameEn": "Crown of the Mundane and Divine", "source": "https://hsr.hoyoverse.com/en-us/news/114194" },
+    { "id": "2.0", "nameEn": "If One Dreams at Midnight", "source": "https://honkai-star-rail.fandom.com/wiki/Version/2.0" },
+    { "id": "2.1", "nameEn": "Into the Yawning Chasm", "source": "https://hsr.hoyoverse.com/en-us/news/123034" },
+    { "id": "2.2", "nameEn": "Then Wake to Weep", "source": "https://honkai-star-rail.fandom.com/wiki/Version/2.2" },
+    { "id": "2.3", "nameEn": "Farewell, Penacony", "source": "https://hsr.hoyoverse.com/en-us/news/124161" },
+    { "id": "2.4", "nameEn": "Finest Duel Under the Pristine Blue", "source": "https://hsr.hoyoverse.com/en-us/news/125060" },
+    { "id": "2.5", "nameEn": "Flying Aureus Shot to Lupine Rue", "source": "https://hsr.hoyoverse.com/en-us/news/125792" },
+    { "id": "2.6", "nameEn": "Annals of Pinecany's Mappou Age", "source": "https://hsr.hoyoverse.com/en-us/news/126559" },
+    { "id": "2.7", "nameEn": "A New Venture on the Eighth Dawn", "source": "https://hsr.hoyoverse.com/en-us/news/127247" },
+    { "id": "3.0", "nameEn": "Paean of Era Nova", "source": "https://honkai-star-rail.fandom.com/wiki/Version/3.0" },
+    { "id": "3.1", "nameEn": "Light Slips the Gate, Shadow Greets the Throne", "source": "https://www.hoyoverse.com/en-us/news/154461" },
+    { "id": "3.2", "nameEn": "Through the Petals in the Land of Repose", "source": "https://www.hoyoverse.com/en-us/news/155403" },
+    { "id": "3.3", "nameEn": "The Fall at Dawn's Rise", "source": "https://www.hoyoverse.com/en-us/news/155941" },
+    { "id": "3.4", "nameEn": "For the Sun is Set to Die", "source": "https://www.hoyoverse.com/en-us/news/157426" },
+    { "id": "3.5", "nameEn": "Before Their Deaths", "source": "https://www.gamespress.com/en-US/Honkai-Star-Rail-Version-35-Before-Their-Deaths-Arrives-on-August-13" },
+    { "id": "3.6", "nameEn": "Back to Earth in Evernight", "source": "https://hsr.hoyoverse.com/en-us/news/159638" },
+    { "id": "3.7", "nameEn": "As Tomorrow Became Yesterday", "source": "https://www.hoyoverse.com/en-us/news/160640" },
+    { "id": "3.8", "nameEn": "Memories are the Prelude to Dreams", "source": "https://www.hoyoverse.com/en-us/news/161511" },
+    { "id": "4.0", "nameEn": "No Aha at Full Moon", "source": "https://www.hoyoverse.com/en-us/news/162682" },
+    { "id": "4.1", "nameEn": "Unraveled for Daybreak", "source": "https://www.hoyoverse.com/en-us/news/163260" },
+    { "id": "4.2", "nameEn": "So Laughed the Masses", "source": "https://www.gamespress.com/en-US/Honkai-Star-Rail-Version-42-So-Laughed-the-Masses-will-arrive-on-April" },
+    { "id": "4.3", "nameEn": "The Lethe Below the Living", "source": "https://www.hoyoverse.com/en-us/news/164350" },
+    { "id": "4.4", "nameEn": "In Ravages Does the Whistle Sound", "source": "https://www.hoyoverse.com/en-us/news/165197" }
+  ],
+  "majors": {
+    "1": {
+      "nameEn": "Herta Space Station / Jarilo-VI (Belobog) / The Xianzhou Luofu",
+      "note": "Ver.1.x covers three locations sequentially: Herta Space Station, Jarilo-VI (Belobog), and The Xianzhou Luofu"
+    },
+    "2": {
+      "nameEn": "Penacony",
+      "note": "Ver.2.x takes place in Penacony (the Dreamscape planet). Ver.2.4-2.6 include Xianzhou Luofu side stories."
+    },
+    "3": {
+      "nameEn": "Amphoreus",
+      "note": "Ver.3.x takes place in Amphoreus (the Eternal Land). Japanese: オンパロス/アンフォレウス"
+    },
+    "4": {
+      "nameEn": "Planarcadia",
+      "note": "Ver.4.x takes place in Planarcadia. Japanese: 二相楽園. English localization is a portmanteau of planar + arcadia."
+    }
+  }
+}

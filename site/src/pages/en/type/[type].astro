@@ -1,0 +1,11 @@
+---
+import TypePage from '../../../components/pages/TypePage.astro';
+import type { VideoType } from '../../../lib/schema';
+
+export function getStaticPaths() {
+  return (['character', 'trailblaze', 'music'] as const).map((type) => ({ params: { type } }));
+}
+
+const type = Astro.params.type as VideoType;
+---
+<TypePage lang="en" type={type} />

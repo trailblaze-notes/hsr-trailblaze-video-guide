@@ -1,0 +1,56 @@
+{
+  "id": "4.2",
+  "name": "So Laughed the Masses",
+  "startDate": "2026-04-22",
+  "videos": [
+    {
+      "youtubeId": "NyM_seY0XKg",
+      "title": "Version 4.2 Trailer: \"So Laughed the Masses\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2026-04-10"
+    },
+    {
+      "youtubeId": "edceHCWiC1I",
+      "title": "Honkai: Star Rail Version 4.2 \"So Laughed the Masses\" Special Program",
+      "type": "version",
+      "publishedAt": "2026-04-10"
+    },
+    {
+      "youtubeId": "jgtPZdB9cWA",
+      "title": "3rd Anniversary Theme Song: \"Side Quest King\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2026-04-11"
+    },
+    {
+      "youtubeId": "FArOcK-HzXo",
+      "title": "Improv Tour Trailer: \"Beginner's Guide\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-04-15"
+    },
+    {
+      "youtubeId": "paFelc1vM1k",
+      "title": "Myriad Celestia Trailer — \"Scene 999: GAME NOT OVER\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-04-16"
+    },
+    {
+      "youtubeId": "va-4BypzDQo",
+      "title": "Silver Wolf LV.999 Character Trailer: \"Solo Maxxing\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-04-19"
+    },
+    {
+      "youtubeId": "GMY_N6ca3Ig",
+      "title": "Animated Short: \"Is This Game Even Playable?\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2026-04-21"
+    },
+    {
+      "youtubeId": "fGm2X5XkwpY",
+      "title": "Evanescia Character Trailer: \"Her Daily Life\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-05-11",
+      "phase": "after"
+    }
+  ]
+}

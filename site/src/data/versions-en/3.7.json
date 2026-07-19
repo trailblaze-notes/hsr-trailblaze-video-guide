@@ -1,0 +1,44 @@
+{
+  "id": "3.7",
+  "name": "As Tomorrow Became Yesterday",
+  "startDate": "2025-11-05",
+  "videos": [
+    {
+      "youtubeId": "r4gljUbCzqA",
+      "title": "Honkai: Star Rail Version 3.7 Trailer: \"As Tomorrow Became Yesterday\"",
+      "type": "version",
+      "publishedAt": "2025-10-24"
+    },
+    {
+      "youtubeId": "Sx7xZp96nZM",
+      "title": "Honkai: Star Rail Version 3.7 \"As Tomorrow Became Yesterday\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-10-24"
+    },
+    {
+      "youtubeId": "x3bRer52asE",
+      "title": "Myriad Celestia Trailer — \"Exotale: Scene 8\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-10-28"
+    },
+    {
+      "youtubeId": "Sn901sn5_B0",
+      "title": "Golden Epic Trailer: Farewell, Cyrene | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-10-31"
+    },
+    {
+      "youtubeId": "CRAuK8T6Xis",
+      "title": "Cyrene Character Trailer: \"With You Once More\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-11-04"
+    },
+    {
+      "youtubeId": "LB_65-rOYYo",
+      "title": "Animated Short: \"Hello, World!\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2025-11-05",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 ---
-import MajorPage from '../../components/pages/MajorPage.astro';
-import { loadVersions, groupByMajor, type MajorGroup } from '../../lib/schema';
+import MajorPage from '../../../components/pages/MajorPage.astro';
+import { loadVersions, groupByMajor, type MajorGroup } from '../../../lib/schema';
 
 export function getStaticPaths() {
-  const groups = groupByMajor(loadVersions('ja'), 'ja');
+  const groups = groupByMajor(loadVersions('en'), 'en');
   return groups.map((group, i) => ({
     params: { major: group.major },
     props: { group, prev: groups[i - 1] ?? null, next: groups[i + 1] ?? null },
@@ -17,4 +17,4 @@ interface Props {
 }
 const { group, prev, next } = Astro.props;
 ---
-<MajorPage lang="ja" group={group} prev={prev} next={next} />
+<MajorPage lang="en" group={group} prev={prev} next={next} />

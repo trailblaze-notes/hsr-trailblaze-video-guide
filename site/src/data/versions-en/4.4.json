@@ -1,0 +1,60 @@
+{
+  "id": "4.4",
+  "name": "In Ravages Does the Whistle Sound",
+  "startDate": "2026-07-15",
+  "videos": [
+    {
+      "youtubeId": "JruxFQurUDQ",
+      "title": "Myriad Celestia Trailer: Fables About the Stars Part 1 | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-05-03",
+      "phase": "after",
+      "excludeFromTypePages": true,
+      "movedFrom": "1.1",
+      "note": "ユーザー指定: Ver.1.1 前にも掲載したまま、アイオーン寓話の内容が終盤に通じるため Ver.4.4 クリア後にも重複掲載"
+    },
+    {
+      "youtubeId": "Wg_Y8mauIHg",
+      "title": "Improv Tour Trailer: \"Death of the Elation\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-06-26"
+    },
+    {
+      "youtubeId": "xT88aPknvag",
+      "title": "Version 4.4 Trailer: \"In Ravages Does the Whistle Sound\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "youtubeId": "FxO3eKc1z4U",
+      "title": "Honkai: Star Rail Version 4.4 \"In Ravages Does the Whistle Sound\" Special Program",
+      "type": "version",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "youtubeId": "q7MK5ghgl1w",
+      "title": "Improv Tour Trailer: \"To the Onlooker\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "youtubeId": "nAX7qNcp7g4",
+      "title": "Animated Short: \"Your Ending, My Beginning\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "youtubeId": "QPgR6EEWPMo",
+      "title": "Himeko • Nova Character Trailer: \"The Morning Star Falls Tonight\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-07-14"
+    },
+    {
+      "youtubeId": "2wIubFgXlyk",
+      "title": "Honkai: Star Rail EP: Beyond This Station",
+      "type": "music",
+      "publishedAt": "2026-07-17",
+      "phase": "after"
+    }
+  ]
+}

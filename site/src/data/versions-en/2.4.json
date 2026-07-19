@@ -1,0 +1,38 @@
+{
+  "id": "2.4",
+  "name": "Finest Duel Under the Pristine Blue",
+  "startDate": "2024-07-31",
+  "videos": [
+    {
+      "youtubeId": "Iv0CA4L-Jtg",
+      "title": "Version 2.4 Trailer — \"Finest Duel Under the Pristine Blue\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2024-07-19"
+    },
+    {
+      "youtubeId": "mC2F2dAXuus",
+      "title": "Honkai: Star Rail Version 2.4 Finest Duel Under the Pristine Blue Special Program.",
+      "type": "version",
+      "publishedAt": "2024-07-19"
+    },
+    {
+      "youtubeId": "Ez87fOmla8g",
+      "title": "Myriad Celestia Trailer — \"Mind the Swelter, Watch the Furnace\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-07-26"
+    },
+    {
+      "youtubeId": "-Q1XbBENTZI",
+      "title": "Yunli Trailer — \"Serendipity\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-07-30"
+    },
+    {
+      "youtubeId": "artXkpCyL0U",
+      "title": "Jiaoqiu Trailer — \"Pneumanull Rice\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-08-20",
+      "phase": "after"
+    }
+  ]
+}

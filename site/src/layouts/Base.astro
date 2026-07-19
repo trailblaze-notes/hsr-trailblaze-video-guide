@@ -1,13 +1,23 @@
 ---
+import { STRINGS, langBase, type Lang } from '../lib/i18n';
+
 interface Props {
   title: string;
   description?: string;
+  lang?: Lang;
 }
-const { title, description = '『崩壊：スターレイル』のバージョン（開拓クエスト進行度）ごとに、ネタバレなしで見られる公式動画をまとめた非公式ファンサイト' } = Astro.props;
+const { title, lang = 'ja', description = STRINGS[lang].description } = Astro.props;
+const t = STRINGS[lang];
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const root = langBase(base, lang);
+
+// 言語切替リンク: 現在のパスの対応ページへ（ja ⇔ en）
+const pathname = Astro.url.pathname;
+const rel = pathname.startsWith(base) ? pathname.slice(base.length) : pathname.replace(/^\//, '');
+const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${rel}`;
 ---
 <!doctype html>
-<html lang="ja">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,37 +27,29 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   </head>
   <body>
     <header class="site-header">
-      <a href={base} class="site-logo">
+      <a href={root} class="site-logo">
         <span class="logo-mark" aria-hidden="true"></span>
         <span class="logo-text">
-          <span class="logo-eyebrow">HONKAI: STAR RAIL — FAN GUIDE</span>
-          崩壊：スターレイル 開拓クエスト 動画ガイド
+          <span class="logo-eyebrow">{t.logoEyebrow}</span>
+          {t.logoText}
         </span>
       </a>
-      <nav class="global-nav" aria-label="種別ページ">
-        <a href={`${base}type/character/`}>キャラPV</a>
-        <a href={`${base}type/trailblaze/`}>紀行PV</a>
-        <a href={`${base}type/music/`}>曲</a>
-      </nav>
+      <a class="lang-switch" href={altHref}>{t.langSwitch}</a>
     </header>
     <main>
       <slot />
     </main>
+    <footer class="site-footer">
+      <p>{t.footerUnofficial}</p>
+      <p>
+        {t.footerRights1}<a href={t.footerChannelUrl} target="_blank" rel="noopener noreferrer">{t.footerChannelName}</a>{t.footerRights2}
+      </p>
+    </footer>
     <!-- GoatCounter: Cookie を使わないプライバシー配慮のアクセス計測（localhost は自動的にカウント対象外） -->
     <script
       data-goatcounter="https://trailblazer-notes.goatcounter.com/count"
       async
       src="https://gc.zgo.at/count.js"></script>
-    <footer class="site-footer">
-      <p>
-        本サイトは個人運営の<strong>非公式ファンサイト</strong>です。HoYoverse / COGNOSPHERE とは関係ありません。
-      </p>
-      <p>
-        掲載動画はすべて
-        <a href="https://www.youtube.com/@Houkaistarrail_jp" target="_blank" rel="noopener noreferrer">『崩壊：スターレイル』公式 YouTube チャンネル</a>
-        のものであり、動画・楽曲等の権利は COGNOSPHERE PTE. LTD. に帰属します。
-      </p>
-    </footer>
   </body>
 </html>
 
@@ -106,16 +108,18 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     gap: 0.8rem;
     flex-wrap: wrap;
   }
-  .global-nav {
-    display: flex;
-    gap: 0.9rem;
-    font-size: 0.85rem;
-  }
-  .global-nav a {
+  .lang-switch {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.2rem 0.85rem;
+    color: var(--text-dim);
+    font-size: 0.82rem;
     text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
   }
-  .global-nav a:hover {
-    text-decoration: underline;
+  .lang-switch:hover {
+    border-color: var(--accent);
+    color: var(--accent);
   }
   .site-logo {
     display: inline-flex;

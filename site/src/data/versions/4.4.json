@@ -10,6 +10,7 @@
       "publishedAt": "2023-05-03",
       "reason": "アイオーンにまつわる寓話を語る世界観PV。終盤まで進めてから見返すと発見が多い。",
       "phase": "after",
+      "excludeFromTypePages": true,
       "movedFrom": "1.1",
       "note": "ユーザー指定: Ver.1.1 前にも掲載したまま、アイオーン寓話の内容が終盤に通じるため Ver.4.4 クリア後にも重複掲載"
     },

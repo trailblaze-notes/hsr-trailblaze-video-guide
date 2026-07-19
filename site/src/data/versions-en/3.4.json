@@ -1,0 +1,45 @@
+{
+  "id": "3.4",
+  "name": "For the Sun is Set to Die",
+  "startDate": "2025-07-02",
+  "videos": [
+    {
+      "youtubeId": "bwj-WxggXcI",
+      "title": "Version 3.4 Trailer — \"For the Sun is Set to Die\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2025-06-20"
+    },
+    {
+      "youtubeId": "U4OmLnWnmno",
+      "title": "Honkai: Star Rail Version 3.4 \"For the Sun is Set to Die\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-06-20"
+    },
+    {
+      "youtubeId": "io9W-dvBTog",
+      "title": "Myriad Celestia Trailer — Fables About the Stars Part 2 | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-06-24"
+    },
+    {
+      "youtubeId": "GaT1GftoqV0",
+      "title": "Phainon Trailer — \"Coronal Radiance\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-07-01"
+    },
+    {
+      "youtubeId": "xQbetWZS-zs",
+      "title": "Animated Short \"Hark! There's Revelry Atop the Divine Mountain\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2025-07-02",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "SUe-S489CTo",
+      "title": "Music Video: \"Flares of the Blazing Sun\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2025-07-03",
+      "phase": "after"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2.0",
+  "name": "If One Dreams at Midnight",
+  "startDate": "2024-02-06",
+  "videos": [
+    {
+      "youtubeId": "8eWVW8ml9G4",
+      "title": "Myriad Celestia Trailer — \"A Night of Ever-Flame: Scene 33\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-01-19"
+    },
+    {
+      "youtubeId": "WHwBqhMlo3I",
+      "title": "Honkai: Star Rail Version 2.0 \"If One Dreams At Midnight\" Special Program",
+      "type": "version",
+      "publishedAt": "2024-01-26"
+    },
+    {
+      "youtubeId": "rPAw4l2rUr8",
+      "title": "Myriad Celestia Trailer — \"A Revisiting of Past Dreams\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2024-02-01"
+    },
+    {
+      "youtubeId": "U7W8QR9fsFw",
+      "title": "Version 2.0 Music Video — \"WHITE NIGHT\" | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2024-02-05"
+    },
+    {
+      "youtubeId": "oz3AOWxq8KY",
+      "title": "Black Swan Trailer: \"Lullaby\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-02-05"
+    },
+    {
+      "youtubeId": "RC6wQ-75uQU",
+      "title": "Sparkle Trailer — \"Monodrama\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2024-02-28",
+      "phase": "after"
+    }
+  ]
+}

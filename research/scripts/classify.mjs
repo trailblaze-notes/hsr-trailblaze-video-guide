@@ -85,6 +85,7 @@ for (const video of raw.videos) {
     reason: video.reasonDraft ?? video.reason ?? '',
     assignedVersion,
     phase,
+    excludeFromTypePages: video.excludeFromTypePages ?? false,
     movedFrom: video.movedFrom ?? null,
     note: video.note ?? null,
     spoilerNote: video.spoilerNote ?? null,

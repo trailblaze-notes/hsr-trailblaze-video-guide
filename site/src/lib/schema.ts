@@ -1,17 +1,12 @@
 import { z } from 'zod';
 import { compareVersion } from './version';
-import majorsData from '../data/majors.json';
+import majorsJa from '../data/majors.json';
+import majorsEn from '../data/majors-en.json';
 
 // 表示順 = この配列の順（バージョンページのセクション順）
 export const VIDEO_TYPES = ['trailblaze', 'character', 'version', 'music'] as const;
 export type VideoType = (typeof VIDEO_TYPES)[number];
-
-export const VIDEO_TYPE_LABELS: Record<VideoType, string> = {
-  trailblaze: '紀行PV・ストーリー',
-  character: 'キャラクターPV',
-  version: 'バージョン予告・特別番組',
-  music: 'EP・MV・アニメーション',
-};
+export type SiteLang = 'ja' | 'en';
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD 形式で指定してください');
 const versionId = z.string().regex(/^\d+\.\d+$/, '"1.0" のような major.minor 形式で指定してください');
@@ -28,6 +23,8 @@ export const videoSchema = z.object({
   reason: z.string().optional(),
   // 公式が埋め込みを無効化している動画はリンクのみ表示する
   embeddable: z.boolean().default(true),
+  // true にすると種別ページ（/type/…）には表示しない（バージョンページには表示される）
+  excludeFromTypePages: z.boolean().default(false),
   // 機械分類（公開日基準）から後ろのバージョンへ手動移動した場合のみ指定
   movedFrom: versionId.optional(),
   note: z.string().min(1).optional(),
@@ -77,10 +74,13 @@ export interface VersionEntry extends Version {
   endDate: string | null;
 }
 
-const modules = import.meta.glob('../data/versions/*.json', { eager: true });
+const modulesByLang: Record<SiteLang, Record<string, unknown>> = {
+  ja: import.meta.glob('../data/versions/*.json', { eager: true }),
+  en: import.meta.glob('../data/versions-en/*.json', { eager: true }),
+};
 
-export function loadVersions(): VersionEntry[] {
-  const versions = Object.entries(modules)
+export function loadVersions(lang: SiteLang = 'ja'): VersionEntry[] {
+  const versions = Object.entries(modulesByLang[lang])
     .map(([path, mod]) => {
       const parsed = versionSchema.safeParse((mod as { default: unknown }).default);
       if (!parsed.success) {
@@ -139,9 +139,13 @@ export interface MajorGroup {
   versions: VersionEntry[];
 }
 
-const majorArcs = majorsData as Record<string, string>;
+const majorArcsByLang: Record<SiteLang, Record<string, string>> = {
+  ja: majorsJa as Record<string, string>,
+  en: majorsEn as Record<string, string>,
+};
 
-export function groupByMajor(versions: VersionEntry[]): MajorGroup[] {
+export function groupByMajor(versions: VersionEntry[], lang: SiteLang = 'ja'): MajorGroup[] {
+  const majorArcs = majorArcsByLang[lang];
   const groups = new Map<string, VersionEntry[]>();
   for (const version of versions) {
     const major = version.id.split('.')[0];

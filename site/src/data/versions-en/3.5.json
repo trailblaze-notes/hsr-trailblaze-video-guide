@@ -1,0 +1,26 @@
+{
+  "id": "3.5",
+  "name": "Before Their Deaths",
+  "startDate": "2025-08-13",
+  "videos": [
+    {
+      "youtubeId": "lT48gE7YMDE",
+      "title": "Honkai: Star Rail Version 3.5 \"Before Their Deaths\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-08-02"
+    },
+    {
+      "youtubeId": "-Yb1VobUdE0",
+      "title": "Hysilens Trailer — \"Daughter of the Sea\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-08-12"
+    },
+    {
+      "youtubeId": "AudFPWzkW-k",
+      "title": "Cerydra Trailer — Step Onto the Board | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-09-02",
+      "phase": "after"
+    }
+  ]
+}

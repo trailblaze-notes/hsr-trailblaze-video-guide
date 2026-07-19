@@ -1,0 +1,70 @@
+{
+  "id": "1.1",
+  "name": "Galactic Roaming",
+  "startDate": "2023-06-07",
+  "videos": [
+    {
+      "youtubeId": "JruxFQurUDQ",
+      "title": "Myriad Celestia Trailer: Fables About the Stars Part 1 | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-05-03"
+    },
+    {
+      "youtubeId": "F_NJovUIrOc",
+      "title": "Myriad Celestia Trailer: History of the Xianzhou: Seven Arbiter-Generals | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-05-07"
+    },
+    {
+      "youtubeId": "8-MFg_0wY4U",
+      "title": "Animated Short: A Flash | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2023-05-10"
+    },
+    {
+      "youtubeId": "fJvgGKq8VUM",
+      "title": "Version 1.1 \"Galactic Roaming\" Special Program  | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2023-05-26"
+    },
+    {
+      "youtubeId": "JTs7Fh0CQ1k",
+      "title": "Version 1.1 Trailer - \"Galactic Roaming\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2023-05-27"
+    },
+    {
+      "youtubeId": "yLFpFp5r0hk",
+      "title": "Gepard Trailer - \"In the Name of Landau\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-06-01"
+    },
+    {
+      "youtubeId": "8NYW1AzNLi0",
+      "title": "Silver Wolf Trailer - \"Got a Date?\"| Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-06-06"
+    },
+    {
+      "youtubeId": "g2ciwy6nxTY",
+      "title": "Bailu Trailer – \"In Torrid Heat\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-06-15",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "0MDsyvr8SMY",
+      "title": "Luocha Trailer - \"The Traveler And His Oath\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-06-27",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "2TY_i3n-7jY",
+      "title": "Yanqing Trailer - \"Tempered Chill\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-07-01",
+      "phase": "after"
+    }
+  ]
+}

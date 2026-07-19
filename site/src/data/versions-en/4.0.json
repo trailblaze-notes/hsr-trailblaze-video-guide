@@ -1,0 +1,57 @@
+{
+  "id": "4.0",
+  "name": "No Aha at Full Moon",
+  "startDate": "2026-02-13",
+  "videos": [
+    {
+      "youtubeId": "VsrABLcQQvc",
+      "title": "Improv Tour Trailer: \"Binge It All! The Truth After the Battle of Irontomb!\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-01"
+    },
+    {
+      "youtubeId": "ZwnE5o7_gzA",
+      "title": "Myriad Celestia Trailer: \"Anti-Destruction Alliance\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-03"
+    },
+    {
+      "youtubeId": "2hH0hILcWPs",
+      "title": "Version 4.0 Trailer: \"No Aha at Full Moon\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2026-02-06"
+    },
+    {
+      "youtubeId": "JwD3wN33R_A",
+      "title": "Honkai: Star Rail Version 4.0 \"No Aha At Full Moon\" Special Program",
+      "type": "version",
+      "publishedAt": "2026-02-06"
+    },
+    {
+      "youtubeId": "kmzwoua4dUk",
+      "title": "Improv Tour Trailer: \"Beyond Weal and Woe\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2026-02-08"
+    },
+    {
+      "youtubeId": "XpQ0TXUnESQ",
+      "title": "Yao Guang Character Trailer: \"All the Best\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-02-12"
+    },
+    {
+      "youtubeId": "7ia3b_9-znQ",
+      "title": "I'll Never Forgive Star Rail",
+      "type": "music",
+      "publishedAt": "2026-02-27",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "NU6J88t4luM",
+      "title": "Sparxie Character Trailer — \"Ravings\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2026-03-02",
+      "phase": "after"
+    }
+  ]
+}

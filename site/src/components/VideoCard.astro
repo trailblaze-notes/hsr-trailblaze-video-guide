@@ -1,10 +1,13 @@
 ---
-import { VIDEO_TYPE_LABELS, type Video } from '../lib/schema';
+import type { Video } from '../lib/schema';
+import { TYPE_LABELS, STRINGS, type Lang } from '../lib/i18n';
 
 interface Props {
   video: Video;
+  lang?: Lang;
 }
-const { video } = Astro.props;
+const { video, lang = 'ja' } = Astro.props;
+const t = STRINGS[lang];
 const watchUrl = `https://www.youtube.com/watch?v=${video.youtubeId}`;
 // プライバシー強化モードの公式埋め込みプレイヤー。サムネ・再生とも YouTube 側で完結する
 const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
@@ -22,11 +25,11 @@ const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
   )}
   <div class="body">
     <p class="meta">
-      <span class="badge">{VIDEO_TYPE_LABELS[video.type]}</span>
+      <span class="badge">{TYPE_LABELS[lang][video.type]}</span>
       <span class="date">{video.publishedAt}</span>
     </p>
     <h3><a href={watchUrl} target="_blank" rel="noopener noreferrer">{video.title}</a></h3>
-    <p class="watch"><a href={watchUrl} target="_blank" rel="noopener noreferrer">YouTube で見る ↗</a></p>
+    <p class="watch"><a href={watchUrl} target="_blank" rel="noopener noreferrer">{t.watch}</a></p>
   </div>
 </article>
 

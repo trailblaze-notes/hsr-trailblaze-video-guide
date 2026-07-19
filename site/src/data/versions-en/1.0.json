@@ -1,0 +1,39 @@
+{
+  "id": "1.0",
+  "name": "The Rail Unto the Stars",
+  "startDate": "2023-04-26",
+  "videos": [
+    {
+      "youtubeId": "lpIgB_IPeTM",
+      "title": "March 7th Trailer - \"Let's Take a Photo!\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2022-04-21"
+    },
+    {
+      "youtubeId": "Ye4qk1SW9TE",
+      "title": "Himeko Trailer - \"Star Chaser\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-04-10"
+    },
+    {
+      "youtubeId": "lXVQmHxAnAE",
+      "title": "Seele Trailer - \"Uneventful Night\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-04-23"
+    },
+    {
+      "youtubeId": "YyCOxxBkPTI",
+      "title": "Jing Yuan Trailer – \"Heaven and Earth as a Chessboard\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-05-17",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "O6HdjmUIuSY",
+      "title": "Serval Trailer - \"The Cusp of Ignition!\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-05-21",
+      "phase": "after"
+    }
+  ]
+}

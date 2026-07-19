@@ -1,0 +1,38 @@
+{
+  "id": "3.1",
+  "name": "Light Slips the Gate, Shadow Greets the Throne",
+  "startDate": "2025-02-26",
+  "videos": [
+    {
+      "youtubeId": "8DNFByA5fdY",
+      "title": "Version 3.1 Trailer: \"Light Slips the Gate, Shadow Greets the Throne\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2025-02-14"
+    },
+    {
+      "youtubeId": "PONPyKx8J80",
+      "title": "Honkai: Star Rail Version 3.1 \"Light Slips the Gate, Shadow Greets the Throne\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-02-14"
+    },
+    {
+      "youtubeId": "br-FKJnXdrY",
+      "title": "Golden Epic PV: \"The First Dawn of Destiny\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2025-02-21"
+    },
+    {
+      "youtubeId": "smmy-QQAGE4",
+      "title": "Tribbie Character Trailer: \"Children Know Nothing\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-02-25"
+    },
+    {
+      "youtubeId": "dywDrslYCJg",
+      "title": "Mydei Trailer — \"Wrath of Man\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-03-18",
+      "phase": "after"
+    }
+  ]
+}

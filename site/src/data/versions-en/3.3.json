@@ -1,0 +1,45 @@
+{
+  "id": "3.3",
+  "name": "The Fall at Dawn's Rise",
+  "startDate": "2025-05-21",
+  "videos": [
+    {
+      "youtubeId": "_OUWtPhDQpk",
+      "title": "Honkai: Star Rail Two-Year Anniversary Special Animation: On the Journey",
+      "type": "music",
+      "publishedAt": "2025-04-26"
+    },
+    {
+      "youtubeId": "e8suWXD8jso",
+      "title": "Version 3.3 Trailer - \"The Fall at Dawn's Rise\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2025-05-09"
+    },
+    {
+      "youtubeId": "9jYw7s4QWxg",
+      "title": "Honkai: Star Rail Version 3.3 \"The Fall at Dawn's Rise\" Special Program",
+      "type": "version",
+      "publishedAt": "2025-05-09"
+    },
+    {
+      "youtubeId": "GhJOJxHZ20E",
+      "title": "Hyacine Trailer — \"Always Here to Help\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-05-20"
+    },
+    {
+      "youtubeId": "loWA5o1RdTY",
+      "title": "Honkai: Star Rail EP: Proi Proi",
+      "type": "music",
+      "publishedAt": "2025-05-22",
+      "phase": "after"
+    },
+    {
+      "youtubeId": "CxGowChsEdo",
+      "title": "Cipher Character Trailer — \"Piece of Cake\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2025-06-10",
+      "phase": "after"
+    }
+  ]
+}

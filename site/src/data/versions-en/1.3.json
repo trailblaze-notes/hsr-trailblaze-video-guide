@@ -1,0 +1,50 @@
+{
+  "id": "1.3",
+  "name": "Celestial Eyes Above Mortal Ruins",
+  "startDate": "2023-08-30",
+  "videos": [
+    {
+      "youtubeId": "D9yIlGpgCus",
+      "title": "Myriad Celestia Trailer: The Jepella Rebellion — Scene 47 | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-08-13"
+    },
+    {
+      "youtubeId": "7nc844bD15M",
+      "title": "Version 1.3 Trailer - \"Celestial Eyes Above Mortal Ruins\" | Honkai: Star Rail",
+      "type": "version",
+      "publishedAt": "2023-08-18"
+    },
+    {
+      "youtubeId": "UUITXhMP-ss",
+      "title": "Honkai: Star Rail Version 1.3 \"Celestial Eyes Above Mortal Ruins\" Special Program",
+      "type": "version",
+      "publishedAt": "2023-08-18"
+    },
+    {
+      "youtubeId": "5XBXReAfDOM",
+      "title": "Myriad Celestia Trailer — \"History of the Xianzhou: Exodus of the Five Dragons\" | Honkai: Star Rail",
+      "type": "trailblaze",
+      "publishedAt": "2023-08-27"
+    },
+    {
+      "youtubeId": "M6jvUuarJbg",
+      "title": "Animated Short: Ichor of Two Dragons | Honkai: Star Rail",
+      "type": "music",
+      "publishedAt": "2023-08-29"
+    },
+    {
+      "youtubeId": "Dbc6E41mHdo",
+      "title": "Dan Heng • Imbibitor Lunae Trailer - \"The Prodigal's Return\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-08-29"
+    },
+    {
+      "youtubeId": "y_JFZLq6Cas",
+      "title": "Fu Xuan Trailer - \"Omniscia Spares None\" | Honkai: Star Rail",
+      "type": "character",
+      "publishedAt": "2023-09-20",
+      "phase": "after"
+    }
+  ]
+}
