@@ -69,7 +69,8 @@ function assign(video) {
 const seen = new Map();
 const duplicates = [];
 for (const video of raw.videos) {
-  const key = video.youtubeId ?? `title:${video.title}`;
+  // pinVersion 付きエントリは「意図的な重複掲載」（例: 序盤にもクリア後にも載せる）なのでキーを分ける
+  const key = `${video.youtubeId ?? `title:${video.title}`}|${video.pinVersion ?? ''}|${video.phase ?? ''}`;
   if (seen.has(key)) {
     duplicates.push(video.title);
     continue;

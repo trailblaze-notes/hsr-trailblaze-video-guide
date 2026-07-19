@@ -129,11 +129,7 @@
       "type": "trailblaze",
       "reasonDraft": "星神（アイオーン）にまつわる寓話を語る世界観PVで、宇宙観の理解が深まる。",
       "spoilerNote": null,
-      "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg",
-      "pinVersion": "4.4",
-      "phase": "after",
-      "movedFrom": "1.1",
-      "note": "ユーザー指定: アイオーンにまつわる寓話の内容が終盤の核心に通じるため、Ver.4.4 クリア後へ移動（公開は Ver.1.0 期間）"
+      "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg"
     },
     {
       "youtubeId": "xE-RhT16VQM",
@@ -1713,6 +1709,20 @@
       "reasonDraft": "ルアン・メェイを主題にした世界観PV。",
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=OZjpTFdJp0E"
+    },
+    {
+      "youtubeId": "EIm_SZlrnRg",
+      "title": "【崩壊：スターレイル】千の星を巡る紀行PV 「星空の寓話集・その一」",
+      "publishedAt": "2023-05-03",
+      "approx": true,
+      "type": "trailblaze",
+      "pinVersion": "4.4",
+      "phase": "after",
+      "movedFrom": "1.1",
+      "note": "ユーザー指定: Ver.1.1 前にも掲載したまま、アイオーン寓話の内容が終盤に通じるため Ver.4.4 クリア後にも重複掲載",
+      "reasonDraft": "アイオーンにまつわる寓話を語る世界観PV。終盤まで進めてから見返すと発見が多い。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg"
     }
   ],
   "excluded": [
