@@ -3,7 +3,36 @@ import Base from '../layouts/Base.astro';
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 <Base title="ページが見つかりません | 崩壊：スターレイル 開拓クエスト 動画ガイド">
-  <h1>ページが見つかりません</h1>
-  <p class="lead">お探しのページは移動または削除された可能性があります。</p>
-  <p><a href={base}>バージョン一覧へ戻る</a></p>
+  <div class="page-head">
+    <span class="num" aria-hidden="true">404</span>
+    <div>
+      <p class="eyebrow">この駅はありません</p>
+      <h1>ページが見つかりません</h1>
+    </div>
+  </div>
+  <p class="lead">URL が変わったか、もともと存在しないページです。バージョン一覧から目的のバージョンを選び直してください。</p>
+  <p><a href={base}>バージョン一覧へ戻る →</a></p>
 </Base>
+
+<style>
+  .page-head {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin: 2rem 0 1rem;
+  }
+  .num {
+    font-family: var(--display);
+    font-stretch: 125%;
+    font-size: clamp(2.4rem, 7vw, 3.5rem);
+    font-weight: 700;
+    line-height: 0.9;
+    color: var(--rail-lit);
+  }
+  .page-head .eyebrow {
+    margin: 0 0 0.15rem;
+  }
+  .page-head h1 {
+    margin: 0;
+  }
+</style>

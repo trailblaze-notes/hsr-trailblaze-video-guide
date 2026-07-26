@@ -86,6 +86,8 @@ for (const video of raw.videos) {
     assignedVersion,
     phase,
     excludeFromTypePages: video.excludeFromTypePages ?? false,
+    // サムネイル自体にネタバレがある動画。サイト側で初期表示を覆う
+    hideThumbnail: video.hideThumbnail ?? false,
     movedFrom: video.movedFrom ?? null,
     note: video.note ?? null,
     spoilerNote: video.spoilerNote ?? null,

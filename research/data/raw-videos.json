@@ -1067,6 +1067,7 @@
       "publishedAt": "2025-06-20",
       "approx": false,
       "type": "version",
+      "hideThumbnail": true,
       "reasonDraft": "オンパロス編前半のクライマックスとなるVer.3.4の公式PV。",
       "spoilerNote": "Ver.3.3クリア前に見ると3.4本編の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ"
@@ -1724,6 +1725,18 @@
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg",
       "excludeFromTypePages": true
+    },
+    {
+      "youtubeId": "TjTVP4GxK0Y",
+      "title": "【崩壊：スターレイル】救世PV「開拓者」",
+      "publishedAt": "2025-08-02",
+      "approx": false,
+      "type": "trailblaze",
+      "phase": "before",
+      "hideThumbnail": true,
+      "reasonDraft": "Ver.3.5開始前に公開された開拓者を主役に据えたストーリーPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=TjTVP4GxK0Y"
     }
   ],
   "excluded": [
@@ -2041,10 +2054,6 @@
     },
     {
       "title": "OP「Nameless Faces」",
-      "reason": "ユーザーレビューで除外指定"
-    },
-    {
-      "title": "救世PV「開拓者」",
       "reason": "ユーザーレビューで除外指定"
     },
     {

@@ -21,6 +21,14 @@ const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
+      {video.hideThumbnail && (
+        <label class="cover">
+          {/* チェックボックスとラベルの入れ子で JS なしに開閉する（id 不要 = 同一ページ重複掲載でも衝突しない） */}
+          <input class="reveal" type="checkbox" />
+          <span class="cover-text">{t.thumbHidden}</span>
+          <span class="cover-cta">{t.thumbReveal}</span>
+        </label>
+      )}
     </div>
   )}
   <div class="body">
@@ -35,18 +43,22 @@ const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
 
 <style>
   .video-card {
-    background: var(--surface);
-    border: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    background: var(--ink-2);
+    border: 1px solid var(--rail);
     border-radius: var(--radius);
     overflow: hidden;
     transition: border-color 0.15s;
   }
   .video-card:hover {
-    border-color: var(--accent);
+    border-color: var(--rail-lit);
   }
   .embed {
+    position: relative;
     aspect-ratio: 16 / 9;
     background: #000;
+    border-bottom: 1px solid var(--rail);
   }
   .embed iframe {
     width: 100%;
@@ -54,44 +66,101 @@ const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
     border: 0;
     display: block;
   }
+
+  /* サムネイル自体がネタバレになる動画の覆い。押すまでプレイヤーは見えない */
+  .cover {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--ink-3);
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+  }
+  .cover:has(.reveal:checked) {
+    display: none;
+  }
+  .reveal {
+    /* 見た目は消すがキーボード操作の対象としては残す */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+  .cover:has(.reveal:focus-visible) {
+    outline: 2px solid var(--signal);
+    outline-offset: -3px;
+  }
+  .cover-text {
+    color: var(--caution);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .cover-cta {
+    border: 1px solid var(--caution);
+    border-radius: var(--radius);
+    padding: 0.25rem 0.9rem;
+    color: var(--caution);
+    font-size: 0.78rem;
+    transition: background 0.15s;
+  }
+  .cover:hover .cover-cta {
+    background: var(--caution-dim);
+  }
   .body {
-    padding: 0.8rem 1rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.85rem 1rem 1rem;
   }
   .meta {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 0.6rem;
     margin: 0;
   }
   .badge {
-    display: inline-block;
-    background: var(--accent-soft);
-    color: var(--accent);
-    border-radius: 4px;
-    font-size: 0.72rem;
-    font-weight: 700;
-    padding: 0.12rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--paper-dim);
+    border: 1px solid var(--rail);
+    border-radius: var(--radius);
+    padding: 0.02rem 0.45rem;
   }
   .date {
-    color: var(--text-dim);
-    font-family: var(--mono);
-    font-size: 0.74rem;
+    font-family: var(--display);
+    font-stretch: 112%;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--paper-dim);
+    white-space: nowrap;
   }
   h3 {
-    margin: 0.45rem 0 0.3rem;
-    font-size: 0.98rem;
-    line-height: 1.5;
+    /* flex:1 で見出し欄を伸ばし、視聴リンクをカード下端に揃える */
+    flex: 1;
+    margin: 0.5rem 0 0;
+    font-size: 0.94rem;
+    line-height: 1.55;
   }
   h3 a {
-    color: var(--text);
+    color: var(--paper);
     text-decoration: none;
   }
   h3 a:hover {
-    color: var(--accent);
+    color: var(--signal);
   }
   .watch {
-    margin: 0.55rem 0 0;
-    font-size: 0.8rem;
+    margin: 0.7rem 0 0;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--rail);
+    font-size: 0.78rem;
   }
   .watch a {
     text-decoration: none;

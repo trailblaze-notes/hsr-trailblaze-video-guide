@@ -37,9 +37,7 @@ const minors = group.versions.map((version) => {
 });
 
 const subLine =
-  lang === 'ja'
-    ? `Ver.${first.id} → Ver.${last.id} ・ 全${group.versions.length}バージョン`
-    : `Ver.${first.id} → Ver.${last.id} ・ ${group.versions.length} versions`;
+  lang === 'ja' ? `全${group.versions.length}バージョン` : `${group.versions.length} versions`;
 const countText = (n: number) => (lang === 'ja' ? `動画 ${n} 件` : `${n} videos`);
 const periodText = (v: (typeof group.versions)[number]) =>
   lang === 'ja'
@@ -49,10 +47,15 @@ const periodText = (v: (typeof group.versions)[number]) =>
 <Base title={`Ver.${group.major}.x${group.arc ? `（${group.arc}）` : ''} | ${t.siteTitle}`} lang={lang}>
   <VersionNav prev={prev} next={next} lang={lang} />
 
-  <h1>Ver.{group.major}.x{group.arc && <span class="arc">（{group.arc}）</span>}</h1>
-  <p class="sub">{subLine}</p>
+  <div class="page-head">
+    <span class="num" aria-hidden="true"><b>{group.major}</b><i>.x</i></span>
+    <div class="page-head-text">
+      <p class="eyebrow">Ver.{first.id} → Ver.{last.id} ・ {subLine}</p>
+      <h1>{group.arc ?? `Ver.${group.major}.x`}</h1>
+    </div>
+  </div>
 
-  <p class="static-note">
+  <p class="notice">
     {t.majorNote1}<strong>{t.majorNoteBefore}</strong>{t.majorNoteAnd}<strong>{t.majorNoteAfter}</strong>{t.majorNote2}
   </p>
 
@@ -93,7 +96,7 @@ const periodText = (v: (typeof group.versions)[number]) =>
           {afterCount > 0 && (
             <details class="phase-after">
               <summary>
-                {t.afterSummary}
+                <span class="after-label">{t.afterSummary}</span>
                 <span class="count">{countText(afterCount)}</span>
               </summary>
               <div class="after-body">
@@ -156,183 +159,220 @@ const periodText = (v: (typeof group.versions)[number]) =>
 </script>
 
 <style>
-  h1 {
-    margin-bottom: 0.1rem;
+  /* ページ見出し: トップの駅表示と同じ字面をそのまま大きくする */
+  .page-head {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin: 1.75rem 0 1.25rem;
   }
-  .arc {
-    font-size: 1.05rem;
+  .num {
+    font-family: var(--display);
+    font-stretch: 125%;
+    line-height: 0.9;
+    color: var(--signal);
+    white-space: nowrap;
+  }
+  .num b {
+    font-size: clamp(2.6rem, 8vw, 4rem);
     font-weight: 700;
-    color: var(--text-dim);
   }
-  .sub {
-    margin: 0 0 1rem;
-    color: var(--text-dim);
-    font-family: var(--mono);
-    font-size: 0.8rem;
+  .num i {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
   }
-  .static-note {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-left: 3px solid var(--accent);
-    border-radius: var(--radius);
-    padding: 0.7rem 1rem;
-    color: var(--text-dim);
-    font-size: 0.88rem;
+  .page-head-text {
+    min-width: 0;
+  }
+  .page-head-text .eyebrow {
+    margin: 0 0 0.15rem;
+  }
+  .page-head-text h1 {
+    margin: 0;
   }
 
-  /* 路線図: 線路の上に駅（チップ）が並ぶ */
+  /* 路線帯: 罫線の上に各マイナーバージョンが駅として並ぶ */
   .chip-row {
     display: flex;
-    gap: 0.55rem;
+    gap: 0.5rem;
     overflow-x: auto;
     position: sticky;
     top: 0;
     z-index: 10;
-    padding: 0.7rem 0;
+    margin-top: 1.75rem;
+    padding: 0.85rem 0;
     background:
-      linear-gradient(var(--line), var(--line)) 0 50% / 100% 2px no-repeat,
-      var(--bg);
+      linear-gradient(var(--rail), var(--rail)) 0 50% / 100% 2px no-repeat,
+      var(--ink);
+    scrollbar-width: thin;
   }
   .chip {
     flex: 0 0 auto;
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 0.32rem 0.85rem 0.32rem 0.7rem;
-    color: var(--text);
+    background: var(--ink-2);
+    border: 1px solid var(--rail);
+    border-radius: 0;
+    padding: 0.3rem 0.8rem 0.3rem 0.65rem;
+    color: var(--paper-dim);
     text-decoration: none;
-    font-family: var(--mono);
-    font-size: 0.82rem;
+    font-family: var(--display);
+    font-stretch: 112%;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
     white-space: nowrap;
     transition: border-color 0.15s, color 0.15s;
   }
   .chip::before {
     content: '';
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    border: 2px solid var(--text-dim);
+    width: 7px;
+    height: 7px;
+    border: 2px solid var(--rail-lit);
+    transform: rotate(45deg);
     transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
   }
   .chip:hover {
-    border-color: var(--accent);
+    border-color: var(--rail-lit);
+    color: var(--paper);
   }
   .chip.active {
-    border-color: var(--accent);
-    color: var(--accent);
+    border-color: var(--signal);
+    color: var(--signal);
     font-weight: 700;
   }
   .chip.active::before {
-    background: var(--accent);
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-soft);
+    background: var(--signal);
+    border-color: var(--signal);
+    box-shadow: 0 0 0 3px var(--signal-dim);
   }
 
   .minor {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    margin: 0.7rem 0;
+    background: var(--ink-2);
+    clip-path: var(--chamfer);
+    margin: 0.6rem 0;
   }
-  .minor summary {
+  /* 面取りで外側の輪郭が切られるため、フォーカス枠は内側に描く */
+  .minor > summary:focus-visible {
+    outline-offset: -4px;
+  }
+  .minor > summary {
     cursor: pointer;
-    padding: 0.8rem 1rem;
+    padding: 0.85rem 1rem;
     display: flex;
     align-items: baseline;
-    gap: 0.5rem;
+    gap: 0.6rem;
     flex-wrap: wrap;
     list-style: none;
   }
-  .minor summary::-webkit-details-marker {
+  .minor > summary::-webkit-details-marker {
     display: none;
   }
-  .minor summary::after {
-    content: '＋';
-    margin-left: auto;
-    color: var(--text-dim);
-    font-family: var(--mono);
+  .minor > summary::after {
+    content: '';
+    align-self: center;
+    flex: 0 0 auto;
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid var(--paper-dim);
+    border-bottom: 2px solid var(--paper-dim);
+    transform: rotate(45deg) translate(-2px, -2px);
+    transition: transform 0.15s;
   }
-  .minor[open] summary::after {
-    content: '－';
+  .minor[open] > summary::after {
+    transform: rotate(225deg) translate(-2px, -2px);
   }
-  .minor[open] summary {
-    border-bottom: 1px solid var(--line);
+  .minor[open] > summary {
+    border-bottom: 1px solid var(--rail);
   }
-  .minor summary:hover .minor-name {
-    color: var(--accent);
+  .minor > summary:hover .minor-name {
+    color: var(--signal);
   }
   .minor-ver {
-    color: var(--accent);
-    font-family: var(--mono);
+    color: var(--signal);
+    font-family: var(--display);
+    font-stretch: 112%;
     font-weight: 700;
+    font-size: 0.92rem;
+    letter-spacing: 0.03em;
   }
   .minor-name {
     font-weight: 700;
     transition: color 0.15s;
   }
   .count {
-    color: var(--text-dim);
+    /* 見出し行でもセクション見出しでも、件数は右端へ寄せる */
+    margin-left: auto;
+    color: var(--paper-dim);
     font-weight: 400;
-    font-family: var(--mono);
-    font-size: 0.76rem;
+    font-family: var(--display);
+    font-stretch: 112%;
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
   }
   .minor-body {
-    padding: 0.8rem 1rem 1rem;
+    padding: 0.9rem 1rem 1.1rem;
   }
   .period {
     margin: 0;
-    color: var(--text-dim);
-    font-family: var(--mono);
-    font-size: 0.78rem;
+    color: var(--paper-dim);
+    font-family: var(--display);
+    font-stretch: 112%;
+    font-size: 0.76rem;
+    letter-spacing: 0.03em;
   }
-  /* ジャンル見出し: 駅マーカー付きの区切り */
+
+  /* 種別見出し: 駅ノート付きの区切り */
   .minor-body h3 {
     display: flex;
     align-items: center;
-    gap: 0.55rem;
-    font-size: 1.02rem;
-    margin: 1.5rem 0 0.7rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--line);
+    gap: 0.6rem;
+    font-size: 0.95rem;
+    margin: 1.75rem 0 0.8rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid var(--rail);
   }
   .minor-body section:first-of-type h3 {
-    margin-top: 1rem;
+    margin-top: 1.1rem;
   }
   .minor-body h3::before {
     content: '';
     flex: 0 0 auto;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-soft);
+    width: 8px;
+    height: 8px;
+    background: var(--signal);
+    transform: rotate(45deg);
   }
   .video-list {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
   .empty {
-    color: var(--text-dim);
+    color: var(--paper-dim);
+    font-size: 0.88rem;
   }
 
-  /* 「終えた後に見る」入れ子タブ: クリア後向けのため初期は閉じる */
+  /*
+   * 終了後向けの領域。朱＝ネタバレ注意の合図に統一し、既定で閉じておく。
+   * 種別リンクの左罫と同じ色使いで「この先は進行度を超える」ことを示す。
+   */
   .phase-after {
-    margin-top: 1.6rem;
-    border: 1px dashed var(--line);
-    border-radius: 8px;
-    background: var(--bg);
+    margin-top: 2rem;
+    border-left: 3px solid var(--caution);
+    clip-path: var(--chamfer);
+    background: var(--ink);
+  }
+  .phase-after > summary:focus-visible {
+    outline-offset: -4px;
   }
   .phase-after summary {
     cursor: pointer;
-    padding: 0.7rem 0.9rem;
-    font-weight: 700;
+    padding: 0.75rem 0.95rem;
     display: flex;
-    align-items: baseline;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.6rem;
     flex-wrap: wrap;
     list-style: none;
   }
@@ -341,28 +381,45 @@ const periodText = (v: (typeof group.versions)[number]) =>
   }
   .phase-after summary::before {
     content: '';
+    flex: 0 0 auto;
     width: 9px;
     height: 9px;
-    border-radius: 50%;
-    border: 2px solid var(--accent);
-    align-self: center;
+    border: 2px solid var(--caution);
+    transform: rotate(45deg);
+    transition: background 0.15s;
   }
   .phase-after[open] summary::before {
-    background: var(--accent);
+    background: var(--caution);
   }
   .phase-after summary::after {
-    content: '＋';
-    margin-left: auto;
-    color: var(--text-dim);
-    font-family: var(--mono);
+    content: '';
+    flex: 0 0 auto;
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid var(--caution);
+    border-bottom: 2px solid var(--caution);
+    transform: rotate(45deg) translate(-2px, -2px);
+    transition: transform 0.15s;
   }
   .phase-after[open] summary::after {
-    content: '－';
+    transform: rotate(225deg) translate(-2px, -2px);
   }
-  .phase-after summary:hover {
-    color: var(--accent);
+  .after-label {
+    color: var(--caution);
+    font-weight: 700;
+    font-size: 0.9rem;
   }
   .after-body {
-    padding: 0 0.9rem 0.9rem;
+    padding: 0 0.95rem 0.95rem;
+  }
+  /* 注意領域の中は見出しノードも朱に揃える（.minor-body h3::before より詳細度を高くする） */
+  .phase-after .after-body h3::before {
+    background: var(--caution);
+  }
+
+  @media (max-width: 560px) {
+    .page-head {
+      gap: 0.85rem;
+    }
   }
 </style>

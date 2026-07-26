@@ -14,9 +14,36 @@ const groups = groupByMajor(versions, lang);
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const root = langBase(base, lang);
 
+// 種別ページと同じ条件で数える（excludeFromTypePages 付きは種別ページに出ない）
 const countOf = (type: VideoType) =>
-  versions.reduce((sum, v) => sum + v.videos.filter((video) => video.type === type).length, 0);
+  versions.reduce(
+    (sum, v) => sum + v.videos.filter((video) => video.type === type && !video.excludeFromTypePages).length,
+    0
+  );
 const countText = (n: number) => (lang === 'ja' ? `${n} 件` : `${n} videos`);
+const totalVideos = versions.reduce((sum, v) => sum + v.videos.length, 0);
+const tally =
+  lang === 'ja'
+    ? `全 ${versions.length} バージョン ・ 動画 ${totalVideos} 件`
+    : `${versions.length} versions ・ ${totalVideos} videos`;
+
+const typeLinks: { type: VideoType; label: string; desc: string }[] = [
+  {
+    type: 'character',
+    label: lang === 'ja' ? 'キャラクターPV' : 'Character Trailers',
+    desc: t.typeCharacterDesc,
+  },
+  {
+    type: 'trailblaze',
+    label: lang === 'ja' ? '紀行PV・ストーリー' : 'Story & Myriad Celestia Trailers',
+    desc: t.typeTrailblazeDesc,
+  },
+  {
+    type: 'music',
+    label: lang === 'ja' ? '曲（EP・MV・アニメーション）' : 'Music (EP / MV / Animation)',
+    desc: t.typeMusicDesc,
+  },
+];
 ---
 <Base title={t.siteTitle} lang={lang}>
   <h1>{t.homeH1}</h1>
@@ -24,75 +51,83 @@ const countText = (n: number) => (lang === 'ja' ? `${n} 件` : `${n} videos`);
     {t.homeLead1}<strong>{t.homeLeadBefore}</strong>{t.homeLeadAnd}<strong>{t.homeLeadAfter}</strong>{t.homeLead2}
   </p>
 
-  <ul class="card-grid">
-    {groups.map((group) => <MajorCard group={group} lang={lang} />)}
+  <div class="section-head">
+    <h2>{t.routeHeading}</h2>
+    <span class="tally">{tally}</span>
+  </div>
+  <ul class="route">
+    {groups.map((group, i) => <MajorCard group={group} lang={lang} latest={i === groups.length - 1} />)}
   </ul>
 
-  <section class="type-links">
+  <div class="section-head caution-head">
     <h2>{t.typeLinksHeading}</h2>
-    <div class="type-grid">
-      <a class="type-link" href={`${root}type/character/`}>
-        <span class="t-label">{lang === 'ja' ? 'キャラクターPV' : 'Character Trailers'}</span>
-        <span class="t-meta">{countText(countOf('character'))} ・ {t.typeCharacterDesc}</span>
-      </a>
-      <a class="type-link" href={`${root}type/trailblaze/`}>
-        <span class="t-label">{lang === 'ja' ? '紀行PV・ストーリー' : 'Story & Myriad Celestia Trailers'}</span>
-        <span class="t-meta">{countText(countOf('trailblaze'))} ・ {t.typeTrailblazeDesc}</span>
-      </a>
-      <a class="type-link" href={`${root}type/music/`}>
-        <span class="t-label">{lang === 'ja' ? '曲（EP・MV・アニメーション）' : 'Music (EP / MV / Animation)'}</span>
-        <span class="t-meta">{countText(countOf('music'))} ・ {t.typeMusicDesc}</span>
-      </a>
-    </div>
-  </section>
+  </div>
+  <div class="type-grid">
+    {
+      typeLinks.map((link) => (
+        <a class="type-link" href={`${root}type/${link.type}/`}>
+          <span class="t-label">{link.label}</span>
+          <span class="t-count">{countText(countOf(link.type))}</span>
+          <span class="t-desc">{link.desc}</span>
+        </a>
+      ))
+    }
+  </div>
 </Base>
 
 <style>
-  .type-links h2 {
-    display: flex;
-    align-items: center;
-    gap: 0.55rem;
-    font-size: 1.1rem;
-    margin: 2rem 0 0.8rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--line);
+  .route {
+    margin: 0.9rem 0 0;
+    padding: 0;
+    list-style: none;
   }
-  .type-links h2::before {
-    content: '';
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-soft);
+
+  /* 種別ページは進行度を問わず並べるためネタバレを含む。琥珀＝注意の合図で束ねる */
+  .caution-head h2 {
+    color: var(--caution);
   }
   .type-grid {
     display: grid;
-    gap: 0.9rem;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 0.9rem;
   }
   .type-link {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 1rem 1.2rem;
-    color: var(--text);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
+    gap: 0.15rem 0.7rem;
+    background: var(--ink-2);
+    border-left: 3px solid var(--caution);
+    clip-path: var(--chamfer);
+    padding: 0.95rem 1.1rem;
+    color: var(--paper);
     text-decoration: none;
-    transition: border-color 0.15s, background 0.15s;
+    transition: background 0.15s;
   }
   .type-link:hover {
-    border-color: var(--accent);
-    background: var(--surface-2);
+    background: var(--ink-3);
+  }
+  /* 面取りで外側の輪郭が切られるため、フォーカス枠は内側に描く */
+  .type-link:focus-visible {
+    outline-offset: -4px;
   }
   .t-label {
     font-weight: 700;
-    font-size: 1.02rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
   }
-  .t-meta {
-    color: var(--text-dim);
-    font-family: var(--mono);
+  .t-count {
+    font-family: var(--display);
+    font-stretch: 112%;
+    font-size: 0.76rem;
+    letter-spacing: 0.04em;
+    color: var(--caution);
+    white-space: nowrap;
+  }
+  .t-desc {
+    grid-column: 1 / -1;
+    color: var(--paper-dim);
     font-size: 0.76rem;
   }
 </style>

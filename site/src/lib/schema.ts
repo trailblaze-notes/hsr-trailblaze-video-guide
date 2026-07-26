@@ -25,6 +25,8 @@ export const videoSchema = z.object({
   embeddable: z.boolean().default(true),
   // true にすると種別ページ（/type/…）には表示しない（バージョンページには表示される）
   excludeFromTypePages: z.boolean().default(false),
+  // サムネイル自体がネタバレになる動画。既定で覆いをかけ、利用者の操作で表示する
+  hideThumbnail: z.boolean().default(false),
   // 機械分類（公開日基準）から後ろのバージョンへ手動移動した場合のみ指定
   movedFrom: versionId.optional(),
   note: z.string().min(1).optional(),

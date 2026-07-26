@@ -11,11 +11,15 @@
       "assignedVersion": "1.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】三月なのか キャラクターPV 『ハイ、 チーズ！』",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "gM2gcVQKxEs",
@@ -27,11 +31,15 @@
       "assignedVersion": "1.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】姫子 キャラクターPV 「星を追う者」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "2eNfMIiBj-g",
@@ -43,11 +51,15 @@
       "assignedVersion": "1.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ゼーレキャラクターPV「穏やかな夜」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "EIm_SZlrnRg",
@@ -59,11 +71,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV 「星空の寓話集・その一」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "EIm_SZlrnRg",
@@ -75,11 +91,15 @@
       "assignedVersion": "4.4",
       "phase": "after",
       "excludeFromTypePages": true,
+      "hideThumbnail": false,
       "movedFrom": "1.1",
       "note": "ユーザー指定: Ver.1.1 前にも掲載したまま、アイオーン寓話の内容が終盤に通じるため Ver.4.4 クリア後にも重複掲載",
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=EIm_SZlrnRg",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV 「星空の寓話集・その一」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "1_WGjHPhlx8",
@@ -91,11 +111,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=1_WGjHPhlx8",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV 「仙舟通鑑・帝弓七天将」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Lo2my3PdFrk",
@@ -107,11 +131,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「飛光」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "xE-RhT16VQM",
@@ -123,11 +151,15 @@
       "assignedVersion": "1.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "仙舟「羅浮」編到達前は人物背景の先取りになる可能性あり",
       "sourceUrl": "https://youtu.be/xE-RhT16VQM",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】景元 キャラクターPV 「天地を枰と為す」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "fryhOCgYhNU",
@@ -139,11 +171,15 @@
       "assignedVersion": "1.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/fryhOCgYhNU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】セーバル キャラクターPV 『即・爆破！』セーバル 愛美",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "bdiICzEgLWw",
@@ -155,11 +191,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.1.1「銀河漫遊」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "29TB4o03q3I",
@@ -171,11 +211,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver1.1公式PV 「銀河漫遊」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "DJXZeQ_0-dY",
@@ -187,11 +231,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/DJXZeQ_0-dY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ジェパード キャラクターPV 「ランドゥーの名の下に」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "YISiqN0N9JA",
@@ -203,11 +251,15 @@
       "assignedVersion": "1.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "星核ハンター関連の設定に触れるため、宇宙ステーション編クリア前は注意",
       "sourceUrl": "https://youtu.be/YISiqN0N9JA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】銀狼キャラクターPV「面白いじゃん」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Dng7o5WWQsw",
@@ -219,11 +271,15 @@
       "assignedVersion": "1.1",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/Dng7o5WWQsw",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】白露 キャラクターPV 「乾燥注意報」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "rVMPaQVOmBs",
@@ -235,11 +291,15 @@
       "assignedVersion": "1.1",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】羅刹 キャラクターPV 「行者の誓い」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "JXfUSL7mpoU",
@@ -251,11 +311,15 @@
       "assignedVersion": "1.1",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/JXfUSL7mpoU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】彦卿 キャラクターPV 「寒刃砥礪」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "MYea5ssoMgk",
@@ -267,11 +331,15 @@
       "assignedVersion": "1.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.1.2「仙骸に果て有り」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "1lYCWgiW03Q",
@@ -283,11 +351,15 @@
       "assignedVersion": "1.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver1.2公式PV 「仙骸に果て有り」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Qc6_F5U4-MQ",
@@ -299,11 +371,15 @@
       "assignedVersion": "1.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "刃の過去と丹恒との因縁を示唆するため、仙舟「羅浮」編（Ver.1.2）進行前はネタバレの疑いあり",
       "sourceUrl": "https://youtu.be/Qc6_F5U4-MQ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】刃 キャラクターPV 「死兆、来たれり」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "U1yqKWN80EM",
@@ -315,11 +391,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "仙舟「羅浮」編の情景を含むため、同編到達前は雰囲気の先取りになる可能性あり",
       "sourceUrl": "https://youtu.be/U1yqKWN80EM",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】EP「水龍吟」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "tL2NguNdfMU",
@@ -331,11 +411,15 @@
       "assignedVersion": "1.2",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】カフカ キャラクターPV 「ドラマティック・アイロニー」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "FPNiZhu6Wtw",
@@ -347,11 +431,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=FPNiZhu6Wtw",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV 「ヤペラー反逆事件：第47場」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "XgpmjOuUlRI",
@@ -363,11 +451,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.1.3PV 「業塵を映す天鏡」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "AT3umvC8U_c",
@@ -379,11 +471,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.3の新規ストーリー・登場人物の予告を含むため、羅浮編後半未到達時は注意",
       "sourceUrl": "https://youtu.be/AT3umvC8U_c",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.1.3「業塵を映す天鏡」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "PQkNaWKMUZE",
@@ -395,11 +491,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=PQkNaWKMUZE",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV 「仙舟通鑑・五龍遠徙」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "o3X4nfxx6oY",
@@ -411,11 +511,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "確認済み（oEmbed照合済み初期データ）",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「玄黄」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "d9LImAsyyHU",
@@ -427,11 +531,15 @@
       "assignedVersion": "1.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "丹恒の正体・過去というVer.1.2〜1.3ストーリーの核心に直結するため、羅浮編クリア前は強くネタバレ注意",
       "sourceUrl": "https://youtu.be/d9LImAsyyHU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】丹恒・飲月 キャラクターPV 「いざ帰らん」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "jhLeZi33cSY",
@@ -443,11 +551,15 @@
       "assignedVersion": "1.3",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "羅浮編の出来事を前提とする描写を含む可能性があり、同編クリア前は注意",
       "sourceUrl": "https://youtu.be/jhLeZi33cSY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】符玄 キャラクターPV 「遺漏なき法眼」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "8uP7VkJiWRk",
@@ -459,11 +571,15 @@
       "assignedVersion": "1.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.4の新規ストーリー予告を含むため、該当バージョン未到達時は注意",
       "sourceUrl": "https://youtu.be/8uP7VkJiWRk",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.1.4 PV「冬の夢から目覚めて」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "q5o0RpdKaUs",
@@ -475,11 +591,15 @@
       "assignedVersion": "1.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.4の新規ストーリー・登場人物の予告を含むため、未到達時は注意",
       "sourceUrl": "https://youtu.be/q5o0RpdKaUs",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.1.4「冬の夢から目覚めて」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "JX7d7rDmd7g",
@@ -491,11 +611,15 @@
       "assignedVersion": "1.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=JX7d7rDmd7g",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「雲騎武経・説剣」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "w43X0zt_XZI",
@@ -507,11 +631,15 @@
       "assignedVersion": "1.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "鏡流の正体・過去はVer.1.4前後の仙舟ストーリー核心に触れるため、未到達時は強くネタバレ注意",
       "sourceUrl": "https://youtu.be/w43X0zt_XZI",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】鏡流 キャラクターPV 「切先は戻らぬ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "lsS5OnN6On0",
@@ -523,11 +651,15 @@
       "assignedVersion": "1.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=lsS5OnN6On0",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「スターピース案内：選別、計画と好機」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "KHyXcRTNhCc",
@@ -539,11 +671,15 @@
       "assignedVersion": "1.4",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/KHyXcRTNhCc",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】トパーズ&カブ キャラクターPV「エキスパート教育」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "qVY5qmQVrMo",
@@ -555,11 +691,15 @@
       "assignedVersion": "1.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.5の新規ストーリー予告を含むため、未到達時は注意",
       "sourceUrl": "https://youtu.be/qVY5qmQVrMo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.1.5PV：「迷離幻夜譚」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "E61Q_yx885A",
@@ -571,11 +711,15 @@
       "assignedVersion": "1.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.5の新規ストーリー・登場人物の予告を含むため、未到達時は注意",
       "sourceUrl": "https://youtu.be/E61Q_yx885A",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.1.5「迷離幻夜譚」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "bMqzzG9CXq0",
@@ -587,11 +731,15 @@
       "assignedVersion": "1.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=bMqzzG9CXq0",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「綏園伏鬼録」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "FOVHylL_zW8",
@@ -603,11 +751,15 @@
       "assignedVersion": "1.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/FOVHylL_zW8",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】フォフォキャラクターPV「還魂の夜」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "i6kCF9tZDkg",
@@ -619,11 +771,15 @@
       "assignedVersion": "1.5",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://youtu.be/i6kCF9tZDkg",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】アルジェンティ キャラクターPV「騎士道物語」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "EOn_MGgOWYs",
@@ -635,11 +791,15 @@
       "assignedVersion": "1.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.6の新規ストーリー予告を含むため、未到達時は注意",
       "sourceUrl": "https://youtu.be/EOn_MGgOWYs",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.1.6 PV：「只人と神の栄冠」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "uSt1p2BG5EM",
@@ -651,11 +811,15 @@
       "assignedVersion": "1.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.1.6の新規ストーリー・登場人物の予告を含むため、未到達時は注意",
       "sourceUrl": "https://youtu.be/uSt1p2BG5EM",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.1.6「只人と神の栄冠」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "OZjpTFdJp0E",
@@ -667,11 +831,15 @@
       "assignedVersion": "1.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=OZjpTFdJp0E",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「阮咸の音  華裳に落ちて、粧いの如く梅出づる」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "pLWr1I9D5lA",
@@ -683,11 +851,15 @@
       "assignedVersion": "1.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "天才クラブ・模擬宇宙関連の設定に触れる可能性あり。公開日が1.6開始（12/27）直前のため担当期間の境界（12/27以降の可能性も要確認）",
       "sourceUrl": "https://youtu.be/pLWr1I9D5lA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ルアン・メェイ  キャラクターPV「万物に流るる命」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Ms5u_lXJIAA",
@@ -699,11 +871,15 @@
       "assignedVersion": "1.6",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=Ms5u_lXJIAA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Dr.レイシオ キャラクターPV 「愚の骨頂」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "ieUxZHy6ICo",
@@ -715,11 +891,15 @@
       "assignedVersion": "2.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=ieUxZHy6ICo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「永火の一夜：第33場」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "2iRam7fnPrg",
@@ -731,11 +911,15 @@
       "assignedVersion": "2.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=2iRam7fnPrg",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.0「真夜中に夢を見るなら」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "rV-EzvxqSFw",
@@ -747,11 +931,15 @@
       "assignedVersion": "2.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=rV-EzvxqSFw",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「旧夢の追憶」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "KdbnaBhJs6Y",
@@ -763,11 +951,15 @@
       "assignedVersion": "2.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=KdbnaBhJs6Y",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】OP：「WHITE  NIGHT」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "8qk2IOjmrsY",
@@ -779,11 +971,15 @@
       "assignedVersion": "2.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=8qk2IOjmrsY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ブラックスワン キャラクターPV 「子守唄」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "dQFw_-55pZ4",
@@ -795,11 +991,15 @@
       "assignedVersion": "2.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=dQFw_-55pZ4",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「『花火』：舞台裏の記録」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "-FrbSYzlqdU",
@@ -811,11 +1011,15 @@
       "assignedVersion": "2.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=-FrbSYzlqdU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】花火 キャラクターPV 「独り芝居」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "3FqAcWYLirA",
@@ -827,11 +1031,15 @@
       "assignedVersion": "2.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=3FqAcWYLirA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.2.1PV：「深淵への狂走」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "aDhaaLhcmj0",
@@ -843,11 +1051,15 @@
       "assignedVersion": "2.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=aDhaaLhcmj0",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.1「深淵への狂走」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "v9qTBUZtgQk",
@@ -859,11 +1071,15 @@
       "assignedVersion": "2.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=v9qTBUZtgQk",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「永劫の輪舞」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "XbWbOIxbFMA",
@@ -875,11 +1091,15 @@
       "assignedVersion": "2.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=XbWbOIxbFMA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「虚譚・浮世三千一刀繚断」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "fOvY5tG_qFk",
@@ -891,11 +1111,15 @@
       "assignedVersion": "2.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=fOvY5tG_qFk",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】黄泉 キャラクターPV 「君の色」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "isu6OthQH2Y",
@@ -907,11 +1131,15 @@
       "assignedVersion": "2.1",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "アベンチュリンの出自に触れる描写があり、Ver.2.1ストーリー未クリアだと核心示唆の可能性",
       "sourceUrl": "https://www.youtube.com/watch?v=isu6OthQH2Y",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】アベンチュリン キャラクターPV 「金の造り手」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "rz2dG9n3Qdc",
@@ -923,11 +1151,15 @@
       "assignedVersion": "2.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=rz2dG9n3Qdc",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.2.2PV：「涙は目覚めの後で」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "faamSlM1aOA",
@@ -939,11 +1171,15 @@
       "assignedVersion": "2.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=faamSlM1aOA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.2「涙は目覚めの後で」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "ze3BepDFFWo",
@@ -955,11 +1191,15 @@
       "assignedVersion": "2.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=ze3BepDFFWo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「もし、翼があったら」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "oxJeQc-C-_4",
@@ -971,11 +1211,15 @@
       "assignedVersion": "2.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=oxJeQc-C-_4",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ロビン キャラクターPV 「独り揺蕩う」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "eydcYmlQnZo",
@@ -987,11 +1231,15 @@
       "assignedVersion": "2.2",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=eydcYmlQnZo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ブートヒル キャラクターPV 「カウボーイは忙しい」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "DbcX-UDWjmU",
@@ -1003,11 +1251,15 @@
       "assignedVersion": "2.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.2.2終盤の展開（ホタル関連）を前提とした映像を含む疑いあり",
       "sourceUrl": "https://www.youtube.com/watch?v=DbcX-UDWjmU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】Ver.2.3PV：「さよなら、ピノコニー」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "jOMvG6_I4Pg",
@@ -1019,11 +1271,15 @@
       "assignedVersion": "2.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.2.2終盤の展開を前提とした内容を含む可能性",
       "sourceUrl": "https://www.youtube.com/watch?v=jOMvG6_I4Pg",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.3「さよなら、ピノコニー」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "kzzOhisspus",
@@ -1035,11 +1291,15 @@
       "assignedVersion": "2.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ホタルに関するVer.2.2の展開に触れる可能性あり",
       "sourceUrl": "https://www.youtube.com/watch?v=kzzOhisspus",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千の星を巡る紀行PV「今、同じ星空の下で」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "TQcc7ippnnU",
@@ -1051,11 +1311,15 @@
       "assignedVersion": "2.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ホタルの過去（Ver.2.2以降の核心）に関わる内容を含む疑いあり",
       "sourceUrl": "https://www.youtube.com/watch?v=TQcc7ippnnU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「グラモスの余燼」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "_lYN9EMQ1N4",
@@ -1067,11 +1331,15 @@
       "assignedVersion": "2.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ホタルの正体に関わる内容で、Ver.2.2ストーリー未クリアだと核心ネタバレの疑いあり",
       "sourceUrl": "https://www.youtube.com/watch?v=_lYN9EMQ1N4",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ホタル キャラクターPV 「殻の中の蛍火」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "xvD_8cMelAw",
@@ -1083,11 +1351,15 @@
       "assignedVersion": "2.3",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=xvD_8cMelAw",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ジェイドキャラクターPV——「欲望コレクション」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "OS-tdpka1ro",
@@ -1099,11 +1371,15 @@
       "assignedVersion": "2.3",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "アベンチュリンの過去などVer.2.1の核心に触れる可能性あり",
       "sourceUrl": "https://www.youtube.com/watch?v=OS-tdpka1ro",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「誓環の石心・天秤の両端」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "5M6zQOnVB9I",
@@ -1115,11 +1391,15 @@
       "assignedVersion": "2.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=5M6zQOnVB9I",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.2.4PV 「風起雲湧、相見える鋒鋩」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Zl3MagK3uyM",
@@ -1131,11 +1411,15 @@
       "assignedVersion": "2.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=Zl3MagK3uyM",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.4「風起雲湧、相見える鋒鋩」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Wxp4Ugs-LKI",
@@ -1147,11 +1431,15 @@
       "assignedVersion": "2.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=Wxp4Ugs-LKI",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「火の用心、魔剣1本鍛冶の元」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "ZwY5gxcWuUM",
@@ -1163,11 +1451,15 @@
       "assignedVersion": "2.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=ZwY5gxcWuUM",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】雲璃 キャラクターPV 「偶然の出来事」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "LdBkTZijWxY",
@@ -1179,11 +1471,15 @@
       "assignedVersion": "2.4",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=LdBkTZijWxY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】椒丘 キャラクターPV 「昇天飯」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "P8xr7__k1xo",
@@ -1195,11 +1491,15 @@
       "assignedVersion": "2.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=P8xr7__k1xo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.2.5PV 「碧羽飛黄、射られる天狼」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "YbjtlsurHkE",
@@ -1211,11 +1511,15 @@
       "assignedVersion": "2.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=YbjtlsurHkE",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.5「碧羽飛黄、射られる天狼」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Id4WQtsGUZI",
@@ -1227,11 +1531,15 @@
       "assignedVersion": "2.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=Id4WQtsGUZI",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「星を追う飛矢」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "KwPV5_61SMQ",
@@ -1243,11 +1551,15 @@
       "assignedVersion": "2.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=KwPV5_61SMQ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「悠々自適」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "OGAGT-2w0ac",
@@ -1259,11 +1571,15 @@
       "assignedVersion": "2.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=OGAGT-2w0ac",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】飛霄 キャラクターPV 「君、笑うこと莫れ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Xrr9F4bih3c",
@@ -1275,11 +1591,15 @@
       "assignedVersion": "2.5",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=Xrr9F4bih3c",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】霊砂キャラクターPV——「沈香を焚く」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "AvCqDPER400",
@@ -1291,11 +1611,15 @@
       "assignedVersion": "2.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=AvCqDPER400",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.2.6PV 「毘乃昆尼末法筆録」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "lwMJkyJSdhE",
@@ -1307,11 +1631,15 @@
       "assignedVersion": "2.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=lwMJkyJSdhE",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.6「毘乃昆尼末法筆録」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "AGpkJmzqEHQ",
@@ -1323,11 +1651,15 @@
       "assignedVersion": "2.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=AGpkJmzqEHQ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「銀河忍法帖・乱武破邪斬月之巻」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "VAeBuYQ5sW4",
@@ -1339,11 +1671,15 @@
       "assignedVersion": "2.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=VAeBuYQ5sW4",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】乱破 キャラクターPV 「不乱不破」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "mfA5KpY68yI",
@@ -1355,11 +1691,15 @@
       "assignedVersion": "2.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ピノコニー編（Ver.2.0〜2.3）本編クリアを前提とした内容を含む可能性",
       "sourceUrl": "https://www.youtube.com/watch?v=mfA5KpY68yI",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.2.7PV 「八日目の旅立ち」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "sdLokzQqMzE",
@@ -1371,11 +1711,15 @@
       "assignedVersion": "2.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ピノコニー編本編クリアを前提とした内容を含む可能性",
       "sourceUrl": "https://www.youtube.com/watch?v=sdLokzQqMzE",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.2.7「八日目の旅立ち」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "qFwqIBqiy_w",
@@ -1387,11 +1731,15 @@
       "assignedVersion": "3.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": "2.7",
       "note": "ユーザー指定: オンパロスの神話予習用として Ver.3.0 の「来る前」へ配置（公開は Ver.2.6 期間）",
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=qFwqIBqiy_w",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 黄金の叙事詩PV 「オンパロス英雄記」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "c_yPBvw9bSw",
@@ -1403,11 +1751,15 @@
       "assignedVersion": "2.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ピノコニー編終盤（Ver.2.3）のサンデーに関する核心に触れる疑いあり",
       "sourceUrl": "https://www.youtube.com/watch?v=c_yPBvw9bSw",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「太陽が沈んだ後」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "LZMJtJBntT0",
@@ -1419,11 +1771,15 @@
       "assignedVersion": "2.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ピノコニー編終盤のサンデーの立場・動向に関わる内容を含む疑いあり",
       "sourceUrl": "https://www.youtube.com/watch?v=LZMJtJBntT0",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】サンデー キャラクターPV 「ソリスト」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "ZLNWVaAqf4A",
@@ -1435,11 +1791,15 @@
       "assignedVersion": "2.7",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「浮雲とは似て非なり」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "CCpDHyK0DJw",
@@ -1451,11 +1811,15 @@
       "assignedVersion": "2.7",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "帰忘の流離人の正体は仙舟ストーリー（Ver.2.7）の展開に関わる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】帰忘の流離人キャラクターPV 「子不語」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "dk6ImhNtVMI",
@@ -1467,11 +1831,15 @@
       "assignedVersion": "3.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=dk6ImhNtVMI",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.0「再創紀の凱歌」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "lHP973olRGc",
@@ -1483,11 +1851,15 @@
       "assignedVersion": "3.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「謎のように沈黙する星々」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "SSnU0OUssDQ",
@@ -1499,11 +1871,15 @@
       "assignedVersion": "3.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「マ ダ ム ヘ ル タ の 魔 法 キ ッ チ ン」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "pneAqiHXpWw",
@@ -1515,11 +1891,15 @@
       "assignedVersion": "3.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】マダム・ヘルタ キャラクターPV 「宇宙天才伝説」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "kTSPfahdHS8",
@@ -1531,11 +1911,15 @@
       "assignedVersion": "3.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】EP「洞窟の寓話」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "u2Uf_P9rPXM",
@@ -1547,11 +1931,15 @@
       "assignedVersion": "3.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】アグライア キャラクターPV 「致命的な浪漫」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "ShxBeYcYE5c",
@@ -1563,11 +1951,15 @@
       "assignedVersion": "3.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.0クリア前に見ると3.1本編の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.1PV 「始まりの門と終わりの玉座」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "l3k5xI-Dshc",
@@ -1579,11 +1971,15 @@
       "assignedVersion": "3.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.0クリア前に見ると3.1の内容に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.1「始まりの門と終わりの玉座」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "zwWvxtaYjzM",
@@ -1595,11 +1991,15 @@
       "assignedVersion": "3.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロスの背景神話に触れるためVer.3.1以降の進行推奨",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 黄金の叙事詩PV 「運命の最初の黎明」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "R02TJA9akS0",
@@ -1611,11 +2011,15 @@
       "assignedVersion": "3.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】トリビー キャラクターPV 「子供の言葉は純真無垢」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Y0QFCfhqqE0",
@@ -1627,11 +2031,15 @@
       "assignedVersion": "3.1",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "モーディスの不死の体質などVer.3.1本編の要素に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】モーディス キャラクターPV 「人間の怒り」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "_L10fx_RpW4",
@@ -1643,11 +2051,15 @@
       "assignedVersion": "3.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.1クリア前に見ると3.2本編の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.2PV 「安眠の地の花海を歩いて」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "tG_fexf8CW8",
@@ -1659,11 +2071,15 @@
       "assignedVersion": "3.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.1クリア前に見ると3.2の内容に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.2「安眠の地の花海を歩いて」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "rYhpE1qpv3s",
@@ -1675,11 +2091,15 @@
       "assignedVersion": "3.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「安らかに眠る長夜」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "irRjMAiYFz0",
@@ -1691,11 +2111,15 @@
       "assignedVersion": "3.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロスの背景神話に触れるためVer.3.2以降の進行推奨",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 黄金の叙事詩PV 「夜から目覚める生命」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Wpg8NTpdpcI",
@@ -1707,11 +2131,15 @@
       "assignedVersion": "3.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "キャストリスの力の性質などVer.3.2本編の要素に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】キャストリス キャラクターPV 「墓碑銘」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "sduHTO2TuYY",
@@ -1723,11 +2151,15 @@
       "assignedVersion": "3.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】2ndアニバーサリー スペシャルアニメ「旅の途中で」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "GvcmRUUR-yo",
@@ -1739,11 +2171,15 @@
       "assignedVersion": "3.2",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】アナイクス キャラクターPV 「無辜の身」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "b86rpnKULps",
@@ -1755,11 +2191,15 @@
       "assignedVersion": "3.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.2クリア前に見ると3.3本編の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.3PV 「夜明け前に迎える崩落」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "R-xKvF_Fpxo",
@@ -1771,11 +2211,15 @@
       "assignedVersion": "3.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.2クリア前に見ると3.3の内容に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.3「夜明け前に迎える崩落」 予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "7NBQT9aEeZw",
@@ -1787,11 +2231,15 @@
       "assignedVersion": "3.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 ヒアンシーキャラクターPV 「なんでも解決！」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "cgCo0D1iWyk",
@@ -1803,11 +2251,15 @@
       "assignedVersion": "3.3",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.3本編のテーマに紐づく",
       "sourceUrl": "https://www.youtube.com/watch?v=cgCo0D1iWyk",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】EP「払暁」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "c8Y1tNRvb8k",
@@ -1819,11 +2271,15 @@
       "assignedVersion": "3.3",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "サフェルの正体はVer.3.3本編の展開に関わる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】サフェル キャラクターPV 「楽勝、楽勝！」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "8Y_7LXuANTw",
@@ -1835,11 +2291,15 @@
       "assignedVersion": "3.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": true,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.3クリア前に見ると3.4本編の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.4 「破滅へ向かう太陽」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "BCNdn_owYPs",
@@ -1851,11 +2311,15 @@
       "assignedVersion": "3.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.3クリア前に見ると3.4の内容に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.4「破滅へ向かう太陽」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "qowOxk6izyU",
@@ -1867,11 +2331,15 @@
       "assignedVersion": "3.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「星空の寓話集・その二」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "SLCb7Rm9748",
@@ -1883,11 +2351,15 @@
       "assignedVersion": "3.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "ファイノンの背負う運命はVer.3.4本編の核心に関わる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ファイノン キャラクターPV 「烈日の栄冠」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "lkGZpIwsSkY",
@@ -1899,11 +2371,15 @@
       "assignedVersion": "3.4",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=lkGZpIwsSkY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「聞け！神に祝福されし山頂で開かれた狂宴を！」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "LB-g3xSkjNQ",
@@ -1915,11 +2391,15 @@
       "assignedVersion": "3.4",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.4本編のテーマに紐づく",
       "sourceUrl": "https://www.youtube.com/watch?v=LB-g3xSkjNQ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 MV 「フレア」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "79Bdydk8_kY",
@@ -1931,11 +2411,35 @@
       "assignedVersion": "3.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.4クリア前に見ると3.5の内容に触れる",
       "sourceUrl": "https://www.youtube.com/watch?v=79Bdydk8_kY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.5「英雄は死ぬまでに」予告番組",
+      "channel": "崩壊：スターレイル"
+    },
+    {
+      "youtubeId": "TjTVP4GxK0Y",
+      "title": "【崩壊：スターレイル】救世PV「開拓者」",
+      "publishedAt": "2025-08-02",
+      "approx": false,
+      "type": "trailblaze",
+      "reason": "Ver.3.5開始前に公開された開拓者を主役に据えたストーリーPV。",
+      "assignedVersion": "3.5",
+      "phase": "before",
+      "excludeFromTypePages": false,
+      "hideThumbnail": true,
+      "movedFrom": null,
+      "note": null,
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=TjTVP4GxK0Y",
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 救世PV 「開拓者」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "XqaTAr42RyQ",
@@ -1947,11 +2451,15 @@
       "assignedVersion": "3.5",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】セイレンス キャラクターPV 「海の娘」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "2Xuwbaab9P4",
@@ -1963,11 +2471,15 @@
       "assignedVersion": "3.5",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ケリュドラ キャラクターPV 「盤上に上がる」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "7G2ErfYy2TI",
@@ -1979,11 +2491,15 @@
       "assignedVersion": "3.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.5クリア前に見ると3.6本編の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.6PV 「長き夜に再び大地へ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "cA9GcVHzwV8",
@@ -1995,11 +2511,15 @@
       "assignedVersion": "3.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.5クリア前に見ると3.6の内容に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.6「長き夜に再び大地へ」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "_DiNQTXmVOw",
@@ -2011,11 +2531,15 @@
       "assignedVersion": "3.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「親愛なるなのかへ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "bFDqlynGl64",
@@ -2027,11 +2551,15 @@
       "assignedVersion": "3.6",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "長夜月の正体はVer.3.6本編の核心に関わる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】長夜月 キャラクターPV 「夜がきました、目を閉じてください」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "w6HLrCIX4Ws",
@@ -2043,11 +2571,15 @@
       "assignedVersion": "3.6",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編中盤までの登場人物・展開に広く触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「オンパロス英雄記」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "n0F5_9L-KKY",
@@ -2059,11 +2591,15 @@
       "assignedVersion": "3.6",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=n0F5_9L-KKY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「山河を越えて」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "mFnxGYaMpDE",
@@ -2075,11 +2611,15 @@
       "assignedVersion": "3.6",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "丹恒の新形態はVer.3.6本編の展開に関わる重大要素",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】丹恒・騰荒 キャラクターPV 「帰るべき場所」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "-L1PxKwvJ74",
@@ -2091,11 +2631,15 @@
       "assignedVersion": "3.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.6クリア前に見ると最終章の展開に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.7PV 「明日は昨日に」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "15x3KOhWsf4",
@@ -2107,11 +2651,15 @@
       "assignedVersion": "3.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.3.6クリア前に見ると最終章の内容に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』 Ver.3.7「明日は昨日に」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "owFII5A3OfE",
@@ -2123,11 +2671,15 @@
       "assignedVersion": "3.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編終盤の文脈を含む可能性が高い",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「物語の外側：第8幕」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "zHFGsd-KsX0",
@@ -2139,11 +2691,15 @@
       "assignedVersion": "3.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "キュレネの正体・役割などVer.3.5〜3.7の核心に直結",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 黄金の叙事詩PV 「さようなら、キュレネ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "rtSkMbDs1Xw",
@@ -2155,11 +2711,15 @@
       "assignedVersion": "3.7",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "キュレネの正体はオンパロス編全体の最重要ネタバレ要素",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】キュレネ キャラクターPV 「もういちどあなたと」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "_GG4BgkyRiY",
@@ -2171,11 +2731,15 @@
       "assignedVersion": "3.7",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編最終章（Ver.3.7）クリア後の視聴推奨",
       "sourceUrl": "https://www.youtube.com/watch?v=_GG4BgkyRiY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「ハローワールド」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "sWuPj0W7I-I",
@@ -2187,11 +2751,15 @@
       "assignedVersion": "3.8",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編（Ver.3.7まで）完結後の内容を前提とする",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.3.8PV 「記憶は夢のプロローグ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "fl5--WIcpCk",
@@ -2203,11 +2771,15 @@
       "assignedVersion": "3.8",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編完結後の内容を前提とする",
       "sourceUrl": "https://wikiwiki.jp/star-rail/ゲーム外の公式コンテンツ",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.3.8「記憶は夢のプロローグ」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "7_hmkhWGbzE",
@@ -2219,11 +2791,15 @@
       "assignedVersion": "3.8",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=7_hmkhWGbzE",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ダリア キャラクターPV 「一曲の終わり」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "FOj68wLqj7A",
@@ -2235,11 +2811,15 @@
       "assignedVersion": "4.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編（Ver.3.x）終盤「鉄墓」との戦い後の顛末に言及するため、Ver.3.x未クリアではネタバレ注意",
       "sourceUrl": "https://www.youtube.com/watch?v=FOj68wLqj7A",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 即興芝居PV 「一気に解説！鉄墓との戦いの後、公式で語られなかった真実！」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "_2YD35PJOmU",
@@ -2251,11 +2831,15 @@
       "assignedVersion": "4.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "オンパロス編（Ver.3.x）完結後の情勢を前提とする内容",
       "sourceUrl": "https://www.youtube.com/watch?v=_2YD35PJOmU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「星間平和提言：反壊滅同盟」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "EMT6GmhDiBk",
@@ -2267,11 +2851,15 @@
       "assignedVersion": "4.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.0本編の予告を含むため、Ver.3.x進行中の場合は注意",
       "sourceUrl": "https://www.youtube.com/watch?v=EMT6GmhDiBk",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊スターレイル】 Ver.4.0PV 「月満ちる時に神はなし」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "r2bxxcYK9qo",
@@ -2283,11 +2871,15 @@
       "assignedVersion": "4.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.0本編の予告を含む",
       "sourceUrl": "https://www.youtube.com/watch?v=r2bxxcYK9qo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.4.0「月満ちる時に神はなし」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "cKxHKZaEURk",
@@ -2299,11 +2891,15 @@
       "assignedVersion": "4.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.0の世界観・登場人物に触れる",
       "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 即興芝居PV 「吉凶の彼方」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "ke8-S0MnoV0",
@@ -2315,11 +2911,15 @@
       "assignedVersion": "4.0",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=ke8-S0MnoV0",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 爻光 キャラクターPV「万事順調」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "CzI5ivqZNRo",
@@ -2331,11 +2931,15 @@
       "assignedVersion": "4.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=CzI5ivqZNRo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】アッハ好み | 幻月遊儀 勝者特集",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "gI-W8r-TWUM",
@@ -2347,11 +2951,15 @@
       "assignedVersion": "4.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=gI-W8r-TWUM",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "スターレイル 絶対に許さない",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "AdUoc-nSB94",
@@ -2363,11 +2971,15 @@
       "assignedVersion": "4.0",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "花火との関係性の示唆を含むため、ピノコニー編（Ver.2.x）未了では注意",
       "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260302015/",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】火花 キャラクターPV 「愚か者が語る夢」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "LMt1zaLUa08",
@@ -2379,11 +2991,15 @@
       "assignedVersion": "4.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.0本編の展開を前提とした予告を含む",
       "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.4.1PV 「荒れ狂う暁の空」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "H97-304rAxs",
@@ -2395,11 +3011,15 @@
       "assignedVersion": "4.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.0本編の展開を前提とした予告を含む",
       "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.4.1「荒れ狂う暁の空」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "n6zuiPxJ15w",
@@ -2411,11 +3031,15 @@
       "assignedVersion": "4.1",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.1本編の重要人物のため、Ver.4.0以前の進行度では人物像のネタバレに注意",
       "sourceUrl": "https://www.youtube.com/watch?v=n6zuiPxJ15w",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】不死途キャラクターPV 「狼が来た」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "QaHPMkksn3U",
@@ -2427,11 +3051,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.1本編までの展開を前提とした予告を含む",
       "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.4.2PV 「そして、人々の笑いが響き渡る」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "fJqOTRK7pDw",
@@ -2443,11 +3071,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.1本編までの展開を前提とした予告を含む",
       "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.4.2「そして、人々の笑いが響き渡る」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Ndis7_as3vg",
@@ -2459,11 +3091,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=Ndis7_as3vg",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』3周年テーマソング「Side Quest King」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "NEn6umYiiU8",
@@ -2475,11 +3111,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.x（二相楽園）の世界観に触れる",
       "sourceUrl": "https://www.youtube.com/watch?v=NEn6umYiiU8",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 即興芝居PV 「初心者ガイド」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "k9rCUlWO6y8",
@@ -2491,11 +3131,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=k9rCUlWO6y8",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「第999幕：GAME NOT OVER」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "LkxwwIyXJxE",
@@ -2507,11 +3151,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "銀狼の新たな姿・立場（Ver.4.2本編関連）の示唆を含む",
       "sourceUrl": "https://www.youtube.com/watch?v=LkxwwIyXJxE",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】銀狼LV.999 キャラクターPV 「私だけカンストな件」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "7TK9bTfoRZo",
@@ -2523,11 +3171,15 @@
       "assignedVersion": "4.2",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=7TK9bTfoRZo",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「このゲーム、まともに遊べるの？」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "UXJdmEBdCh0",
@@ -2539,11 +3191,15 @@
       "assignedVersion": "4.2",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": null,
       "sourceUrl": "https://hsr.hoyoverse.com/ja-jp/news/163893",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】緋英 キャラクターPV 「彼女の日常」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "XS2s7NifsFY",
@@ -2555,11 +3211,15 @@
       "assignedVersion": "4.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.2本編までの展開を前提とした予告を含む",
       "sourceUrl": "https://www.youtube.com/watch?v=XS2s7NifsFY",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.4.3PV 「生者、彼岸へ渡りて」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "fExOv6o-gkU",
@@ -2571,11 +3231,15 @@
       "assignedVersion": "4.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.2本編までの展開を前提とした予告を含む",
       "sourceUrl": "https://www.youtube.com/watch?v=fExOv6o-gkU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.4.3「生者、彼岸へ渡りて」 予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "qtodm5Uf-t4",
@@ -2587,11 +3251,15 @@
       "assignedVersion": "4.3",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "刃のこれまでの物語（仙舟編）の帰結に触れる可能性があるため、仙舟編未了では注意",
       "sourceUrl": "https://www.youtube.com/watch?v=qtodm5Uf-t4",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】千冶・刃 キャラクターPV 「滅度」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "-9FrEf-iN38",
@@ -2603,11 +3271,15 @@
       "assignedVersion": "4.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.3本編前後のストーリー核心に触れる可能性あり",
       "sourceUrl": "https://wikiwiki.jp/star-rail/%E3%82%B2%E3%83%BC%E3%83%A0%E5%A4%96%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 即興芝居PV 「愉悦の死」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "KHjnk4YH2vA",
@@ -2619,11 +3291,15 @@
       "assignedVersion": "4.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "公開時点の最新バージョン予告のため、Ver.4.3未クリアではネタバレ注意",
       "sourceUrl": "https://www.youtube.com/watch?v=KHjnk4YH2vA",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 Ver.4.4PV 「汽笛は轟く、帰寂のさなかに」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "8CM5QXzwiUM",
@@ -2635,11 +3311,15 @@
       "assignedVersion": "4.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "公開時点の最新バージョン予告のため、Ver.4.3未クリアではネタバレ注意",
       "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260629033/",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "『崩壊：スターレイル』Ver.4.4「汽笛は轟く、帰寂のさなかに」予告番組",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "Yp2j9BEarSQ",
@@ -2651,11 +3331,15 @@
       "assignedVersion": "4.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "姫子・素子に関するVer.4.4直前の核心的示唆を含む",
       "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260708019/",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 即興芝居PV 「仰ぎ見る者へ」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "czh3UXrkxM0",
@@ -2667,11 +3351,15 @@
       "assignedVersion": "4.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "姫子の過去とVer.4.4本編につながる核心的示唆を含むため、Ver.4.3以前の進行度では注意",
       "sourceUrl": "https://www.youtube.com/watch?v=czh3UXrkxM0",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ショートアニメ「あんたの終点、私の始まり」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "HH2Umzd-rxY",
@@ -2683,11 +3371,15 @@
       "assignedVersion": "4.4",
       "phase": "before",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "衝撃的な冒頭を含む姫子の物語の核心に触れるため、Ver.4.3以前の進行度ではネタバレ注意",
       "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260714016/",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】姫子・旅立ち キャラクターPV 「今宵、明けの明星が墜ちる」",
+      "channel": "崩壊：スターレイル"
     },
     {
       "youtubeId": "iyY7VNMqwKU",
@@ -2699,11 +3391,15 @@
       "assignedVersion": "4.4",
       "phase": "after",
       "excludeFromTypePages": false,
+      "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
       "spoilerNote": "Ver.4.4 開拓クエストの核心に触れるためクリア後推奨",
       "sourceUrl": "https://www.youtube.com/watch?v=iyY7VNMqwKU",
-      "status": "auto"
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】EP「Beyond This Station」",
+      "channel": "崩壊：スターレイル"
     }
   ],
   "excluded": [
@@ -3021,10 +3717,6 @@
     },
     {
       "title": "OP「Nameless Faces」",
-      "reason": "ユーザーレビューで除外指定"
-    },
-    {
-      "title": "救世PV「開拓者」",
       "reason": "ユーザーレビューで除外指定"
     },
     {

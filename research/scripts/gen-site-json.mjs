@@ -35,6 +35,7 @@ for (const v of master.versions) {
       };
       if (x.phase === 'after') video.phase = 'after';
       if (x.excludeFromTypePages) video.excludeFromTypePages = true;
+      if (x.hideThumbnail) video.hideThumbnail = true;
       if (x.embeddable === false) video.embeddable = false;
       if (x.movedFrom) {
         video.movedFrom = x.movedFrom;
