@@ -67,9 +67,9 @@ const countText = (n: number) => (lang === 'ja' ? `${n} 件` : `${n} videos`);
   .page-head h1 {
     margin: 0;
   }
-  /* 種別ページは進行度を問わず全件並ぶ = ネタバレを含む。琥珀の合図に統一する */
+  /* 種別ページは進行度を問わず全件並ぶ = ネタバレを含む。左罫を破線にして進行度の外だと示す */
   .caution-notice {
-    border-left-color: var(--caution);
+    border-left-style: dashed;
   }
 
   .major-toggle {
@@ -140,6 +140,7 @@ const countText = (n: number) => (lang === 'ja' ? `${n} 件` : `${n} videos`);
   .video-list {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* min(300px, 100%): 列幅が容器を超えて横スクロールを生むのを防ぐ（幅 360px 級の端末で顕在化する） */
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
   }
 </style>

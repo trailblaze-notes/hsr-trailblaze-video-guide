@@ -129,7 +129,13 @@ const periodText = (v: (typeof group.versions)[number]) =>
 
   function activateChips() {
     const openIds = new Set([...panels].filter((p) => p.open).map((p) => p.id));
-    chips.forEach((chip) => chip.classList.toggle('active', openIds.has(chip.hash.slice(1))));
+    chips.forEach((chip) => {
+      const active = openIds.has(chip.hash.slice(1));
+      chip.classList.toggle('active', active);
+      // 開いているバージョンは色だけでなく aria-current でも伝える
+      if (active) chip.setAttribute('aria-current', 'true');
+      else chip.removeAttribute('aria-current');
+    });
   }
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -199,7 +205,7 @@ const periodText = (v: (typeof group.versions)[number]) =>
     overflow-x: auto;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: var(--z-sticky);
     margin-top: 1.75rem;
     padding: 0.85rem 0;
     background:
@@ -252,6 +258,8 @@ const periodText = (v: (typeof group.versions)[number]) =>
     background: var(--ink-2);
     clip-path: var(--chamfer);
     margin: 0.6rem 0;
+    /* 吸着するバージョン帯の下に見出しが潜らないよう、アンカー移動時の停止位置を下げる */
+    scroll-margin-top: 4rem;
   }
   /* 面取りで外側の輪郭が切られるため、フォーカス枠は内側に描く */
   .minor > summary:focus-visible {
@@ -347,7 +355,8 @@ const periodText = (v: (typeof group.versions)[number]) =>
   .video-list {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* min(300px, 100%): 列幅が容器を超えて横スクロールを生むのを防ぐ（幅 360px 級の端末で顕在化する） */
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
   }
   .empty {
     color: var(--paper-dim);
@@ -355,12 +364,12 @@ const periodText = (v: (typeof group.versions)[number]) =>
   }
 
   /*
-   * 終了後向けの領域。朱＝ネタバレ注意の合図に統一し、既定で閉じておく。
-   * 種別リンクの左罫と同じ色使いで「この先は進行度を超える」ことを示す。
+   * 終了後向けの領域。既定で閉じたうえで、破線の左罫と一段沈めた地色で示す。
+   * 種別リンクと同じ「破線＝進行度の外」の規則で「この先は進行度を超える」ことを伝える。
    */
   .phase-after {
     margin-top: 2rem;
-    border-left: 3px solid var(--caution);
+    border-left: 3px dashed var(--signal);
     clip-path: var(--chamfer);
     background: var(--ink);
   }
@@ -384,20 +393,20 @@ const periodText = (v: (typeof group.versions)[number]) =>
     flex: 0 0 auto;
     width: 9px;
     height: 9px;
-    border: 2px solid var(--caution);
+    border: 2px solid var(--signal);
     transform: rotate(45deg);
     transition: background 0.15s;
   }
   .phase-after[open] summary::before {
-    background: var(--caution);
+    background: var(--signal);
   }
   .phase-after summary::after {
     content: '';
     flex: 0 0 auto;
     width: 7px;
     height: 7px;
-    border-right: 2px solid var(--caution);
-    border-bottom: 2px solid var(--caution);
+    border-right: 2px solid var(--signal);
+    border-bottom: 2px solid var(--signal);
     transform: rotate(45deg) translate(-2px, -2px);
     transition: transform 0.15s;
   }
@@ -405,16 +414,12 @@ const periodText = (v: (typeof group.versions)[number]) =>
     transform: rotate(225deg) translate(-2px, -2px);
   }
   .after-label {
-    color: var(--caution);
+    color: var(--signal);
     font-weight: 700;
     font-size: 0.9rem;
   }
   .after-body {
     padding: 0 0.95rem 0.95rem;
-  }
-  /* 注意領域の中は見出しノードも朱に揃える（.minor-body h3::before より詳細度を高くする） */
-  .phase-after .after-body h3::before {
-    background: var(--caution);
   }
 
   @media (max-width: 560px) {

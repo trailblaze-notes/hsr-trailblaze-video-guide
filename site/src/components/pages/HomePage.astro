@@ -82,9 +82,9 @@ const typeLinks: { type: VideoType; label: string; desc: string }[] = [
     list-style: none;
   }
 
-  /* 種別ページは進行度を問わず並べるためネタバレを含む。琥珀＝注意の合図で束ねる */
+  /* 種別ページは進行度を問わず並べるためネタバレを含む。見出しを金にして他の節と区別する */
   .caution-head h2 {
-    color: var(--caution);
+    color: var(--signal);
   }
   .type-grid {
     display: grid;
@@ -98,7 +98,8 @@ const typeLinks: { type: VideoType; label: string; desc: string }[] = [
     align-content: start;
     gap: 0.15rem 0.7rem;
     background: var(--ink-2);
-    border-left: 3px solid var(--caution);
+    /* 破線の左罫 = 進行度の外（ネタバレを含む）。実線の節とはここで見分ける */
+    border-left: 3px dashed var(--signal);
     clip-path: var(--chamfer);
     padding: 0.95rem 1.1rem;
     color: var(--paper);
@@ -122,7 +123,7 @@ const typeLinks: { type: VideoType; label: string; desc: string }[] = [
     font-stretch: 112%;
     font-size: 0.76rem;
     letter-spacing: 0.04em;
-    color: var(--caution);
+    color: var(--signal);
     white-space: nowrap;
   }
   .t-desc {

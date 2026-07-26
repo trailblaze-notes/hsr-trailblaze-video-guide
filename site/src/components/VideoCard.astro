@@ -11,24 +11,27 @@ const t = STRINGS[lang];
 const watchUrl = `https://www.youtube.com/watch?v=${video.youtubeId}`;
 // プライバシー強化モードの公式埋め込みプレイヤー。サムネ・再生とも YouTube 側で完結する
 const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
+// 覆いは同じ文言が 1 ページに何度も並ぶため、読み上げ名に動画名を含めてどれの覆いか分かるようにする
+const coverLabel = `${t.thumbHidden}${lang === 'ja' ? '。' : '. '}${t.thumbReveal}: ${video.title}`;
 ---
 <article class="video-card">
   {video.embeddable && (
     <div class="embed">
+      {/* 覆いはプレイヤーより前に置く。キーボードで「表示する」を通ってからプレイヤーへ入る順序にする */}
+      {video.hideThumbnail && (
+        <label class="cover">
+          {/* チェックボックスとラベルの入れ子で JS なしに開閉する（id 不要 = 同一ページ重複掲載でも衝突しない） */}
+          <input class="reveal" type="checkbox" aria-label={coverLabel} />
+          <span class="cover-text" aria-hidden="true">{t.thumbHidden}</span>
+          <span class="cover-cta" aria-hidden="true">{t.thumbReveal}</span>
+        </label>
+      )}
       <iframe
         src={embedUrl}
         title={video.title}
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
-      {video.hideThumbnail && (
-        <label class="cover">
-          {/* チェックボックスとラベルの入れ子で JS なしに開閉する（id 不要 = 同一ページ重複掲載でも衝突しない） */}
-          <input class="reveal" type="checkbox" />
-          <span class="cover-text">{t.thumbHidden}</span>
-          <span class="cover-cta">{t.thumbReveal}</span>
-        </label>
-      )}
     </div>
   )}
   <div class="body">
@@ -84,6 +87,13 @@ const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
   .cover:has(.reveal:checked) {
     display: none;
   }
+  /*
+   * 覆いが出ている間はプレイヤー自体を隠す。visibility なら Tab の巡回対象からも外れるので、
+   * 「表示する」を押す前にプレイヤー内へ入り込めてしまうことがない
+   */
+  .cover:not(:has(.reveal:checked)) + iframe {
+    visibility: hidden;
+  }
   .reveal {
     /* 見た目は消すがキーボード操作の対象としては残す */
     position: absolute;
@@ -96,21 +106,21 @@ const embedUrl = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
     outline-offset: -3px;
   }
   .cover-text {
-    color: var(--caution);
+    color: var(--signal);
     font-size: 0.8rem;
     font-weight: 700;
     line-height: 1.5;
   }
   .cover-cta {
-    border: 1px solid var(--caution);
+    border: 1px solid var(--signal);
     border-radius: var(--radius);
     padding: 0.25rem 0.9rem;
-    color: var(--caution);
+    color: var(--signal);
     font-size: 0.78rem;
     transition: background 0.15s;
   }
   .cover:hover .cover-cta {
-    background: var(--caution-dim);
+    background: var(--signal-dim);
   }
   .body {
     display: flex;

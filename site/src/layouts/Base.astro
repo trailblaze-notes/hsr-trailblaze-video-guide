@@ -34,6 +34,8 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <!-- モバイルのブラウザ UI を地色に合わせる（既定の白いツールバーが黒地から浮くのを防ぐ） -->
+    <meta name="theme-color" content="#0a0a0d" />
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <title>{title}</title>
   </head>
@@ -73,11 +75,14 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
    * 配色の考え方:
    *  - 公式サイトの地色（ニアブラック）とアクセント（シャンパンゴールド #dbbf91）に寄せる。
    *    公式アセットは一切使わず、色と幾何だけで質感を合わせる。
-   *  - signal（金）= 進行方向・現在地・リンク。caution（朱）は
-   *    「終了後に見る」＝ネタバレ領域の合図にのみ使う。金と朱を混ぜない。
-   *    金が全面に出るぶん、注意色は金と紛れない朱に置く。
+   *  - アクセントは signal（金）ひとつだけ。第二の色は置かない。
+   *  - ネタバレ領域（終了後の視聴を推奨・種別ページ）は色ではなく「破線の左罫」で示す。
+   *    実線＝進行度の内側 / 破線＝進行度を超える、という一本の規則に統一する。
    */
   :root {
+    /* 常時ダーク。宣言しないとスクロールバーやフォーム部品だけ明色のまま残る */
+    color-scheme: dark;
+
     --ink: #0a0a0d;
     --ink-2: #131319;
     --ink-3: #1c1c24;
@@ -88,12 +93,13 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
     /* 路線そのものの線。signal を薄めて「経路」と「現在地」を色で地続きにする */
     --route: rgba(219, 191, 145, 0.26);
     --route-lit: rgba(219, 191, 145, 0.62);
-    --caution: #e5715a;
-    --caution-dim: rgba(229, 113, 90, 0.14);
     --paper: #f0f1f3;
     --paper-dim: #a0a4ac;
 
     --radius: 2px;
+    /* 重なりはこの 2 段のみ。段を増やすときは必ずここに定義してから使う */
+    --z-ambient: -1;
+    --z-sticky: 10;
     /* 面取り: 右辺の角を落とした板。公式 UI の角落としに合わせた幾何で、素材は使わない */
     --cut: 10px;
     --chamfer: polygon(
@@ -123,12 +129,20 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
     font-variant-numeric: tabular-nums;
     -webkit-font-smoothing: antialiased;
   }
-  /* 宙域の気配。画像を使わず、上端のごく淡い光だけで黒地に奥行きを与える */
+  /*
+   * 宙域の気配。画像を使わず、上端のごく淡い光だけで黒地に奥行きを与える。
+   * 光はビューポートではなくページ先頭に固定する（absolute + 明示の高さ）。
+   * fixed だと画面上端に常に光が乗り、そこへ吸着するバージョン帯の不透明な地色が
+   * 帯状の黒い段差として浮いてしまうため。
+   */
   body::before {
     content: '';
-    position: fixed;
-    inset: 0;
-    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100svh;
+    z-index: var(--z-ambient);
     pointer-events: none;
     background: radial-gradient(120% 55% at 50% -12%, rgba(219, 191, 145, 0.08), transparent 62%);
   }
@@ -250,14 +264,15 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
     font-weight: 700;
     font-size: 0.92rem;
   }
-  /* 公式に寄せた配色のぶん、非公式であることは常に見えている必要がある */
+  /* 公式に寄せた配色のぶん、非公式であることは常に見えている必要がある。
+     地に対して最も明度差のある金を当て、小さくても埋もれないようにする */
   .logo-eyebrow {
     font-family: var(--display);
     font-stretch: 125%;
     font-size: 0.58rem;
     font-weight: 700;
     letter-spacing: 0.18em;
-    color: var(--caution);
+    color: var(--signal);
   }
   .lang-switch {
     flex: 0 0 auto;
@@ -300,12 +315,16 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
     /* ch はラテン字幅基準で和文だと極端に狭くなるため、em で行長を決める */
     max-width: 52em;
   }
+  /* 和文は 1 字 ≒ 1em、英字はその半分弱。同じ 52em だと英語版だけ 1 行が倍近く伸びる */
+  :root:lang(en) .lead {
+    max-width: 34em;
+  }
   .lead strong {
     color: var(--paper);
     font-weight: 600;
   }
 
-  /* 掲示の注記。左端の色帯でどちらの合図かを示す（面取りは右辺のみ＝色帯を欠かさない） */
+  /* 掲示の注記。左罫の実線／破線でどちらの合図かを示す（面取りは右辺のみ＝左罫を欠かさない） */
   .notice {
     border-left: 3px solid var(--signal);
     background: var(--ink-2);
@@ -317,6 +336,17 @@ const altHref = lang === 'en' ? base + rel.replace(/^en\/?/, '') : `${base}en/${
   .notice strong {
     color: var(--paper);
     font-weight: 600;
+  }
+
+  /*
+   * 横向きのノッチ端末で本文が切り欠きに潜らないよう、左右余白の下限を安全域に合わせる。
+   * 各要素の padding ショートハンドより後に置いて上書きされないようにする。
+   */
+  main,
+  .site-header,
+  .site-footer {
+    padding-left: max(1.25rem, env(safe-area-inset-left));
+    padding-right: max(1.25rem, env(safe-area-inset-right));
   }
 
   @media (prefers-reduced-motion: reduce) {
