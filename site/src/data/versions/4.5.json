@@ -1,6 +1,28 @@
 {
   "id": "4.5",
-  "name": "タイトル未発表",
+  "name": "千の星に賭すチップ",
   "startDate": "2026-08-26",
-  "videos": []
+  "videos": [
+    {
+      "youtubeId": "jlkFZ4MR2YA",
+      "title": "スターピース案内：千星シティ旅行ガイド",
+      "type": "version",
+      "publishedAt": "2026-08-14",
+      "reason": "Ver.4.5の舞台となる千星シティを紹介する公式ガイド動画。"
+    },
+    {
+      "youtubeId": "WLyKdTlx2qU",
+      "title": "特別通信 |「さようなら、すべての二相楽園」配信アーカイブ集",
+      "type": "version",
+      "publishedAt": "2026-08-14",
+      "reason": "Ver.4.5予告番組と同時公開された二相楽園テレビ局の特別通信アーカイブ集。"
+    },
+    {
+      "youtubeId": "A2sldOUNqM4",
+      "title": "Ver.4.5PV「千の星に賭すチップ」",
+      "type": "version",
+      "publishedAt": "2026-08-14",
+      "reason": "千星シティを舞台にした開拓クエスト・幕間などVer.4.5の内容を紹介するバージョンPV。"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19",
+  "updatedAt": "2026-08-15",
   "videos": [
     {
       "youtubeId": "VNlsaq5CSLk",
@@ -1737,6 +1737,36 @@
       "reasonDraft": "Ver.3.5開始前に公開された開拓者を主役に据えたストーリーPV。",
       "spoilerNote": null,
       "sourceUrl": "https://www.youtube.com/watch?v=TjTVP4GxK0Y"
+    },
+    {
+      "youtubeId": "jlkFZ4MR2YA",
+      "title": "スターピース案内：千星シティ旅行ガイド",
+      "publishedAt": "2026-08-14",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "Ver.4.5の舞台となる千星シティを紹介する公式ガイド動画。",
+      "spoilerNote": "Ver.4.4本編後の新たな舞台を扱うため、Ver.4.4未クリアでは注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=jlkFZ4MR2YA"
+    },
+    {
+      "youtubeId": "WLyKdTlx2qU",
+      "title": "特別通信 |「さようなら、すべての二相楽園」配信アーカイブ集",
+      "publishedAt": "2026-08-14",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "Ver.4.5予告番組と同時公開された二相楽園テレビ局の特別通信アーカイブ集。",
+      "spoilerNote": "二相楽園編の結末に触れるため、Ver.4.4未クリアではネタバレ注意",
+      "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260810041/"
+    },
+    {
+      "youtubeId": "A2sldOUNqM4",
+      "title": "Ver.4.5PV「千の星に賭すチップ」",
+      "publishedAt": "2026-08-14",
+      "approx": true,
+      "type": "version",
+      "reasonDraft": "千星シティを舞台にした開拓クエスト・幕間などVer.4.5の内容を紹介するバージョンPV。",
+      "spoilerNote": "公開時点の最新バージョン予告のため、Ver.4.4未クリアではネタバレ注意",
+      "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260814042/"
     }
   ],
   "excluded": [
