@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-08-26",
   "videos": [
     {
       "youtubeId": "VNlsaq5CSLk",
@@ -1767,6 +1767,36 @@
       "reasonDraft": "千星シティを舞台にした開拓クエスト・幕間などVer.4.5の内容を紹介するバージョンPV。",
       "spoilerNote": "公開時点の最新バージョン予告のため、Ver.4.4未クリアではネタバレ注意",
       "sourceUrl": "https://www.4gamer.net/games/599/G059954/20260814042/"
+    },
+    {
+      "youtubeId": "KDSUDjqBA6M",
+      "title": "千の星を巡る紀行PV「数多の声の先に」",
+      "publishedAt": "2026-08-21",
+      "approx": false,
+      "type": "trailblaze",
+      "reasonDraft": "Ver.4.5開始前に公開された紀行PVシリーズの一編。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=KDSUDjqBA6M"
+    },
+    {
+      "youtubeId": "882FHoKwZVk",
+      "title": "ロビン・夏空の歌 キャラクターPV「風を追いかけて」",
+      "publishedAt": "2026-08-25",
+      "approx": false,
+      "type": "character",
+      "reasonDraft": "Ver.4.5実装の新★5キャラクター「ロビン・夏空の歌」の人物像を描くキャラクターPV。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=882FHoKwZVk"
+    },
+    {
+      "youtubeId": "J-n6ASGuMrk",
+      "title": "二相楽園全域警報！",
+      "publishedAt": "2026-08-25",
+      "approx": false,
+      "type": "version",
+      "reasonDraft": "Ver.4.5開始前日に公開された、二相楽園を題材にした特別映像。",
+      "spoilerNote": "二相楽園編の内容に触れるため、Ver.4.4未クリアではネタバレ注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=J-n6ASGuMrk"
     }
   ],
   "excluded": [

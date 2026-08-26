@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-08-26",
   "videos": [
     {
       "youtubeId": "VNlsaq5CSLk",
@@ -3460,6 +3460,66 @@
       "verified": true,
       "canonicalTitle": "【崩壊：スターレイル】 Ver.4.5PV 「千の星に賭すチップ」",
       "channel": "崩壊：スターレイル"
+    },
+    {
+      "youtubeId": "KDSUDjqBA6M",
+      "title": "千の星を巡る紀行PV「数多の声の先に」",
+      "publishedAt": "2026-08-21",
+      "approx": false,
+      "type": "trailblaze",
+      "reason": "Ver.4.5開始前に公開された紀行PVシリーズの一編。",
+      "assignedVersion": "4.5",
+      "phase": "before",
+      "excludeFromTypePages": false,
+      "hideThumbnail": false,
+      "movedFrom": null,
+      "note": null,
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=KDSUDjqBA6M",
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「数多の声の先に」",
+      "channel": "崩壊：スターレイル"
+    },
+    {
+      "youtubeId": "882FHoKwZVk",
+      "title": "ロビン・夏空の歌 キャラクターPV「風を追いかけて」",
+      "publishedAt": "2026-08-25",
+      "approx": false,
+      "type": "character",
+      "reason": "Ver.4.5実装の新★5キャラクター「ロビン・夏空の歌」の人物像を描くキャラクターPV。",
+      "assignedVersion": "4.5",
+      "phase": "before",
+      "excludeFromTypePages": false,
+      "hideThumbnail": false,
+      "movedFrom": null,
+      "note": null,
+      "spoilerNote": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=882FHoKwZVk",
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "【崩壊：スターレイル】ロビン・夏空の歌 キャラクターPV 「風を追いかけて」",
+      "channel": "崩壊：スターレイル"
+    },
+    {
+      "youtubeId": "J-n6ASGuMrk",
+      "title": "二相楽園全域警報！",
+      "publishedAt": "2026-08-25",
+      "approx": false,
+      "type": "version",
+      "reason": "Ver.4.5開始前日に公開された、二相楽園を題材にした特別映像。",
+      "assignedVersion": "4.5",
+      "phase": "before",
+      "excludeFromTypePages": false,
+      "hideThumbnail": false,
+      "movedFrom": null,
+      "note": null,
+      "spoilerNote": "二相楽園編の内容に触れるため、Ver.4.4未クリアではネタバレ注意",
+      "sourceUrl": "https://www.youtube.com/watch?v=J-n6ASGuMrk",
+      "status": "auto",
+      "verified": true,
+      "canonicalTitle": "二相楽園全域警報！",
+      "channel": "崩壊：スターレイル"
     }
   ],
   "excluded": [
@@ -4050,6 +4110,18 @@
       "publishedAt": "2026-07-17",
       "nearVersion": "4.4",
       "startDate": "2026-07-15"
+    },
+    {
+      "title": "ロビン・夏空の歌 キャラクターPV「風を追いかけて」",
+      "publishedAt": "2026-08-25",
+      "nearVersion": "4.5",
+      "startDate": "2026-08-26"
+    },
+    {
+      "title": "二相楽園全域警報！",
+      "publishedAt": "2026-08-25",
+      "nearVersion": "4.5",
+      "startDate": "2026-08-26"
     }
   ],
   "missingIds": []
