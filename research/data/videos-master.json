@@ -3502,23 +3502,23 @@
       "channel": "崩壊：スターレイル"
     },
     {
-      "youtubeId": "J-n6ASGuMrk",
-      "title": "二相楽園全域警報！",
-      "publishedAt": "2026-08-25",
+      "youtubeId": "co8crj5sRhI",
+      "title": "千の星を巡る紀行PV「深水域」",
+      "publishedAt": "2026-09-06",
       "approx": false,
-      "type": "version",
-      "reason": "Ver.4.5開始前日に公開された、二相楽園を題材にした特別映像。",
+      "type": "trailblaze",
+      "reason": "Ver.4.5期間中に公開された紀行PVシリーズの一編。カンパニー内部の暗流を描く。",
       "assignedVersion": "4.5",
-      "phase": "before",
+      "phase": "after",
       "excludeFromTypePages": false,
       "hideThumbnail": false,
       "movedFrom": null,
       "note": null,
-      "spoilerNote": "二相楽園編の内容に触れるため、Ver.4.4未クリアではネタバレ注意",
-      "sourceUrl": "https://www.youtube.com/watch?v=J-n6ASGuMrk",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.kusogame.com/123571/",
       "status": "auto",
       "verified": true,
-      "canonicalTitle": "二相楽園全域警報！",
+      "canonicalTitle": "【崩壊：スターレイル】 千の星を巡る紀行PV 「深水域」",
       "channel": "崩壊：スターレイル"
     }
   ],
@@ -3846,6 +3846,10 @@
     {
       "title": "「最も長い夜」| キュレネの寝物語",
       "reason": "ユーザーレビューで除外指定"
+    },
+    {
+      "title": "二相楽園全域警報！（2026/08/25・J-n6ASGuMrk）",
+      "reason": "ユーザー判断によりガイド対象外"
     }
   ],
   "duplicatesDropped": [
@@ -4113,12 +4117,6 @@
     },
     {
       "title": "ロビン・夏空の歌 キャラクターPV「風を追いかけて」",
-      "publishedAt": "2026-08-25",
-      "nearVersion": "4.5",
-      "startDate": "2026-08-26"
-    },
-    {
-      "title": "二相楽園全域警報！",
       "publishedAt": "2026-08-25",
       "nearVersion": "4.5",
       "startDate": "2026-08-26"

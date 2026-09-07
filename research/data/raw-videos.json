@@ -1789,14 +1789,15 @@
       "sourceUrl": "https://www.youtube.com/watch?v=882FHoKwZVk"
     },
     {
-      "youtubeId": "J-n6ASGuMrk",
-      "title": "二相楽園全域警報！",
-      "publishedAt": "2026-08-25",
+      "youtubeId": "co8crj5sRhI",
+      "title": "千の星を巡る紀行PV「深水域」",
+      "publishedAt": "2026-09-06",
       "approx": false,
-      "type": "version",
-      "reasonDraft": "Ver.4.5開始前日に公開された、二相楽園を題材にした特別映像。",
-      "spoilerNote": "二相楽園編の内容に触れるため、Ver.4.4未クリアではネタバレ注意",
-      "sourceUrl": "https://www.youtube.com/watch?v=J-n6ASGuMrk"
+      "type": "trailblaze",
+      "phase": "after",
+      "reasonDraft": "Ver.4.5期間中に公開された紀行PVシリーズの一編。カンパニー内部の暗流を描く。",
+      "spoilerNote": null,
+      "sourceUrl": "https://www.kusogame.com/123571/"
     }
   ],
   "excluded": [
@@ -2123,6 +2124,10 @@
     {
       "title": "「最も長い夜」| キュレネの寝物語",
       "reason": "ユーザーレビューで除外指定"
+    },
+    {
+      "title": "二相楽園全域警報！（2026/08/25・J-n6ASGuMrk）",
+      "reason": "ユーザー判断によりガイド対象外"
     }
   ]
 }

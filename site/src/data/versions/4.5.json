@@ -39,11 +39,12 @@
       "reason": "Ver.4.5実装の新★5キャラクター「ロビン・夏空の歌」の人物像を描くキャラクターPV。"
     },
     {
-      "youtubeId": "J-n6ASGuMrk",
-      "title": "二相楽園全域警報！",
-      "type": "version",
-      "publishedAt": "2026-08-25",
-      "reason": "Ver.4.5開始前日に公開された、二相楽園を題材にした特別映像。"
+      "youtubeId": "co8crj5sRhI",
+      "title": "千の星を巡る紀行PV「深水域」",
+      "type": "trailblaze",
+      "publishedAt": "2026-09-06",
+      "reason": "Ver.4.5期間中に公開された紀行PVシリーズの一編。カンパニー内部の暗流を描く。",
+      "phase": "after"
     }
   ]
 }
